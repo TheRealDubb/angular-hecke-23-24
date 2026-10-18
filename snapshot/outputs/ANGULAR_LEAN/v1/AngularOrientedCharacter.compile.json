@@ -1,0 +1,42 @@
+{
+  "module": "AngularOrientedCharacter",
+  "attempt": 3,
+  "exit_code": 0,
+  "utc": "2026-10-16T18:42:22.520277+00:00",
+  "seconds": 14.898224353790283,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularOrientedCharacter.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularOrientedCharacter.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularOrientedCharacter.olean"
+  ],
+  "source_sha256": "56ebf649886e928c1e702a860a557880e9eda26d383a02799f93d8d1e4eb1051",
+  "setup_sha256": "a88490a5c94f7135590723dae7885485e552f195bd41583f1c4a3887f37d8148",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularCharacter",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularCharacter.olean",
+      "olean_sha256": "ee601e8d8b3ad8f3577a648eff96c88967c995e81e7e21335319398ebfe4a60d",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularCharacter.setup.json",
+      "setup_sha256": "9c13eccaf06af59739fab87d8bc24a71b53d34c18abbef6606b224e9b07cccb1"
+    },
+    {
+      "module": "AngularOrientation",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularOrientation.olean",
+      "olean_sha256": "03acd90c32e0d6bb57c91872f28fb02d646b3bc3a75b1735c886c245610a1805",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularOrientation.setup.json",
+      "setup_sha256": "af719d677ae2723b915b7f6ca175be7a8c78a17d2a3a0986289edfd86d09243c"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "3c45c5726a0942b9192e4297fbca7dc172c6a7755985e228a05c42763c716c49"
+}

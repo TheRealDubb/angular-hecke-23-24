@@ -1,0 +1,15 @@
+{
+  "theorem_names": [
+    "OAI.CubicEisenstein.AngularSeedRegularization.regularizedL_analytic",
+    "OAI.CubicEisenstein.AngularSeedRegularization.regularizedL_eq",
+    "OAI.CubicEisenstein.AngularSeedNonvanishing.nonvanishing_of_initial_density",
+    "OAI.CubicEisenstein.AngularSeedNonvanishing.physical_seed_nonnegative",
+    "OAI.CubicEisenstein.AngularSeedNonvanishing.physical_seed_all_types"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

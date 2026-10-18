@@ -1,0 +1,42 @@
+{
+  "module": "AngularShortEnergy",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T23:44:16.952226+00:00",
+  "seconds": 21.247321128845215,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularShortEnergy.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularShortEnergy.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularShortEnergy.olean"
+  ],
+  "source_sha256": "ee636f4ae038458b6d24a985df47c2f4aedebb7aec61183c14107527f05a9207",
+  "setup_sha256": "6c124ee5a0d98923773d203b532687fcf5fa317cedc44c9136d2128582f94667",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularShortAverage",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularShortAverage.olean",
+      "olean_sha256": "e4fb2e69c0d74d99e5ab5db3b362d22234306e42ac5122c5e4c13b0e3a9ee5df",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularShortAverage.setup.json",
+      "setup_sha256": "369a87258b864540419918ec6c6c970e4a101c41e5e5d1edc1344e8b653decc2"
+    },
+    {
+      "module": "AngularSieveModels",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularSieveModels.olean",
+      "olean_sha256": "9fafc239cd2d07b9c11c9bb1a1832cb4d4b6a65c9f56fbbd3226a04f9d1c0873",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularSieveModels.setup.json",
+      "setup_sha256": "4314868a75a1479da33c1e22f5899dce460bd2488621df07d4139794569da50a"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "66c76be400274ab379e227993d18458e82909e8d94897eefaa01fad1e89ac3f7"
+}

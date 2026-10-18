@@ -1,0 +1,42 @@
+{
+  "module": "AngularUniformFiberEnergy",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T23:35:16.221083+00:00",
+  "seconds": 19.347952842712402,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v20\\AngularUniformFiberEnergy.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v20\\AngularUniformFiberEnergy.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v20\\AngularUniformFiberEnergy.olean"
+  ],
+  "source_sha256": "5f3e9e0d1fe42deece830f45c0c3d9462fb40f90b52f23ee161fececea1d531f",
+  "setup_sha256": "37728a60d17a98c6d42b367d2f0f684f7a6f555756806c883b13a1afbdd879ad",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularUniformKernelEnergy",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v20\\AngularUniformKernelEnergy.olean",
+      "olean_sha256": "34b95548f8549ada23fc229236b24b8f0c51ec67d051c7ddaff7a0a54431c6d5",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v20\\AngularUniformKernelEnergy.setup.json",
+      "setup_sha256": "ecd967c486cf1b571c201f8200e2d4c7e25f35716b597a48f7be0454ffda00fe"
+    },
+    {
+      "module": "AngularPhysicalMeanSquare",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v19\\AngularPhysicalMeanSquare.olean",
+      "olean_sha256": "418c593c6f9f7e9f3b4a0a2a7a0dc3a352572acb1230951c8d582c6d34901d7f",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v19\\AngularPhysicalMeanSquare.setup.json",
+      "setup_sha256": "d6c6981fc96f59402ab2f3a5a8b1be3c3e7b57826efcc02763424fa695f15dd5"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "2c05545ca09a1fffe57e86984bf241e53eeaa0a8a426bf9d07a994395c733360"
+}

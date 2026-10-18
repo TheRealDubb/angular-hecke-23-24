@@ -1,0 +1,35 @@
+{
+  "module": "AngularBesselSpatialSmoothness",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:31:55.772911+00:00",
+  "seconds": 18.752859354019165,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselSpatialSmoothness.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselSpatialSmoothness.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselSpatialSmoothness.olean"
+  ],
+  "source_sha256": "e10af5718bbb803de1a658a6b226e5e2f1a80cad51fbd21cc9c8c940c8c5b1d6",
+  "setup_sha256": "0bdc1eba2b50a47705107fcdb247a112ba9dc518d0621e646c360aca09547057",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularBesselKernelDifferentiation",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselKernelDifferentiation.olean",
+      "olean_sha256": "eea41487bc11cc7adc68fddfb538d37cdc5524d6dd822ae1a2f9b412d8e5c154",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselKernelDifferentiation.setup.json",
+      "setup_sha256": "00e2ea6bc245e51ec9114a9f68ca2a1e6b285c4135bf57dd21e7e0e8a51818cd"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "969d2a87e54b5322a53667807732ceda908395d18158695175ef4ea553c68276"
+}

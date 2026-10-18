@@ -1,0 +1,35 @@
+{
+  "module": "AngularEulerProducts",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-17T00:07:25.929186+00:00",
+  "seconds": 21.32278871536255,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v24\\AngularEulerProducts.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v24\\AngularEulerProducts.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v24\\AngularEulerProducts.olean"
+  ],
+  "source_sha256": "91c39f6a944f3767ffef0770fc8449253601b8ac2de77f04ed2e305cab2cc1a0",
+  "setup_sha256": "8aecd364829ed5cdf982f53fad272d3998fe756d997230aa1f7f506b0adacdaf",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularEulerCorrection",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v24\\AngularEulerCorrection.olean",
+      "olean_sha256": "353e04561cd049a4de25b77d9fafff8192756393228d436f42531bfdc8eb83bc",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v24\\AngularEulerCorrection.setup.json",
+      "setup_sha256": "82fe5c07d1a89598a612be3bce2695d8e4d6c0f2d362b2ae9ec6534777a06cb4"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "71da6b87f64669527dbf35412fefcad2ba37b0be22b771c7f7ec17e10e1a41d1"
+}

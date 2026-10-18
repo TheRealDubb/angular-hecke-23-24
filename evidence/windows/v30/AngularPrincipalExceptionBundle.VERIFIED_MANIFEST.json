@@ -1,0 +1,240 @@
+{
+  "utc": "2026-10-17T01:23:20.327025+00:00",
+  "status": "all_bundle_modules_replayed",
+  "genuine_module_count": 2,
+  "theorem_count": 14,
+  "definition_count": 0,
+  "modules": [
+    {
+      "module": "AngularTypeZeroEntire",
+      "source_sha256": "fb4fe02abf1454a21faf6fbb2f560f1ada783e6c5ed9a1a046826c920d544a5a",
+      "olean_sha256": "4a5ff7b087012b790a6def143b824e79d1dcc8c794868299dee0783331b5d07f",
+      "compile_receipt_sha256": "e4b50841d810a7d8611daafddd07211e5b0411d2a34dda38fd76266f9805d396",
+      "theorem_names": [
+        "OAI.SevenEighths.Angular.TypeZeroEntire.finite_idealCoeff",
+        "OAI.SevenEighths.Angular.TypeZeroEntire.primitive_residue_nonprincipal",
+        "OAI.SevenEighths.Angular.TypeZeroEntire.weightedCoeff_zero",
+        "OAI.SevenEighths.Angular.TypeZeroEntire.pair_strong_nonprincipal",
+        "OAI.SevenEighths.Angular.TypeZeroEntire.primitive_LFunction_entire",
+        "OAI.SevenEighths.Angular.TypeZeroEntire.LFunction_entire",
+        "OAI.SevenEighths.Angular.TypeZeroEntire.LFunction_eq_finite",
+        "OAI.SevenEighths.Angular.TypeZeroEntire.LFunction_one_ne_zero"
+      ],
+      "definitions_exported": [],
+      "shadow_module": "AngularTypeZeroEntireExpected",
+      "shadow_source_sha256": "55274c81401fe00ac53ab86ca56cfd027a17f93effb0dd8fb48fd4811a5a7cd8",
+      "shadow_olean_sha256": "b2cf10b2c4cc7b565008ca47bf44e0597f2712ec34b125045633ee59867ffc0a",
+      "shadow_compile_receipt_sha256": "8994d0de5e878fd93ce87a96f2483a8e3b91f88cfaa02b370607e7f750bdce15"
+    },
+    {
+      "module": "AngularFullFamilySeed",
+      "source_sha256": "5ccfd581a53fb3efbc7859c7ab033fecf506caa31f3dc8bdc3e9de32d3c0c104",
+      "olean_sha256": "37ff1a36d207b4dbc73f24d49ac9d18df14809e13fd852f66744e766525f3c3a",
+      "compile_receipt_sha256": "e5d360e1c1fe83519432372cee2c118d54153f5453abd4ffa9090ff4b6712040",
+      "theorem_names": [
+        "OAI.SevenEighths.Angular.FullFamilySeed.physical_seed",
+        "OAI.SevenEighths.Angular.FullFamilySeed.physical_seed_norm_twist",
+        "OAI.SevenEighths.Angular.FullFamilySeed.nonprincipal_entire",
+        "OAI.SevenEighths.Angular.FullFamilySeed.norm_twist_nonprincipal_entire",
+        "OAI.SevenEighths.Angular.FullFamilySeed.norm_twist_differentiableAt",
+        "OAI.SevenEighths.Angular.FullFamilySeed.halfPlane_transport_iff"
+      ],
+      "definitions_exported": [],
+      "shadow_module": "AngularFullFamilySeedExpected",
+      "shadow_source_sha256": "3fcee140f97cd91144b209c34abc0aed36e900d1f7ab31f5489ea6b4bc8b3b8f",
+      "shadow_olean_sha256": "e76086175448bc4c144cf1a7e3df4ec316e1e4159cc56f54728b1c04362b8b4f",
+      "shadow_compile_receipt_sha256": "57d3a1cbf94cdb4a7ce0108e46233b12c579dcf95bb0d2c28c9fc46372d802f8"
+    }
+  ],
+  "exports": [
+    {
+      "module": "AngularPrincipalExceptionBundleExpected",
+      "raw_sha256": "40250def92c10a94be15048a950bb7921bbd3c032b34ab0b2f26d8a06a39b8eb",
+      "raw_bytes": 692521369,
+      "gzip": {
+        "path": "outputs\\ANGULAR_LEAN\\v30\\AngularPrincipalExceptionBundleExpected.ndjson.gz",
+        "sha256": "7b37b00b7e31fe27da57c91ffcb91286ee6a55ec751d68e03a44d36e8202e1b6",
+        "bytes": 140550449
+      }
+    },
+    {
+      "module": "AngularPrincipalExceptionBundle",
+      "raw_sha256": "6d6e1221b4c497ccbe274b687efa729cf26dccf3cbb1a637c337fc29061b05cb",
+      "raw_bytes": 1112692260,
+      "gzip": {
+        "path": "outputs\\ANGULAR_LEAN\\v30\\AngularPrincipalExceptionBundle.ndjson.gz",
+        "sha256": "aec26ff6496a99c6378c3d7c8bca50bab09f4bb08014799da530b0373ff6461c",
+        "bytes": 222025401
+      }
+    }
+  ],
+  "replay_receipt": {
+    "path": "outputs\\ANGULAR_LEAN\\v30\\AngularPrincipalExceptionBundle.replay.json",
+    "sha256": "9ace4aa54477d43516fea8d5f08dc871441269105c4b0b2842b2b1f3d24ecfcb",
+    "bytes": 11467
+  },
+  "members": {
+    "path": "outputs\\ANGULAR_LEAN\\v30\\AngularPrincipalExceptionBundle.members.json",
+    "sha256": "d5bd566c4e6d22e8cc5e62798a13a7c890601e823dda40d9ef44cdcee87b6979",
+    "bytes": 4643
+  },
+  "packaging_script": {
+    "path": "work\\angular_lean\\v30\\package_bundle.py",
+    "sha256": "63676d5d675e2a2ac95506082a5380c013fd569a1af36742786902e3dc1177b8",
+    "bytes": 7739
+  },
+  "prior_milestones_unchanged": [
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v1\\FORMALIZATION_STATUS.json",
+      "sha256": "4c1b5fea9c8041b598cadf73158b10374fa6edcf95e12e2d2ad5b409d9e9668d",
+      "bytes": 29246
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v2\\AngularGaussianSchwartz.replay.json",
+      "sha256": "54a7661a3fed1ddba437493e4762cd772205aa7b5031560297b7cca479bbabb6",
+      "bytes": 5869
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v3\\VERIFIED_MANIFEST.json",
+      "sha256": "70bc43855929a31d96deed9b1dd7b9927dad89e0942796b76cc68f87d8aa07f1",
+      "bytes": 88863
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v4\\VERIFIED_MANIFEST.json",
+      "sha256": "5504746ac62f7cbf6dd2be25b2ee9f449f5850e9dc2908b68dbe061388fdf63e",
+      "bytes": 23569
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v5\\VERIFIED_MANIFEST.json",
+      "sha256": "3614b205b4520962810d43d76f8ab1a5c3d068a6b7d4e0e1a6ed30ebf0554b07",
+      "bytes": 9112
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v6\\AngularNonpoleTransferBundle.VERIFIED_MANIFEST.json",
+      "sha256": "a806408e91ff31bd0d366553b22e32d903ef1e1d449eb7c081056f23d184a193",
+      "bytes": 6424
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v6\\AngularAllOrderCuspBundle.VERIFIED_MANIFEST.json",
+      "sha256": "1f067895751a2700cfc4605fd6753a330aa4e747b2e0f46e51ab9270dcbb1604",
+      "bytes": 23404
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v7\\AngularPhysicalCoefficientBundle.VERIFIED_MANIFEST.json",
+      "sha256": "4c56c340de61931147bd8994dd5527f48f56ff225338feb918ca0c48ee998fa4",
+      "bytes": 8774
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v8\\AngularFiniteProjectorBundle.VERIFIED_MANIFEST.json",
+      "sha256": "e54d8139aa08ad31e91b350f02445836d8e73c97140e1f37727dd78935df7a00",
+      "bytes": 6569
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v9\\AngularShiftedReflectionBundle.VERIFIED_MANIFEST.json",
+      "sha256": "a1ffe86c9896d563c5ed2a5fce98e9b07b8502960683bf2bcb2c34e913c4305f",
+      "bytes": 22485
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v10\\AngularKernelEnergyBundle.VERIFIED_MANIFEST.json",
+      "sha256": "6581961cf3632046ef930e89ffd811a991ddc60ec5aecffd874b36e140684444",
+      "bytes": 7281
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v11\\AngularCuspPhaseBundle.VERIFIED_MANIFEST.json",
+      "sha256": "2d24fccc5347258dcbc31e55cbc0968cf8595db00f1e6d33344c7b6cd35f0193",
+      "bytes": 8325
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v12\\AngularStratumModelBundle.VERIFIED_MANIFEST.json",
+      "sha256": "dae26ece0d3491a83a5e96ac4723d2046297e647109fe7ba472dd69f7012177a",
+      "bytes": 7727
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v13\\AngularRowClosureBundle.VERIFIED_MANIFEST.json",
+      "sha256": "b7472f9f9b4a3e75fdf07e7f129f295c9ad9e8773783f55f609d93da03eb7e23",
+      "bytes": 6027
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v14\\AngularRowSourceBundle.VERIFIED_MANIFEST.json",
+      "sha256": "4913b7493b33de9efc5895417e66e8e9d667597f8629a5ab2bbe340da19c2153",
+      "bytes": 8824
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v15\\AngularBranchExtractionBundle.VERIFIED_MANIFEST.json",
+      "sha256": "c1c21f52a8aae9aa78dc8c021ba0bf319ede65497a55ae0bd8b343bb669d8b81",
+      "bytes": 7444
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v16\\AngularFiberConnectionBundle.VERIFIED_MANIFEST.json",
+      "sha256": "6b0f54d6113dcd94852c47ef731fe3607fea83aa2c84e8e14210cdd2879f824c",
+      "bytes": 12112
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v17\\AngularPhysicalFiberBundle.VERIFIED_MANIFEST.json",
+      "sha256": "97d248e2bae0602b2ce9e30cc742452cd4e9c4b2ddb5630d7551294a9e99ea39",
+      "bytes": 8827
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v18\\AngularPhysicalMeanSquareBundle.VERIFIED_MANIFEST.json",
+      "sha256": "da7023a54a29fe226d63bc3bd69cd7b65e5167bc4524d7af77adacc238a582e1",
+      "bytes": 11298
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v19\\AngularPhysicalDyadicBundle.VERIFIED_MANIFEST.json",
+      "sha256": "8e6ad1ca62729dd86f55f6d4cde35f361e26ffc80766811f568a2b2e9a68ee61",
+      "bytes": 7970
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v20\\AngularHeightUniformityBundle.VERIFIED_MANIFEST.json",
+      "sha256": "28d679e5eb57635c1fb10181edcc6207db95bb6fb5722994eb67f980d2d04da0",
+      "bytes": 11489
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v21\\AngularRaySieveBundle.VERIFIED_MANIFEST.json",
+      "sha256": "d8e97184518a75ddf8ec578ebf1791d07b02b3834ba3ccb15a567c2c7220517d",
+      "bytes": 14306
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v22\\AngularInitialSourceBundle.VERIFIED_MANIFEST.json",
+      "sha256": "2fb1d8d266569708bf32fb259cc65bad8eecb428dc1020695e90c22dd622d95d",
+      "bytes": 12085
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v23\\AngularSixthPowerSeedBundle.VERIFIED_MANIFEST.json",
+      "sha256": "a4a5bb5bc1c8b4bcb81a4412e3e4bf5dff621df47f70e1fbf1e1f48932648a83",
+      "bytes": 11628
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v24\\AngularEulerCorrectionBundle.VERIFIED_MANIFEST.json",
+      "sha256": "04cc37df095fc0edd86f8b84698de3f719f18e8bc80ea229643943f463060e75",
+      "bytes": 13006
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v25\\AngularSeedNonvanishingBundle.VERIFIED_MANIFEST.json",
+      "sha256": "25f1932dd4f971414291c28f561727992d3f1a3c5199801540953878e10c6993",
+      "bytes": 9338
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v26\\AngularPlainReflectionBundle.VERIFIED_MANIFEST.json",
+      "sha256": "c2b92e431e6106d9edb3e561dcc98555cf2be88c0ab693cf9ad7d0b517b74996",
+      "bytes": 10727
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v27\\AngularImprimitiveReflectionBundle.VERIFIED_MANIFEST.json",
+      "sha256": "a61ea6e13d971d30c50e0332221a6445e156c65d0053b07e5b1b839d967ab45b",
+      "bytes": 10096
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v28\\AngularPlainGrowthBundle.VERIFIED_MANIFEST.json",
+      "sha256": "23e6e33c17645875bdbc524d253b582589df645c9db8287f0a0c1b5fb200b878",
+      "bytes": 10868
+    },
+    {
+      "path": "outputs\\ANGULAR_LEAN\\v29\\AngularNormTwistBundle.VERIFIED_MANIFEST.json",
+      "sha256": "b4d76631fbe784c39bfda428dcefe33ac66c3cf5e5343c36f090659b665ab5eb",
+      "bytes": 10898
+    }
+  ],
+  "full_zero_free_theorem_verified": false,
+  "scope": "Native Windows exact copied-statement/recursive-definition comparison, standard-axiom audit and fresh same-Lean-kernel replay. No independent analytic specification, alternate kernel or Linux sandbox."
+}

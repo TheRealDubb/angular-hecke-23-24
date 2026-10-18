@@ -1,0 +1,49 @@
+{
+  "module": "AngularThetaMellin",
+  "attempt": 3,
+  "exit_code": 0,
+  "utc": "2026-10-16T19:29:24.884220+00:00",
+  "seconds": 25.604413509368896,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaMellin.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaMellin.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaMellin.olean"
+  ],
+  "source_sha256": "5e981e155dbe488b8004cac5a2b6dd5267479566c38a7b399889c698d9aba316",
+  "setup_sha256": "af4e56bb5e301b9abac814ff650c89d8fc8b30c159510560e0e113779008de28",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularThetaBasic",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaBasic.olean",
+      "olean_sha256": "d3f7b64efc37fd667d6607d00d1765152386860ee460a2b1f307852e4f1f69fe",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaBasic.setup.json",
+      "setup_sha256": "23895889bb205c15daf2aac18f54283fd57e53d549975ce96076609d8b523151"
+    },
+    {
+      "module": "AngularMellinShift",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularMellinShift.olean",
+      "olean_sha256": "b3b673f88a2cedb187ef4c8e1801322ea7d834867cbaf12fbeb516282aa0372d",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularMellinShift.setup.json",
+      "setup_sha256": "6d3539d128a60d520f6154a6bc40615181e1f7db32b5b160481bd3d52400c2af"
+    },
+    {
+      "module": "AngularElementSeries",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularElementSeries.olean",
+      "olean_sha256": "f221e21be1e223d8978a32a30c843c90407f3e26d2c0e9bc467580786c093ea2",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularElementSeries.setup.json",
+      "setup_sha256": "4a6ffeb915053dcabf0b6b676658c20881bb40ec1fb54fcfbabbdf004d8d24cb"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "974299caf9ad04d0b9a3361e72f19383d528672cceb7e0b7ada57dcf62a8d465"
+}

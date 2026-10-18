@@ -1,0 +1,46 @@
+{
+  "module": "AngularProfileScaling",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:09:34.139473+00:00",
+  "seconds": 18.98191738128662,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularProfileScaling.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularProfileScaling.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularProfileScaling.olean"
+  ],
+  "source_sha256": "5ef158e6185114c30ce7d2a330f7e46220fb90427bbc2e0713eb9375aed73aea",
+  "setup_sha256": "66842bf651f194e7d879f65df5572fdfdca795d8017dec7948bba87013d34b52",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularFiniteCuspSecondReflection",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularFiniteCuspSecondReflection.olean",
+      "olean_sha256": "405d2b634125151f5f06b1531f665952a22a56d6123e53aba3f0e9a90f510bab",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularFiniteCuspSecondReflection.setup.json",
+      "setup_sha256": "9c9060e0bdb5a689d589f895584ef612d42c5ac89432972f1549487495534d57"
+    },
+    {
+      "module": "AngularHigherProfiles",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularHigherProfiles.olean",
+      "olean_sha256": "1468ddfee6858002a602359263c0e8af901321b0fbd0ea53c8d9ca860dff1e0b",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularHigherProfiles.setup.json",
+      "setup_sha256": "4ad384406ba59bcc74e0207e8c21f96c8c8716fbebe824b7f7c9e56627166e19"
+    },
+    {
+      "module": "Mathlib.Analysis.Calculus.Deriv.CompMul",
+      "resolution": "pinned seed map"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "33f172610475c2cde59c3950324f068585e36332f543cf6da4e43c69ac6e5bb6"
+}

@@ -1,0 +1,42 @@
+{
+  "module": "AngularThetaTransform",
+  "attempt": 5,
+  "exit_code": 0,
+  "utc": "2026-10-16T19:33:47.708794+00:00",
+  "seconds": 20.14598774909973,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaTransform.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaTransform.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaTransform.olean"
+  ],
+  "source_sha256": "6cda745347c7d5e94fcf90a875f6e6840bcabfaf4e24c12e2d19453b702b23e0",
+  "setup_sha256": "ecaf736216fefc46ec622a8fbf78698289eec654012f2a71853eebd0d60dee01",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularThetaBasic",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaBasic.olean",
+      "olean_sha256": "d3f7b64efc37fd667d6607d00d1765152386860ee460a2b1f307852e4f1f69fe",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaBasic.setup.json",
+      "setup_sha256": "23895889bb205c15daf2aac18f54283fd57e53d549975ce96076609d8b523151"
+    },
+    {
+      "module": "AngularGaussianPaper",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianPaper.olean",
+      "olean_sha256": "776ea1177700c02a82323c5c382a36cd5a769b862af0dda820c670b3309bbe35",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianPaper.setup.json",
+      "setup_sha256": "7d7646ff20be7bbd05584b50fcc9488a52ff7aef5fea9e56d91c260be2240251"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "13c0e550dbce5daf07f313a23a1e1fd6ec6f443d34f0b748df6ed9234806f74a"
+}

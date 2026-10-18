@@ -1,0 +1,42 @@
+{
+  "module": "AngularUniformKernelEnergy",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T23:34:56.733402+00:00",
+  "seconds": 19.143952131271362,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v20\\AngularUniformKernelEnergy.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v20\\AngularUniformKernelEnergy.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v20\\AngularUniformKernelEnergy.olean"
+  ],
+  "source_sha256": "5ee3c3a8e3112f06d6501b1d818b8cb7d8477bf5f515b9a924851a95bdca9f56",
+  "setup_sha256": "ecd967c486cf1b571c201f8200e2d4c7e25f35716b597a48f7be0454ffda00fe",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularUniformKernel",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v20\\AngularUniformKernel.olean",
+      "olean_sha256": "3c66f94ffe879e7cb000d912d7e461d5c25558660886af098584fe2fb3f70338",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v20\\AngularUniformKernel.setup.json",
+      "setup_sha256": "e57bf7ecb3e91d010e5bc5cec7839df015ebc2322074ccecbdbbb22c7a32ca21"
+    },
+    {
+      "module": "AngularDyadicEnergy",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v10\\AngularDyadicEnergy.olean",
+      "olean_sha256": "13767552ca72ed780a93354ae826f5c88ecd588fb86960b643709de2ba05e2df",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v10\\AngularDyadicEnergy.setup.json",
+      "setup_sha256": "f394c509b41fc8cd6fd6ddb3c371d3fd477631d11001c1c20620a2a9594a03da"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "34b95548f8549ada23fc229236b24b8f0c51ec67d051c7ddaff7a0a54431c6d5"
+}

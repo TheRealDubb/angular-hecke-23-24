@@ -1,0 +1,42 @@
+{
+  "module": "AngularDyadicEnergy",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T21:27:05.726147+00:00",
+  "seconds": 20.22506284713745,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v10\\AngularDyadicEnergy.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v10\\AngularDyadicEnergy.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v10\\AngularDyadicEnergy.olean"
+  ],
+  "source_sha256": "973db9307f1bd21d63951aed693103f3ed514146fefe05deb7bb6424929b1b19",
+  "setup_sha256": "f394c509b41fc8cd6fd6ddb3c371d3fd477631d11001c1c20620a2a9594a03da",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularKernelEnergy",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v10\\AngularKernelEnergy.olean",
+      "olean_sha256": "8056754406f5934bc635a472334579c2b7ec65507232e07edd038e40ac38d0f8",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v10\\AngularKernelEnergy.setup.json",
+      "setup_sha256": "94487a20693d05031586fdedd97a138bb016d37ee7c886f545fda319cf66abcb"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.MeanSquare.ReflectedDyadicSeries",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\MeanSquare\\ReflectedDyadicSeries.olean",
+      "olean_sha256": "0e55b3703fa29bf82b1840556298a91b3fb1796e6de65a2f324efb968b6d5a12",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\MeanSquare\\ReflectedDyadicSeries.setup.json",
+      "setup_sha256": "dbb8208ca8667201e6089083a97e4335b173a88cf6d7fdfa3f65e0d4ce0a1f69"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "13767552ca72ed780a93354ae826f5c88ecd588fb86960b643709de2ba05e2df"
+}

@@ -1,0 +1,29 @@
+{
+  "original_revision": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "sources": [
+    {
+      "path": "outputs/ANGULAR_LEAN/v6/AngularFiniteIdentification.lean",
+      "sha256": "62d9916b470ad1d5233a02ce549b0efdaf7189f33ff958a16c2748e78b9157e6"
+    },
+    {
+      "path": "outputs/ANGULAR_LEAN/v3/AngularPrimitiveReduction.lean",
+      "sha256": "a8ed02195d4c59f8ceedebc9e22cdd758a276e619bd1226ab4a0fb859d160833"
+    },
+    {
+      "path": "outputs/ANGULAR_LEAN/v3/AngularThetaFEPair.lean",
+      "sha256": "d5ba11bd0c908ad7ea344be61aa7c54bb9a3b16ec349399a0156787482d06f6c"
+    },
+    {
+      "path": "work/formal/original/lean/OAI/NumberTheory/DirichletL/Hecke/CharacterAnalytic.lean",
+      "sha256": "e426e0a61e9e7caaa8bf95071dd6a2b86464fee067bcb43c0ac7b58ca989ea28"
+    },
+    {
+      "path": "work/formal/original/lean/OAI/NumberTheory/DirichletL/Hecke/FiniteDeletion.lean",
+      "sha256": "dfb26a8cb221175f3c7cef4e854e21c467b040ca903bde1ff75bca00ff7eeee1"
+    },
+    {
+      "path": "work/formal/original/lean/OAI/NumberTheory/DirichletL/Hecke/BoundaryIntegration.lean",
+      "sha256": "404bb346650e5a84f6e839eaee1c4598b45296af0dcaeacd2bc6a5a0470a5045"
+    }
+  ]
+}

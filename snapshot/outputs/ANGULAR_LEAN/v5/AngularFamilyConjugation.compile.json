@@ -1,0 +1,54 @@
+{
+  "module": "AngularFamilyConjugation",
+  "attempt": 3,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:09:14.788246+00:00",
+  "seconds": 18.71375799179077,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFamilyConjugation.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFamilyConjugation.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFamilyConjugation.olean"
+  ],
+  "source_sha256": "7e2991fa9126ac86b726ede400b636d308b0b44dc397a5036cc45f8fba6d7cb1",
+  "setup_sha256": "ac6e18946099eaaff2aa797a92060ddbd9009ec6a9df4b736e82753aa659cf2d",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularFamilyContinuation",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularFamilyContinuation.olean",
+      "olean_sha256": "3d17e77f289e8b524b02a722939745a7e9d676b4e85a99c8f705b349c0994dfe",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularFamilyContinuation.setup.json",
+      "setup_sha256": "bfe1d86375e93bf0ace2a23d7fe9ef63d730f91496f2ea1616402f2f7abbdcf1"
+    },
+    {
+      "module": "AngularOrientedCharacter",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularOrientedCharacter.olean",
+      "olean_sha256": "3c45c5726a0942b9192e4297fbca7dc172c6a7755985e228a05c42763c716c49",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularOrientedCharacter.setup.json",
+      "setup_sha256": "a88490a5c94f7135590723dae7885485e552f195bd41583f1c4a3887f37d8148"
+    },
+    {
+      "module": "Mathlib.Analysis.Analytic.Uniqueness",
+      "resolution": "pinned seed map"
+    },
+    {
+      "module": "Mathlib.Analysis.Complex.CauchyIntegral",
+      "resolution": "pinned seed map"
+    },
+    {
+      "module": "Mathlib.Analysis.Calculus.Deriv.Star",
+      "resolution": "pinned seed map"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "14844db1cccb3ae3fcc361594ceec42d13cebe69260094666c721e1f5b9e68a5"
+}

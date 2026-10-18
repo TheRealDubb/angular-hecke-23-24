@@ -1,0 +1,42 @@
+{
+  "module": "AngularCompletedCoefficient",
+  "attempt": 4,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:42:22.797289+00:00",
+  "seconds": 16.681254863739014,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v7\\AngularCompletedCoefficient.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v7\\AngularCompletedCoefficient.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v7\\AngularCompletedCoefficient.olean"
+  ],
+  "source_sha256": "c8c5044f69efef4bc53fc10b95e9b7b28cf6e8d53d0818ed3f90d8a030ff8af1",
+  "setup_sha256": "9337eec0ec9ce8e602610fb694750882a95e2274eb4105ed433e7dace858f07d",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularCharacter",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularCharacter.olean",
+      "olean_sha256": "ee601e8d8b3ad8f3577a648eff96c88967c995e81e7e21335319398ebfe4a60d",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularCharacter.setup.json",
+      "setup_sha256": "9c13eccaf06af59739fab87d8bc24a71b53d34c18abbef6606b224e9b07cccb1"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Eisenstein.RamifiedTransform",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Eisenstein\\RamifiedTransform.olean",
+      "olean_sha256": "1d0072d9a8c67af9d6654f24d054c55399fde9df97431a39270f93ff820a5baa",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Eisenstein\\RamifiedTransform.setup.json",
+      "setup_sha256": "7b6001509dbcff210c42ef13f973312a921f1ddcef498afc3a380ee524c01b29"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "b50f7fe2c6ed251de6ce45435714f74f1dff3e9734d0b5ef31ce4f9a434279ea"
+}

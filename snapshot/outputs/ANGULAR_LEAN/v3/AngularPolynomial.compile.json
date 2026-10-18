@@ -1,0 +1,42 @@
+{
+  "module": "AngularPolynomial",
+  "attempt": 3,
+  "exit_code": 0,
+  "utc": "2026-10-16T19:23:14.462140+00:00",
+  "seconds": 15.541229963302612,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularPolynomial.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularPolynomial.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularPolynomial.olean"
+  ],
+  "source_sha256": "fa7482629c90d550f304d064e8436bf5ac617ce41468581d8723b1093de65240",
+  "setup_sha256": "4e1f945666a7f60ceb8ea7b80d07bef3c6be465809d5ec3d70fcb7dab10b67d4",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularCharacter",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularCharacter.olean",
+      "olean_sha256": "ee601e8d8b3ad8f3577a648eff96c88967c995e81e7e21335319398ebfe4a60d",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularCharacter.setup.json",
+      "setup_sha256": "9c13eccaf06af59739fab87d8bc24a71b53d34c18abbef6606b224e9b07cccb1"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.GaussianTheta",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\GaussianTheta.olean",
+      "olean_sha256": "bb521cf89534bd60517561271a8e6125a1f332997b2dec4e4744a79380d28e02",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\GaussianTheta.setup.json",
+      "setup_sha256": "4a87c1d00e44070a4b33c84d2c75ff02ce03fedde66f1803d8dc9ad34050c517"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "fddcbc59939459aedfcdc9a06fca84ac104f075489764cc93e4d922b1709a270"
+}

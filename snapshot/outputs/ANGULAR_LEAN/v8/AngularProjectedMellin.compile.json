@@ -1,0 +1,35 @@
+{
+  "module": "AngularProjectedMellin",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:56:43.921830+00:00",
+  "seconds": 39.807989835739136,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v8\\AngularProjectedMellin.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v8\\AngularProjectedMellin.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v8\\AngularProjectedMellin.olean"
+  ],
+  "source_sha256": "1053c7ad1c735bcbe908d1642f399ff461f5da00ce4a884c4e8f7480d5350f5d",
+  "setup_sha256": "8f6d496fe0dcdb2295429f82272b9473dbd76e1fcd240e8d588fef6418dfa206",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularFiniteProjector",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v8\\AngularFiniteProjector.olean",
+      "olean_sha256": "c3857e36a0bc71d652d7cf11fc474997a256ba6c4baa0a1f2aa24896d7ee39bd",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v8\\AngularFiniteProjector.setup.json",
+      "setup_sha256": "a2386bf16cbda5c8c932dce7e3faff419099a897482177dad87d70d0e36580bf"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "0eb99bd6c4a21d356587fa1c5614c3938ffc28080382a01c28fae72db6845275"
+}

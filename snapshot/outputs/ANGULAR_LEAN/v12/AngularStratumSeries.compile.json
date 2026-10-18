@@ -1,0 +1,35 @@
+{
+  "module": "AngularStratumSeries",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T21:51:20.872910+00:00",
+  "seconds": 18.472339630126953,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v12\\AngularStratumSeries.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v12\\AngularStratumSeries.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v12\\AngularStratumSeries.olean"
+  ],
+  "source_sha256": "a3d000d3071d6c8da36005238c8fe02d75eb47f66e28f0d33402afac8dec8659",
+  "setup_sha256": "0c70b343443b8979a8ea6e5257a0c4dca48dac1aebe4514272055f675a1c206b",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularStratumModel",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v12\\AngularStratumModel.olean",
+      "olean_sha256": "e10ffde18b182f9cf1e0fc1cde9417bd5ab5abece9b50b33f9d1d02c46d1f10c",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v12\\AngularStratumModel.setup.json",
+      "setup_sha256": "4b5c662220f0de9cff0ad921216ba5267ee3bd5edda4ad8445c38dfb4bdb1739"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "e88d78340f5bdbb304c5ce11c59e20bd395db59297d7ec2eca39a44949dc0b34"
+}

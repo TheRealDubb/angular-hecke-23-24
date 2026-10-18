@@ -1,0 +1,35 @@
+{
+  "module": "AngularFiniteCuspDualMellin",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:11:38.279739+00:00",
+  "seconds": 27.650914192199707,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFiniteCuspDualMellin.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFiniteCuspDualMellin.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFiniteCuspDualMellin.olean"
+  ],
+  "source_sha256": "b92901cb5de9842970b13451c76c6bc2083b5e7990a190694d5108329ef2d67b",
+  "setup_sha256": "3c4e3dfcd81777bf2c8878923f31219d3e015bb33602f32f60702f576b1dfec4",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularFiniteCuspSecondMellin",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFiniteCuspSecondMellin.olean",
+      "olean_sha256": "d601be4d1565f5172c019113b52d43215dcd6d895d4ec6a5d8682b370d368e2d",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFiniteCuspSecondMellin.setup.json",
+      "setup_sha256": "ff350d099773e8b418cef8dad31a1630f72af7d5c4a574d1f86a44622069d047"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "0de5816b795b38542853721a8ece903eb818328333e6c7eb037fdc5f6f7d0e86"
+}

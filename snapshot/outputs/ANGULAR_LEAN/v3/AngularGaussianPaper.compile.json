@@ -1,0 +1,35 @@
+{
+  "module": "AngularGaussianPaper",
+  "attempt": 3,
+  "exit_code": 0,
+  "utc": "2026-10-16T19:26:57.587219+00:00",
+  "seconds": 15.359408378601074,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianPaper.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianPaper.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianPaper.olean"
+  ],
+  "source_sha256": "3257d352cc02df895135b4e651728a0adbd7e0a67b9424ed0bdc41af5fe6e8fa",
+  "setup_sha256": "7d7646ff20be7bbd05584b50fcc9488a52ff7aef5fea9e56d91c260be2240251",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularGaussianFourier",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianFourier.olean",
+      "olean_sha256": "fc638cbb5e4aee1058d43a23aa26b6f77eb139feec09a6cf0236f56a9bb3290d",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianFourier.setup.json",
+      "setup_sha256": "0539ae88e4edf5c754ab11be43f48e3cdd8310f8678fa7bc8561c1713dbfaabf"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "776ea1177700c02a82323c5c382a36cd5a769b862af0dda820c670b3309bbe35"
+}

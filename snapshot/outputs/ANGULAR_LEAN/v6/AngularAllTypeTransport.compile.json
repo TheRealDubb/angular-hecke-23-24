@@ -1,0 +1,35 @@
+{
+  "module": "AngularAllTypeTransport",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:22:16.128039+00:00",
+  "seconds": 18.71124029159546,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularAllTypeTransport.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularAllTypeTransport.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularAllTypeTransport.olean"
+  ],
+  "source_sha256": "c450f10f994459c57fedbbf18b3d4781b901dc2f8b1c4223c2bfe46fa5db1a93",
+  "setup_sha256": "a40a74bce8b14a0e090544aba27f84fdf7900287de6075594bb7039044234292",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularFiniteIdentification",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularFiniteIdentification.olean",
+      "olean_sha256": "3628df7844d1988c9cc236cf322dd6b8a8389aa19fe58b137cdc5e9403632a22",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularFiniteIdentification.setup.json",
+      "setup_sha256": "87d2fdde606743f2eacaef54ff1bf04be90a4d8d545d4c6a09e8c425989480c8"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "f84c05a87b1649a2c0e02cf75361f0cbc39f6e86cc0ea662b191ac0a3a816ef9"
+}

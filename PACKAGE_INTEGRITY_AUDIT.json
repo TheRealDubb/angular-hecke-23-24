@@ -1,0 +1,21 @@
+{
+  "utc": "2026-10-18T02:29:01.346296+00:00",
+  "scope": "Artifact integrity audit only; existing successful replay retained unchanged.",
+  "source_modules": 130,
+  "source_lines": 18001,
+  "source_and_object_hashes_match_compile_receipts": true,
+  "final_bundle_hashes_match_verified_manifest": true,
+  "statement_comparison_recorded_pass": true,
+  "axiom_audit_recorded_pass": true,
+  "fresh_windows_kernel_replay_recorded_pass": true,
+  "quotient_postcheck_recorded_pass": true,
+  "proof_gzip_and_uncompressed_hashes_rechecked": true,
+  "original_tracked_checkout_clean": true,
+  "new_compilation_performed": false,
+  "new_kernel_replay_performed": false,
+  "portable_clean_rebuild": false,
+  "linux_replay": false,
+  "stronger_08748389_complete": false,
+  "published_to_github": false,
+  "publication_owner": "user"
+}

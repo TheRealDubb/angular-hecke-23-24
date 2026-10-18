@@ -1,0 +1,24 @@
+C:\Users\epsst\Documents\Codex\2026-10-07\g\outputs\ANGULAR_LEAN\v3\AngularFamilyContinuation.lean:26:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+C:\Users\epsst\Documents\Codex\2026-10-07\g\outputs\ANGULAR_LEAN\v3\AngularFamilyContinuation.lean:36:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+C:\Users\epsst\Documents\Codex\2026-10-07\g\outputs\ANGULAR_LEAN\v3\AngularFamilyContinuation.lean:46:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`

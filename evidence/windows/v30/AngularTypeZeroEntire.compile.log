@@ -1,0 +1,12 @@
+C:\Users\epsst\Documents\Codex\2026-10-07\g\outputs\ANGULAR_LEAN\v30\AngularTypeZeroEntire.lean:13:5: warning: Ambiguous namespace `Polynomial`: it is interpreted as `_root_.OAI.SevenEighths.Angular.Polynomial` because this `open` occurs inside `namespace OAI.SevenEighths.Angular.TypeZeroEntire`, while `_root_.Polynomial` is silently not opened. Specify the namespace unambiguously, e.g. `_root_.OAI.SevenEighths.Angular.Polynomial`. The warning can sometimes also be addressed by moving the `open` outside of the surrounding `namespace`.
+
+Note: This linter can be disabled with `set_option linter.ambiguousOpen false`
+C:\Users\epsst\Documents\Codex\2026-10-07\g\outputs\ANGULAR_LEAN\v30\AngularTypeZeroEntire.lean:33:27: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+C:\Users\epsst\Documents\Codex\2026-10-07\g\outputs\ANGULAR_LEAN\v30\AngularTypeZeroEntire.lean:61:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`

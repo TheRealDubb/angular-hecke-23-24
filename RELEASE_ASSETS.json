@@ -1,0 +1,24 @@
+{
+  "assets": [
+    {
+      "file": "oai003-pinned-lean-source.zip",
+      "bytes": 2186079,
+      "sha256": "f8418c14eeef6377aa8aa90abf523b482b1e7fe2df444309f4faddb6f09f81d6",
+      "scope": "Unchanged working-tree source closure of pinned original Lean dependencies; each file checked against committed Git blob, with original build manifests/license."
+    },
+    {
+      "file": "AngularPrincipalExceptionBundleExpected.ndjson.gz",
+      "bytes": 140550449,
+      "sha256": "7b37b00b7e31fe27da57c91ffcb91286ee6a55ec751d68e03a44d36e8202e1b6",
+      "raw_sha256": "40250def92c10a94be15048a950bb7921bbd3c032b34ab0b2f26d8a06a39b8eb",
+      "raw_bytes": 692521369
+    },
+    {
+      "file": "AngularPrincipalExceptionBundle.ndjson.gz",
+      "bytes": 222025401,
+      "sha256": "aec26ff6496a99c6378c3d7c8bca50bab09f4bb08014799da530b0373ff6461c",
+      "raw_sha256": "6d6e1221b4c497ccbe274b687efa729cf26dccf3cbb1a637c337fc29061b05cb",
+      "raw_bytes": 1112692260
+    }
+  ]
+}

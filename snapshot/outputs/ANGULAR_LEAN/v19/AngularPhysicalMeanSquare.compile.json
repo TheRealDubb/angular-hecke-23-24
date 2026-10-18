@@ -1,0 +1,35 @@
+{
+  "module": "AngularPhysicalMeanSquare",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T23:17:25.865221+00:00",
+  "seconds": 18.35051441192627,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v19\\AngularPhysicalMeanSquare.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v19\\AngularPhysicalMeanSquare.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v19\\AngularPhysicalMeanSquare.olean"
+  ],
+  "source_sha256": "2429eb3731e2deea664b2251e72c95df6752388f0a5c3ebee4b527c4eaf9a90b",
+  "setup_sha256": "d6c6981fc96f59402ab2f3a5a8b1be3c3e7b57826efcc02763424fa695f15dd5",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularDyadicModels",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v19\\AngularDyadicModels.olean",
+      "olean_sha256": "130909269242b276a3b2366fb49c0ebeff55d017b2a536600bee4d32a69715c4",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v19\\AngularDyadicModels.setup.json",
+      "setup_sha256": "51143edcff3797998315ca4e95606c41cd373f5609dff8901623573fea4b2b1c"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "418c593c6f9f7e9f3b4a0a2a7a0dc3a352572acb1230951c8d582c6d34901d7f"
+}

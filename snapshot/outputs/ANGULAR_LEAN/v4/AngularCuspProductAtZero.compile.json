@@ -1,0 +1,39 @@
+{
+  "module": "AngularCuspProductAtZero",
+  "attempt": 4,
+  "exit_code": 0,
+  "utc": "2026-10-16T19:51:02.804232+00:00",
+  "seconds": 29.063405513763428,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspProductAtZero.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspProductAtZero.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspProductAtZero.olean"
+  ],
+  "source_sha256": "0a7edbae4b69302194c079e1d848a5ccdebdd5bac996466752b2827490b42b40",
+  "setup_sha256": "4f8ceaeb5da942a15f51909ea86c8f446f84222a9aab10eb8a04a1a08cef97c2",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularBesselDerivatives",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularBesselDerivatives.olean",
+      "olean_sha256": "457101b8ad2fd73c09ecddeb6eabfb1fae5a477a2c0f3351f627228ec5fe8dfb",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularBesselDerivatives.setup.json",
+      "setup_sha256": "ee6c7f2627d97fc9c3ee3fa75bc4f4ad0a85cd4e0244e7e16096f1c75d794594"
+    },
+    {
+      "module": "Mathlib.Analysis.Calculus.Deriv.Slope",
+      "resolution": "pinned seed map"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "fc8056c1d2c4c18dc5f99083da5922bc82a9bc36aa559d889994663cf02f2a4f"
+}

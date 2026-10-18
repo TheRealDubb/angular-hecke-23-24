@@ -1,0 +1,3 @@
+C:\Users\epsst\Documents\Codex\2026-10-07\g\outputs\ANGULAR_LEAN\v6\AngularSourceAllOrderReflection.lean:57:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`

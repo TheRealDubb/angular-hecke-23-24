@@ -1,0 +1,35 @@
+{
+  "module": "AngularRetainedSource",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T23:53:31.814696+00:00",
+  "seconds": 29.52922296524048,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v22\\AngularRetainedSource.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v22\\AngularRetainedSource.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v22\\AngularRetainedSource.olean"
+  ],
+  "source_sha256": "89ae6478998b41d37ab8c3b03335faaa1b2ad3461c45ff3412250c21449af850",
+  "setup_sha256": "9bf1f012221729612e80b12c15a4820e7f0cc912fede7c429eb356f8ef243435",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularInitialDensity",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v22\\AngularInitialDensity.olean",
+      "olean_sha256": "97125f09eaff474b22973f2e17bdafc24e4b4627e749cc68b33655674eeabbcc",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v22\\AngularInitialDensity.setup.json",
+      "setup_sha256": "05782272e0283378f51538a37789483d758b4b93de9f2bba6e3d0e1c99cb5446"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "da17f684a7161122c182ececd9d5a7a16e8c449ff1cc066058d45f75a1a6fecc"
+}

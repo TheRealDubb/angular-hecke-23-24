@@ -1,0 +1,35 @@
+{
+  "module": "AngularFiniteCuspAssembly",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T22:14:46.109462+00:00",
+  "seconds": 23.28109312057495,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v14\\AngularFiniteCuspAssembly.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v14\\AngularFiniteCuspAssembly.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v14\\AngularFiniteCuspAssembly.olean"
+  ],
+  "source_sha256": "48f4ac0b1c1be7a86ee1e5136f5edb5ba071d54b2a01754f0ac8700c133e96d6",
+  "setup_sha256": "553c29f09f13b7613b1256b894aeae29f5a1c439f443c43f3d0fa9b5b439404a",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularPhysicalReindex",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v11\\AngularPhysicalReindex.olean",
+      "olean_sha256": "e651352db59e1853932b8d8b6aed3d3410a7159030e192aa424d7d4e8bc84bd0",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v11\\AngularPhysicalReindex.setup.json",
+      "setup_sha256": "174580077c45e3c20f42618563d07904eb7daf26a5d96fd4fe6d880b1c66acdb"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "16ab65339406e9378f87bf6eab6139a2261f8c8fe58a7a2072749151288b4507"
+}

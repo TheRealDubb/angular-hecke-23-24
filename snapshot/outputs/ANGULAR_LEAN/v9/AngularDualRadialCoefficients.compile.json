@@ -1,0 +1,35 @@
+{
+  "module": "AngularDualRadialCoefficients",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T21:19:14.730898+00:00",
+  "seconds": 21.930968046188354,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularDualRadialCoefficients.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularDualRadialCoefficients.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularDualRadialCoefficients.olean"
+  ],
+  "source_sha256": "4fa67ea01e0fc214e855f6b5d529918aa269cb433fc7f5e78ccd6bff9da9494d",
+  "setup_sha256": "4461f817441f156ae0ae599a50a5e1a50db08932b5db240d93da32275704c5aa",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularProjectedReflection",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularProjectedReflection.olean",
+      "olean_sha256": "dfaedfece5e3cf5a9886e8fcd9356b2545ffd6e068469a6d65b02387678edd15",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularProjectedReflection.setup.json",
+      "setup_sha256": "78fc42e46ec8dd73d9cd22af7a2b0b72617073777d6dc3200c1e3fa2ab4dd791"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "11d859e78aeeaa278e52648b828350c76b21752e0a64b2d136e36c308b9992a1"
+}

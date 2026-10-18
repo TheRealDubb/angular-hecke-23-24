@@ -1,0 +1,27 @@
+name = "Comparator"
+version = "0.1.0"
+defaultTargets = ["comparator"]
+
+[[lean_lib]]
+name = "Comparator"
+
+[[lean_exe]]
+name = "comparator"
+root = "Main"
+
+[[lean_exe]]
+name = "offline-replay"
+root = "OfflineReplay"
+
+[[require]]
+scope = "leanprover"
+name = "lean4export"
+rev = "master"
+
+[[lean_exe]]
+name = "which"
+root = "WindowsWhich"
+
+[[lean_exe]]
+name = "windows-development-runner"
+root = "WindowsDevelopmentRunner"

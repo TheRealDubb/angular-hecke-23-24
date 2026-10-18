@@ -1,0 +1,49 @@
+{
+  "module": "AngularPhysicalSmoothedReflection",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T21:24:08.731898+00:00",
+  "seconds": 15.971493244171143,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularPhysicalSmoothedReflection.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularPhysicalSmoothedReflection.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularPhysicalSmoothedReflection.olean"
+  ],
+  "source_sha256": "720c3e72f7befd73ff8beb17216f90068e49787b93b3347dd7737ea198abd827",
+  "setup_sha256": "8acfef961ff4263bb01218bbb3eb681778cb3b19fbcd077be746159e6feccec4",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularDualRadialCoefficients",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularDualRadialCoefficients.olean",
+      "olean_sha256": "11d859e78aeeaa278e52648b828350c76b21752e0a64b2d136e36c308b9992a1",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularDualRadialCoefficients.setup.json",
+      "setup_sha256": "4461f817441f156ae0ae599a50a5e1a50db08932b5db240d93da32275704c5aa"
+    },
+    {
+      "module": "AngularSmoothedReflection",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularSmoothedReflection.olean",
+      "olean_sha256": "8fc797adeafdd46a89fb54afd2fe8d46dd320a65e98374820e4c83ae1dc60a73",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularSmoothedReflection.setup.json",
+      "setup_sha256": "cff61293881e3d31fb33868067cece9654e717ed05a21623c1d3b484d042df0c"
+    },
+    {
+      "module": "AngularSmoothingContour",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularSmoothingContour.olean",
+      "olean_sha256": "015a7aab72600e7ffc8f1464a07655699e2b4af8ea8f29603c0a3d3e10e82c9c",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularSmoothingContour.setup.json",
+      "setup_sha256": "2962bb96416ad1c618a8855fd13bf98f601e0b486d51141d8a915e6d80bd9355"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "acc56acd2d30cc9ae564c6770c4c535dec31ebb22844973e3e6f5a6a76cbc4f2"
+}

@@ -1,0 +1,24 @@
+{
+  "theorem_names": [
+    "OAI.SevenEighths.Angular.TypeZeroEntire.finite_idealCoeff",
+    "OAI.SevenEighths.Angular.TypeZeroEntire.primitive_residue_nonprincipal",
+    "OAI.SevenEighths.Angular.TypeZeroEntire.weightedCoeff_zero",
+    "OAI.SevenEighths.Angular.TypeZeroEntire.pair_strong_nonprincipal",
+    "OAI.SevenEighths.Angular.TypeZeroEntire.primitive_LFunction_entire",
+    "OAI.SevenEighths.Angular.TypeZeroEntire.LFunction_entire",
+    "OAI.SevenEighths.Angular.TypeZeroEntire.LFunction_eq_finite",
+    "OAI.SevenEighths.Angular.TypeZeroEntire.LFunction_one_ne_zero",
+    "OAI.SevenEighths.Angular.FullFamilySeed.physical_seed",
+    "OAI.SevenEighths.Angular.FullFamilySeed.physical_seed_norm_twist",
+    "OAI.SevenEighths.Angular.FullFamilySeed.nonprincipal_entire",
+    "OAI.SevenEighths.Angular.FullFamilySeed.norm_twist_nonprincipal_entire",
+    "OAI.SevenEighths.Angular.FullFamilySeed.norm_twist_differentiableAt",
+    "OAI.SevenEighths.Angular.FullFamilySeed.halfPlane_transport_iff"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

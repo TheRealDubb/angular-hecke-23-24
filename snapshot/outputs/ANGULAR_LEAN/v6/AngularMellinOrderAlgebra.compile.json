@@ -1,0 +1,35 @@
+{
+  "module": "AngularMellinOrderAlgebra",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:31:48.464625+00:00",
+  "seconds": 24.696996927261353,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularMellinOrderAlgebra.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularMellinOrderAlgebra.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularMellinOrderAlgebra.olean"
+  ],
+  "source_sha256": "51bd3eb40927f57987d716d39b032ca887e46dda3683cff880998892a15fa559",
+  "setup_sha256": "50aeb49b24f4ede6bc6179fff26845ba317d4e16b52fb7e69262961a4cfd4d1a",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularFiniteCuspDualMellin",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFiniteCuspDualMellin.olean",
+      "olean_sha256": "0de5816b795b38542853721a8ece903eb818328333e6c7eb037fdc5f6f7d0e86",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFiniteCuspDualMellin.setup.json",
+      "setup_sha256": "3c4e3dfcd81777bf2c8878923f31219d3e015bb33602f32f60702f576b1dfec4"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "437a0d0389980f2d2a629d79db6fd19527b3ea19a7cc3f0ba8555b76ebba5a4d"
+}

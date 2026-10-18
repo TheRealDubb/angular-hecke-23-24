@@ -1,0 +1,49 @@
+{
+  "module": "AngularPhysicalAllOrderCusp",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:32:44.031248+00:00",
+  "seconds": 20.073051929473877,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularPhysicalAllOrderCusp.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularPhysicalAllOrderCusp.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularPhysicalAllOrderCusp.olean"
+  ],
+  "source_sha256": "3347791eb3b5c98df2dd45e0d31b9e5f6f324f305c5cbd8c18ae6409934f4c45",
+  "setup_sha256": "6f0bcc1f20e03aaa51c3b37654a3e21d86cb02db99cc6acfdb76707842ad2286",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularBesselSpatialSmoothness",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselSpatialSmoothness.olean",
+      "olean_sha256": "969d2a87e54b5322a53667807732ceda908395d18158695175ef4ea553c68276",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselSpatialSmoothness.setup.json",
+      "setup_sha256": "0bdc1eba2b50a47705107fcdb247a112ba9dc518d0621e646c360aca09547057"
+    },
+    {
+      "module": "AngularAllOrderCusp",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularAllOrderCusp.olean",
+      "olean_sha256": "e9098a2ee670505739b7667beb483fbca49243c24f1e395aae5ca8a6da3dc84b",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularAllOrderCusp.setup.json",
+      "setup_sha256": "267d34e9b72866cddef73c9bdcc448947d5c1079963fdfde84b385b44640a5d8"
+    },
+    {
+      "module": "AngularBesselHorizontalRegularity",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularBesselHorizontalRegularity.olean",
+      "olean_sha256": "fd201294d43ed7201ca57825c55c30d23d02bf476ed3864b66b491c271d281af",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularBesselHorizontalRegularity.setup.json",
+      "setup_sha256": "7fa0bcaef7be08aed1faebdc6809921ae0b2a06eb98b3eb9bb2eebbfcc6da240"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "7b20b3e1876c5e38d714d416173292984097b9339d0af4d17f65dde23bcac984"
+}

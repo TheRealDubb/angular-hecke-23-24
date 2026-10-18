@@ -1,0 +1,42 @@
+{
+  "module": "AngularFamilyContinuation",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T19:44:28.542622+00:00",
+  "seconds": 17.25008773803711,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularFamilyContinuation.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularFamilyContinuation.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularFamilyContinuation.olean"
+  ],
+  "source_sha256": "2b19d8fde4877b67defbb64a83dce4a800a0f3322c2aac5cb14f06962a64c664",
+  "setup_sha256": "bfe1d86375e93bf0ace2a23d7fe9ef63d730f91496f2ea1616402f2f7abbdcf1",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularPrimitiveContinuation",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularPrimitiveContinuation.olean",
+      "olean_sha256": "2ac6e019ccd76c14aded4751f6d708703f23036596fe84c39f6b991e206fa88e",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularPrimitiveContinuation.setup.json",
+      "setup_sha256": "90c9c5355e3c6b06d1761041ab3b5c06493de1c2f830bd29a691cf36d86b9867"
+    },
+    {
+      "module": "AngularPrimitiveReduction",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularPrimitiveReduction.olean",
+      "olean_sha256": "e4b3507597bf639f3bcbc6e304db2b549f2420fc72bfb353301f695c2db47d44",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularPrimitiveReduction.setup.json",
+      "setup_sha256": "154bfb93ab8dc65ca3143bb6d0d4858c7e291b2325fe7c1563752ff494dde090"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "3d17e77f289e8b524b02a722939745a7e9d676b4e85a99c8f705b349c0994dfe"
+}

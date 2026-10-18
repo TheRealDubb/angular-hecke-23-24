@@ -1,0 +1,42 @@
+{
+  "module": "AngularHigherProfiles",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:02:57.207463+00:00",
+  "seconds": 29.086400747299194,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularHigherProfiles.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularHigherProfiles.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularHigherProfiles.olean"
+  ],
+  "source_sha256": "fd109a42067f9474796a6cec0b79494b415c29af39fa52f1fd0805115d67a440",
+  "setup_sha256": "4ad384406ba59bcc74e0207e8c21f96c8c8716fbebe824b7f7c9e56627166e19",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularBesselHorizontalRegularity",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularBesselHorizontalRegularity.olean",
+      "olean_sha256": "fd201294d43ed7201ca57825c55c30d23d02bf476ed3864b66b491c271d281af",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularBesselHorizontalRegularity.setup.json",
+      "setup_sha256": "7fa0bcaef7be08aed1faebdc6809921ae0b2a06eb98b3eb9bb2eebbfcc6da240"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Eisenstein.CubeResidueStrata",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Eisenstein\\CubeResidueStrata.olean",
+      "olean_sha256": "84a640b495bbe72c3f9b01694e04940b8c3329edf27495086e0523ca4e70fc44",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Eisenstein\\CubeResidueStrata.setup.json",
+      "setup_sha256": "4e60b9efadd0a766350ca8bbd02a7083a61c86f550962c3c1bf6feda478294c4"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "1468ddfee6858002a602359263c0e8af901321b0fbd0ea53c8d9ca860dff1e0b"
+}

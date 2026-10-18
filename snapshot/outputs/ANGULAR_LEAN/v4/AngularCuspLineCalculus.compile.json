@@ -1,0 +1,35 @@
+{
+  "module": "AngularCuspLineCalculus",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T19:53:39.008094+00:00",
+  "seconds": 18.939889192581177,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspLineCalculus.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspLineCalculus.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspLineCalculus.olean"
+  ],
+  "source_sha256": "5b50df9bfcf7d4d3ed01045e0528125a8c572adb04b8d770ce588719b510d92c",
+  "setup_sha256": "3e3d774f94010ad96bf4d38d8cae58dd186a390e6bdec8debd4cb17b8c226b26",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularCuspProductAtZero",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspProductAtZero.olean",
+      "olean_sha256": "fc8056c1d2c4c18dc5f99083da5922bc82a9bc36aa559d889994663cf02f2a4f",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspProductAtZero.setup.json",
+      "setup_sha256": "4f8ceaeb5da942a15f51909ea86c8f446f84222a9aab10eb8a04a1a08cef97c2"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "f8e0769f63a25cb33af7da3ed9fdbb76c8aa4e431089839bbebb5cbcd375e35a"
+}

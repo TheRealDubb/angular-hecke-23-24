@@ -1,0 +1,35 @@
+{
+  "module": "AngularThetaDecay",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T19:35:48.380215+00:00",
+  "seconds": 17.996975421905518,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaDecay.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaDecay.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaDecay.olean"
+  ],
+  "source_sha256": "29a9179d02893bf469138059e0be2703481ae30762b0b817b03cf289a12f9900",
+  "setup_sha256": "663c90dc7d0f2a7266a8e88772020e425e5694311840855724a156c1deb6dd24",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularThetaMellin",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaMellin.olean",
+      "olean_sha256": "974299caf9ad04d0b9a3361e72f19383d528672cceb7e0b7ada57dcf62a8d465",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaMellin.setup.json",
+      "setup_sha256": "af4e56bb5e301b9abac814ff650c89d8fc8b30c159510560e0e113779008de28"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "41fcaff8d8a6d535e8fdeeab7ec5e91ac66ede06d9ff05badb1bfff290f08787"
+}

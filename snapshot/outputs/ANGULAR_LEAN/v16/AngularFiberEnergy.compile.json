@@ -1,0 +1,35 @@
+{
+  "module": "AngularFiberEnergy",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T22:45:16.629628+00:00",
+  "seconds": 26.805400609970093,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v16\\AngularFiberEnergy.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v16\\AngularFiberEnergy.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v16\\AngularFiberEnergy.olean"
+  ],
+  "source_sha256": "f0aba2a0f47b5fb80e3820b8ef2a4def23d5dda4b17038e21c05dcab4eaab21a",
+  "setup_sha256": "9aa2e0006db7a7eb085d65e9fd8783c7d0b61878b04cf7dd9071b5ccb7cba806",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularBranchData",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v16\\AngularBranchData.olean",
+      "olean_sha256": "05c83cf1d519101eb886643fffc1d0ba6806dce13e28a23551c2bab208cee46b",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v16\\AngularBranchData.setup.json",
+      "setup_sha256": "8e52fe3afdf2199aed02f496c932c186b9de32834bf973f41df7a920dbb1ff02"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "1ee01acfa7aed1c92da91d5231a8da1430a35e370cf41e72342b90ffdd671f69"
+}

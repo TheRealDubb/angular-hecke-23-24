@@ -1,0 +1,56 @@
+{
+  "module": "AngularCuspSecondOrder",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T19:55:45.144562+00:00",
+  "seconds": 14.932322263717651,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspSecondOrder.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspSecondOrder.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspSecondOrder.olean"
+  ],
+  "source_sha256": "5f35d98f09b250e432935ef91efb29c4afacd6f7368ccb97444fe33a475aee98",
+  "setup_sha256": "b14ef3020da579cf83734e21a9b3ae2d90b1f8a4d1f09f3ba71724b118653ed7",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularCuspChainRule",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspChainRule.olean",
+      "olean_sha256": "4c31611b721c9b0275bf3065efe27b9f862059fad32b89282f2a40f6b2c98159",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspChainRule.setup.json",
+      "setup_sha256": "af9977f9f998cbd5671c08eae8e7e3a7590737042663dbbf0d20a15326da6b28"
+    },
+    {
+      "module": "AngularCuspLineCalculus",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspLineCalculus.olean",
+      "olean_sha256": "f8e0769f63a25cb33af7da3ed9fdbb76c8aa4e431089839bbebb5cbcd375e35a",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspLineCalculus.setup.json",
+      "setup_sha256": "3e3d774f94010ad96bf4d38d8cae58dd186a390e6bdec8debd4cb17b8c226b26"
+    },
+    {
+      "module": "AngularCuspDerivativeCoefficients",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspDerivativeCoefficients.olean",
+      "olean_sha256": "279a5ae1863de8eac188c70cb242046b5dc7a52f0a1b1be8c5d8a7c329ffe49b",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspDerivativeCoefficients.setup.json",
+      "setup_sha256": "00bd76aa0bccc37aaf56236004c9128d138de16aa2086760c52ca681c74f4c63"
+    },
+    {
+      "module": "AngularBesselHorizontalRegularity",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularBesselHorizontalRegularity.olean",
+      "olean_sha256": "fd201294d43ed7201ca57825c55c30d23d02bf476ed3864b66b491c271d281af",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularBesselHorizontalRegularity.setup.json",
+      "setup_sha256": "7fa0bcaef7be08aed1faebdc6809921ae0b2a06eb98b3eb9bb2eebbfcc6da240"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "253c7ef6d102358a28fda7dbea9323d6cf6668184cd6b6d415ecf01694c1a11c"
+}

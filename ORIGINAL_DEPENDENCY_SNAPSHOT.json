@@ -1,0 +1,2372 @@
+{
+  "revision": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "module_count": 332,
+  "files": [
+    {
+      "path": "lean/lake-manifest.json",
+      "sha256": "cf6105a25d9dca2f166b241d9191bd12c7e13305890dc9c4d0952351cccc0794",
+      "git_blob": "67d01d2717d0aaff59fb8814bb53581b961f42b4",
+      "normalization": "none",
+      "bytes": 14622
+    },
+    {
+      "path": "lean/lakefile.lean",
+      "sha256": "4cca977ebece444b6c999d99755c1ad3c93119bafc127ea761f7f703c7279e74",
+      "git_blob": "66c3867331c7c607ffc0e60955cc86cccf046e12",
+      "normalization": "none",
+      "bytes": 15457
+    },
+    {
+      "path": "lean/lean-toolchain",
+      "sha256": "d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b",
+      "git_blob": "ba8ebf2dbaf6a668cd2a0e086186d6d569b69ff5",
+      "normalization": "none",
+      "bytes": 25
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Arithmetic/EisensteinCoordinates.lean",
+      "sha256": "e3699b0164e7d25f292cfa429ee3ec9c0ab0cf4444cffc705ca57493ff006b13",
+      "git_blob": "e18a6cfb7b94e2cbd69ac7c54f913774123470da",
+      "normalization": "none",
+      "bytes": 30134
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Arithmetic/EisensteinEmbedding.lean",
+      "sha256": "ce0a59ae784c27a535e465b0cc6a112bef83435b66c3a9bcb274ac05dbb4febe",
+      "git_blob": "00fc7c168e5aff185607d219e34461c47994284d",
+      "normalization": "none",
+      "bytes": 27962
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Arithmetic/EisensteinIdeals.lean",
+      "sha256": "0207ad44950ad0ab475bbdc0d7da2200b55adc89b55a83d4ddf26fb954e0528f",
+      "git_blob": "cc49e3d0babdd98b025220c0ce8513e794eba521",
+      "normalization": "none",
+      "bytes": 35246
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Arithmetic/IdealMobius.lean",
+      "sha256": "dd0ae071b0bdb5746fa6362de83aa86a4ee4462810a7fdbc72f0af95b5887675",
+      "git_blob": "6c1098ed3f3018397fd965d6a250db7092e86de7",
+      "normalization": "none",
+      "bytes": 27207
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Arithmetic/LatticeCount.lean",
+      "sha256": "bcb2d1b0ad32fed28220e805fbaa2bb7b758aebb36c2647217560af7e27c97c5",
+      "git_blob": "c9ecc5198a1b8f3a7b2887db8476aff24a533e04",
+      "normalization": "none",
+      "bytes": 21754
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Arithmetic/NormFiberMellin.lean",
+      "sha256": "e8a5265dfb958a162151ab06820b9651246a8593aa09d815383744c302c24bf6",
+      "git_blob": "2e9f4728dee964d191c977ca9f8b33358ca454ab",
+      "normalization": "none",
+      "bytes": 30947
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Arithmetic/SquarefreeDivisors.lean",
+      "sha256": "da5054c7c9b6f565e96738fae5b7f2f24992100d7a0ec0da490c6a3cafd9dc63",
+      "git_blob": "622ea93921526a143e6d91357797842c94a73d42",
+      "normalization": "none",
+      "bytes": 31191
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CharacterTransport.lean",
+      "sha256": "2d856e1a80ece941771a722c15f4587845acd6fa67ff19f34684c2a69a2c4911",
+      "git_blob": "d535adcd7a1e0523b3e14b8d52d5e715620a89b8",
+      "normalization": "none",
+      "bytes": 2006
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/ChineseRemainder/AdditiveCharacters.lean",
+      "sha256": "faab90406b9a9982bd194d85f10bbd5bea3901950b9e66e1767813c1f7bd6e36",
+      "git_blob": "c34ba009940754e273217ef3a5b6dfbc01e1818e",
+      "normalization": "none",
+      "bytes": 21950
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/ChineseRemainder/FrequencyLifts.lean",
+      "sha256": "782092da365c7773ff6a804a76c04ee2f4b6d8fd033158b43929f14094c5f250",
+      "git_blob": "4c281322553acfc3d359c1489119eb3f3bf723c6",
+      "normalization": "none",
+      "bytes": 29395
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/ChineseRemainder/PrimaryCompletions.lean",
+      "sha256": "7f110a463e288c602fac99699d938f3744bbe198cf282e8b4ff67b5343e794bc",
+      "git_blob": "f5236fccca10ae5cbcc04e69d01d971a6ddafd96",
+      "normalization": "none",
+      "bytes": 26728
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/ConductorBounds.lean",
+      "sha256": "bfa719ff42741cdac6021c2f0e3a684daadce8a1bfe3aa4261ed03e0bb4ffafe",
+      "git_blob": "e13229aa6c7b44c083409f5d5e6c32113b61f880",
+      "normalization": "none",
+      "bytes": 8976
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/ConductorPresentation.lean",
+      "sha256": "1e0d47927205772b9c006920d6c740ff682f8baa1f413808c9a227410a345f91",
+      "git_blob": "57e967ce2901a5e3e90c4592890d1253b9cd16a0",
+      "normalization": "none",
+      "bytes": 7239
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Continuation.lean",
+      "sha256": "5e82c4cd2ddfad95227dbcd9f7a87c8cf9e16d62c46fee297309c0a99a9678ac",
+      "git_blob": "ca5f566eaed0bc230eb0c9bc2005e807709d2e09",
+      "normalization": "none",
+      "bytes": 7455
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/ArithmeticBins.lean",
+      "sha256": "bf074f36dd6e567704233e03f0cd611879cae6cb4e32fbeebb4427a22d05a99e",
+      "git_blob": "90a55380f59817e6becae7862b7af5ca8e39a486",
+      "normalization": "none",
+      "bytes": 33122
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/CanonicalLogEnergy.lean",
+      "sha256": "cc7ce1c9b23ad546f7071389ec4db70479cb5a7c22eaa81e041d9a7dbf7a94d3",
+      "git_blob": "ac3a535190dcadbfb15b95d5284b35f26989b6af",
+      "normalization": "none",
+      "bytes": 31587
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/ChildTransfer.lean",
+      "sha256": "03b89538c50ee0bda0fef887d70e084f03e767a9ae9207d623ba4c2e94bb5f06",
+      "git_blob": "e2da6b96eb8db7ad96ac6a0d54e69690091bbaf4",
+      "normalization": "none",
+      "bytes": 31130
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/ClosedRecursion.lean",
+      "sha256": "caa7fc4fd36c3e1b3031ca71705320aff9c7c31a02d88538eeb029a680f37e72",
+      "git_blob": "bf2a221cd768d8af7ed8194142c08db60331c21d",
+      "normalization": "none",
+      "bytes": 39367
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/ConjugateProfiles.lean",
+      "sha256": "66857b9636296724fdaba3c1ba3c30a688727fcc1251ccd7b6410f683ddfcd2c",
+      "git_blob": "40a6af030696a9e660521b8824f9a11d3b89bf62",
+      "normalization": "none",
+      "bytes": 36242
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/CrossFactorization.lean",
+      "sha256": "73001c49ec707cb5d80ec10f16a2f982eb4cf2ee0b22ef189e0a4a911123877d",
+      "git_blob": "db25d07ad352e367c303c66b127cb15722bcba83",
+      "normalization": "none",
+      "bytes": 35735
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/CubeBlocks.lean",
+      "sha256": "5052c323e3212d3314dd39c6d79b891b7db795494aa24159352a5731bdd403ff",
+      "git_blob": "d56507167d480a734ef8d9fac220116ee1793f3e",
+      "normalization": "none",
+      "bytes": 32108
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/CubeLabels.lean",
+      "sha256": "b740b4bc77b7e1a1baa99f980e8b9d56a99a789497b93ec5e053bcd0c58eebae",
+      "git_blob": "3c6fdd61fd95fce2248c72d8381c0ce01865c951",
+      "normalization": "none",
+      "bytes": 31237
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/CutoffOrders.lean",
+      "sha256": "82bbeda1cfef1cce91a8ad8490d8b24a634010953802abeec4ece42e43842019",
+      "git_blob": "f913c9856cfa3939f6d2339b839271002186bbfb",
+      "normalization": "none",
+      "bytes": 30101
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/DensityBudgets.lean",
+      "sha256": "48a755cd21192079251f34a3c0680c14562e982da53d0bd4cddc6262c592c765",
+      "git_blob": "e74b25f29bce7af5b86c05e35af88d0397455f08",
+      "normalization": "none",
+      "bytes": 38557
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/DivisorTargets.lean",
+      "sha256": "ae1b1b13dcf96ea3040b69a4e4cffcc301a2dded5b72860ffde9210b51ac603f",
+      "git_blob": "978dcea1640b1823a8b2d96e9a6b696e4792a152",
+      "normalization": "none",
+      "bytes": 35437
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/DualZeroMode.lean",
+      "sha256": "432fcac889c9a486a39f7fb0ec4268756cd30f0f7b007a5a8f7b33a12436ccab",
+      "git_blob": "9bb8b09bfe8b25b8711f425fbfd69a9320410922",
+      "normalization": "none",
+      "bytes": 38517
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/DyadicKernel.lean",
+      "sha256": "6de8958d4c3b618606abf9ac960bb05a74ace8e85392e12db1949dccfa9a2d19",
+      "git_blob": "11c0ca68d70242c066ef12a72f3685802c94b667",
+      "normalization": "none",
+      "bytes": 30327
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/FirstCoreCutoff.lean",
+      "sha256": "dc60af6029b452d8f51cbf0d0e57059efa948c2d1324b0716925a58e4dd0bcd7",
+      "git_blob": "e147d5c41d99076361fc08970523c6ba67965a34",
+      "normalization": "none",
+      "bytes": 34640
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/FirstPassage.lean",
+      "sha256": "e9492fb326d01810d11f6f52c6bad9649e3809d0d37516cf6fafede43eca9a14",
+      "git_blob": "19142dd29bade90f111dacdffab93e53e1735ade",
+      "normalization": "none",
+      "bytes": 36901
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/FixedProfiles.lean",
+      "sha256": "fb3ce03c60bdca7b5688ed2a6993de7f3ba7fb4225db5451a48dd91ecdbc7ddb",
+      "git_blob": "844c1a7913f621b9c26dabaeff467d51aa3e29bc",
+      "normalization": "none",
+      "bytes": 30015
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/FrequencyBlocks.lean",
+      "sha256": "4b680ac9cc31fb2907426952ce570ab1c0be87ed83548242d03a302468380b8e",
+      "git_blob": "4ee1ed166289c221fefd51a910e8858d898d76ec",
+      "normalization": "none",
+      "bytes": 35241
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/FrequencyCutoffs.lean",
+      "sha256": "209a962e848f5c5d5df7860a0618e15919a34771ab3a942c41c60ec86c0a92c4",
+      "git_blob": "c1db8eae995dec39725ecf06b31be574315a31f0",
+      "normalization": "none",
+      "bytes": 29118
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/GlobalEncoding.lean",
+      "sha256": "cf5cf6c8e52b2ff49b42572b50705b7580ed3be6ae647acdfed0dbd7bf6ea5a3",
+      "git_blob": "213080d32a46a02fa342809874321eac5b2faff5",
+      "normalization": "none",
+      "bytes": 33983
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/IntegratedTransfer.lean",
+      "sha256": "cbaeaa1d49569dd16cceded786062dfb7e4272dcefc7d2cd3f870a33cae2b974",
+      "git_blob": "e191ac93580523b64618c7f9f389ceee68ac4231",
+      "normalization": "none",
+      "bytes": 35917
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/KernelEnergy.lean",
+      "sha256": "afb947f47c6a955e08508cf05a6d04b5382b7ecc6a0989c244d182dbde98ff26",
+      "git_blob": "eea83aa62e587cfe842768cb216d6e1df6c5d616",
+      "normalization": "none",
+      "bytes": 41577
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/LiteralSources.lean",
+      "sha256": "4888ef5a4c4276d7c5930e802c627829cc5ea1159310e09a6acb2bc4d7c399fc",
+      "git_blob": "a79848f0c179c1338e8756263ff46b5658e281ba",
+      "normalization": "none",
+      "bytes": 33578
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/LocalBrackets.lean",
+      "sha256": "f2002647b815900d6d4bbae396d57735c5fcf3e933eb12e842e90519f42facfe",
+      "git_blob": "17aaf1302a35795b07bb4718226d1085cbf3060c",
+      "normalization": "none",
+      "bytes": 30694
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/LogarithmicTargets.lean",
+      "sha256": "1215b854cbf232872a7d4536ab5fbcd4b5b7b48cfb5067b7881316f1f1daa49b",
+      "git_blob": "c12a05adc91930b15b58659c472226e125e14f67",
+      "normalization": "none",
+      "bytes": 37042
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/LogSeparation.lean",
+      "sha256": "7ba99b6b53ffcc4a40c9a6315875df7e06441ea350781152fd94c30749551bf8",
+      "git_blob": "230dfdef039432a45e6eb6cce2ced96fe02498ae",
+      "normalization": "none",
+      "bytes": 32120
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/NormalizedMass.lean",
+      "sha256": "28afd7885f63e547d36737cc05e3cab2cfe4ad2f4e0dc8ad73590776ee2e7b3f",
+      "git_blob": "3c8370453411e89645c8fa8d6d75c802f7bed393",
+      "normalization": "none",
+      "bytes": 33330
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/PaddedPassage.lean",
+      "sha256": "324b2bf1a21040a9994dbd94853f14d8bca1aa297a78be699bc11e9ab95e50d8",
+      "git_blob": "b64529f5cd567ffe25eed42c32dc19de03bba2b4",
+      "normalization": "none",
+      "bytes": 35170
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/PooledRows.lean",
+      "sha256": "23d203cb634c40ccf0ee52be065d76b368cfaafc9c4493f45d6ff1eded361ce7",
+      "git_blob": "7f2032bcb5e7cda4464c0ee21e0855bf66475f9d",
+      "normalization": "none",
+      "bytes": 32787
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/PrincipalDensity.lean",
+      "sha256": "52f35a5259e2f383a2f57e5e0924102c158904f71f5710cceb499e443e8e2e33",
+      "git_blob": "dc40e1e412a1318128e9edd60ee493d43f132a10",
+      "normalization": "none",
+      "bytes": 34673
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/PrincipalNormalization.lean",
+      "sha256": "5eae16e8332295ad0a32992dcb6b6d469158240cda532493520d509efd49be1a",
+      "git_blob": "bf7d27f0ab50cae458e9fa40212838597763dd26",
+      "normalization": "none",
+      "bytes": 34106
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/QuantitativePassage.lean",
+      "sha256": "9abb0b7909494b09587017f6bdc731c69d379770aecece0d458e8f0d5f637600",
+      "git_blob": "c6ff994dc7f77081436f7a59a98e373bd3123091",
+      "normalization": "none",
+      "bytes": 35351
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/RadialProfiles.lean",
+      "sha256": "a5924a8c9d2c3c82262a8d694e5501231bb076cf3ec7096849b1b157e31622f1",
+      "git_blob": "5a5a4f02efe0f460b9277ebfde218904451fda21",
+      "normalization": "none",
+      "bytes": 29929
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/RadialWindows.lean",
+      "sha256": "0a49c50c4d2f90ad82c36977b3e215b04ec673851514bc3954afc467ba2fe975",
+      "git_blob": "d3e04d4325e4d24a84ad23a75701965f9f15d83d",
+      "normalization": "none",
+      "bytes": 34510
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/RankMargins.lean",
+      "sha256": "81836c5c38cfb704e1f9323e8365865d75325071a3f33420a93e866b7ad849d3",
+      "git_blob": "4df3f231dac6d3bbd6c7c27b5ee77c7b09fa32f8",
+      "normalization": "none",
+      "bytes": 31458
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/RayCoefficients.lean",
+      "sha256": "abdde869bced9a8cce51df7928ae25ebe4a952376f5c023fdbafdc89ec47f7ae",
+      "git_blob": "0fabcf9311468b76399accb1654bd36f94f46aad",
+      "normalization": "none",
+      "bytes": 29024
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/RayExpansion.lean",
+      "sha256": "c5596f4c56825b5318dfc1c3edd3f6c5a24860b789ee448e64278ebfa0fda6e5",
+      "git_blob": "a96ff8ebd1bbc7d6c53e6e82c0fdbacd499f3a69",
+      "normalization": "none",
+      "bytes": 35524
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/ReopenedFibers.lean",
+      "sha256": "47a6cabf590d0fbff7882955afb52dae789c4164c8b2f65fc9bd5a01859d693c",
+      "git_blob": "713b246c6a63a94ce67a1eda2172605324c084d9",
+      "normalization": "none",
+      "bytes": 39315
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/ReopeningBounds.lean",
+      "sha256": "e7ba71bec0612a1b72554b523bdcda5d4024699a2ccbdad5bf636cda439b39f5",
+      "git_blob": "f655025e69094e2e3f109a17658a533127de1aed",
+      "normalization": "none",
+      "bytes": 33299
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/ReopeningSeparation.lean",
+      "sha256": "79b1ffd159e3d6f3249876a22ab5476fc73d6bb81398c8cbee40b0ff98a52dfc",
+      "git_blob": "4a28054e887eb7c5efce3c51174004452dca3cd4",
+      "normalization": "none",
+      "bytes": 30389
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/ResidualSectors.lean",
+      "sha256": "af8d601f6afdf6c21a37503080f62050ea51220ed4e8a58b706b9c82305bfdca",
+      "git_blob": "f9ab1f0c3378ccf25b41021bbb00fd92308fbe7a",
+      "normalization": "none",
+      "bytes": 29717
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/RowCaps.lean",
+      "sha256": "1ffb8b680360de85a1d968c7147aed82866a5f2547d375429f41c47a8eefd707",
+      "git_blob": "ad015cabb098f02b0630bb739b4bea6c0ec12af6",
+      "normalization": "none",
+      "bytes": 34090
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/RowMajorants.lean",
+      "sha256": "d52d177d3b020f672d68290b522870617bc96eea472536b97c1c8a3c193e4f46",
+      "git_blob": "ba3ffe57fd9a3cfd4df28071b584b457bc168960",
+      "normalization": "none",
+      "bytes": 34592
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/ScaleCaps.lean",
+      "sha256": "0f162069ac5c2780f65b5ee78669fed62aa16d9e1a9a1ba675315faef1d9d945",
+      "git_blob": "7cc1d0586b566416b0e905f7a7d3ab7524eb7e72",
+      "normalization": "none",
+      "bytes": 42670
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/SecondPoisson.lean",
+      "sha256": "f232672f377173ca9f828f3ce1c77489054d642e327a11916adbc97bf27f28d4",
+      "git_blob": "613f602d6838cd62052b123aff34f3f2ab052669",
+      "normalization": "none",
+      "bytes": 31826
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/SquarefreeTransfer.lean",
+      "sha256": "2c1f664c0434c28f32f649463f60f7f654f19de233b7f25d3a06d55b5b96cd95",
+      "git_blob": "6f8d245a85c9a824dc62bad03dbe9b910ee32372",
+      "normalization": "none",
+      "bytes": 37081
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/SupportNorms.lean",
+      "sha256": "49f4e662cf8f7407826a23a91786d14ee429c203361723b603d518e76df97bf9",
+      "git_blob": "810edce289c6ea25fbd3a89aea5adc2c06c76319",
+      "normalization": "none",
+      "bytes": 36193
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/TwistedProfiles.lean",
+      "sha256": "083e8f6c05bb95de00d0a98c552b1d43649ce07c5ff04f21749d7bbd9220406d",
+      "git_blob": "f29c8f7578b9f930ace6265e135e1916ecb706c4",
+      "normalization": "none",
+      "bytes": 37662
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/CubicSieve/UniformTransfer.lean",
+      "sha256": "f8de2ec62e8fac2fc55c141d33149a9c8c5d3d79d402c3495f92ebb868569c89",
+      "git_blob": "8a8bb8858d3ef24962c1815bbf2f11c59131fb7c",
+      "normalization": "none",
+      "bytes": 45295
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Cusp/MatrixPhases.lean",
+      "sha256": "20641a475a52f4d80d0461973465346a5fdaa4b21107e94bbac8cfd96b100167",
+      "git_blob": "2809777b2ca74d934bdef1b0628712e253b2bf90",
+      "normalization": "none",
+      "bytes": 24816
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Cusp/ResiduePhases.lean",
+      "sha256": "fd5db4ed279545cf88cb848bd498275c8d24dc8f3d158190db1cda1ecb52f718",
+      "git_blob": "8da97e71862801eb8f92a23dda1f637330f17ebb",
+      "normalization": "none",
+      "bytes": 29902
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Cusp/ResiduesModThree.lean",
+      "sha256": "5669337f308cd6c704bced622982a38b10d07829f6755418bcb2609fe4c2a4dc",
+      "git_blob": "e08a71ef20fc398ae8760972043cae03507e125c",
+      "normalization": "none",
+      "bytes": 30791
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Cusp/StaticReflectionPhases.lean",
+      "sha256": "0cf6e362b173a959bf7e5f2e980e29149e29ce36032fdf92f317d91135850161",
+      "git_blob": "1544c14bd237198a1a3402ea9f19b56d280a790b",
+      "normalization": "none",
+      "bytes": 31325
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Cusp/WeylRepresentatives.lean",
+      "sha256": "2560ef95fb63e72eadc02177074749614e2949d4142126e3fa8e3ce6641d2b15",
+      "git_blob": "d2203ae464bedc1412c25895ad0af24dc0feb1ed",
+      "normalization": "none",
+      "bytes": 28712
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/AffineCuspFourier.lean",
+      "sha256": "bbe6759e7f6e760210cb5ee7fb868cc41c0aebb4ec7156cfd6dd0a94ca08cb79",
+      "git_blob": "24d2a977b5e0c219f6db7ec06dbdf5f2dde0c008",
+      "normalization": "none",
+      "bytes": 34478
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/ArbitraryCuspPullback.lean",
+      "sha256": "c6525efbc1321162a539e9b085fc2cb85c857a0e1657da5626af0d71d504ce54",
+      "git_blob": "77eaf4c7e8602c4e9a1d0c1b5238133f83a87311",
+      "normalization": "none",
+      "bytes": 34454
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/BarrierPotential.lean",
+      "sha256": "34aa482353717e87ced20278147874f0f2697c720db0d224a3b9f547fe3c2a8e",
+      "git_blob": "cefe344ba6bd068dd1920e53c04be27c5e3d5aee",
+      "normalization": "none",
+      "bytes": 31123
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/BesselDerivatives.lean",
+      "sha256": "8e22a1da1ba6e6d7ef545bfca144513d8904d00ffbbb83bcab81232707dbf7c0",
+      "git_blob": "af50c22e9e64a030cb9d34de2df6e398cbd81c06",
+      "normalization": "none",
+      "bytes": 31003
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/BesselMellinTransform.lean",
+      "sha256": "3cc7ba1b5e4ccadb9b2e5099c9e850d910d1ee5284096813019fe64753af1dd7",
+      "git_blob": "a3d45c4b24deb242e5fb6d7223468e2b105e641f",
+      "normalization": "none",
+      "bytes": 26462
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/CompactEnergyFamilies.lean",
+      "sha256": "895150367a2a113d4e16b072eddc9ef1ce7f3cf861fb891641101fdd9c6c6893",
+      "git_blob": "559d3a8e1e44cefe3b6f31ea120866470e5db6cd",
+      "normalization": "none",
+      "bytes": 29307
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/CompactProfiles.lean",
+      "sha256": "ab018d028523f35991c994f8d50a3cb7ef5454e4a3c3d5574c7d41899a26f72a",
+      "git_blob": "7e0ea2cf6e677e289082f1f863c529b498695dc1",
+      "normalization": "none",
+      "bytes": 38129
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/ConjugateCuspProfiles.lean",
+      "sha256": "c935e1e023e9217bc4f2d5d0d4eea6537d5d9ad789f418566ce9e38a504fb3e3",
+      "git_blob": "93f2f164581b36ac6dcd27e0fb54685a26ea5381",
+      "normalization": "none",
+      "bytes": 29735
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/ConjugateLevelAction.lean",
+      "sha256": "7f7ca628f1099385d079e845e669c4692bc4f84ef4291513ada64cc820d82366",
+      "git_blob": "ec24213c371d03f66029e804dc835e2642dff28d",
+      "normalization": "none",
+      "bytes": 35553
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/ConstantDirichletSeries.lean",
+      "sha256": "42375ebafce8472e6f6fc90b65a791edf577b82a84d2dc3c20068a2b31b58d44",
+      "git_blob": "808b6c93ae3df61002dd72b9eaac8155c105ca64",
+      "normalization": "none",
+      "bytes": 30339
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/ConstantTermSupport.lean",
+      "sha256": "b9de3765135208bb0288fe4c6265e718e516585f9e259fe09110fd09f14ed5d1",
+      "git_blob": "e1355a1df5e695a8ca556882c183a7090ebe6b03",
+      "normalization": "none",
+      "bytes": 30313
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/CoordinateLaplacian.lean",
+      "sha256": "c2890bdef185a468f506b85e2c8abb4e0c276af30e01e66d49387e3c876c7787",
+      "git_blob": "de71a81d2c9a56ac6b2d2b857dc4619ce8ea0fbd",
+      "normalization": "none",
+      "bytes": 31607
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/CorrespondenceAdjoint.lean",
+      "sha256": "465902afbcba262b87633ef5c7c3b2c679ab3b88896b3bf90a99107cecc4e7b9",
+      "git_blob": "ce1d72a598632ccbbdeb2a0ea9129d1c3a6dbccf",
+      "normalization": "none",
+      "bytes": 32634
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/CorrespondenceEnergy.lean",
+      "sha256": "08c272b7ea2da1394a35b1d43798efc856046c814b8f45d3ebd8d66025898507",
+      "git_blob": "b87b298154f10c96cccd2ff81ab0d2a3aab33766",
+      "normalization": "none",
+      "bytes": 32503
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/CorrespondencePullback.lean",
+      "sha256": "d377c2857f83681273430284c236c4e36f49c3345e573dfedb8002e1370071d2",
+      "git_blob": "ad61827f1fddf963b921340b9963d0d8a2b584a3",
+      "normalization": "none",
+      "bytes": 33415
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/CorrespondenceTests.lean",
+      "sha256": "f6fb7deacb3e02b908781343bb5cd63f08b72894bf773a569c1da217414c6cda",
+      "git_blob": "d367bb415b58230877264b38f2f52ab2e17d81ce",
+      "normalization": "none",
+      "bytes": 34496
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/CoverTrace.lean",
+      "sha256": "ee81ca40f3324c2807c9d2b8ddfc79c6132ac80862dbc485ca831e4127800d5b",
+      "git_blob": "48643259a1e73fc24f113ab182359a04f21d1720",
+      "normalization": "none",
+      "bytes": 31261
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/CubeCuspAverage.lean",
+      "sha256": "7f43d9ccd8b3a985d3048539e001221a55671c8822fd88f50bf2f26438be9ddd",
+      "git_blob": "76947e8ab43c3add977fb648ff717c03f59eb2f9",
+      "normalization": "none",
+      "bytes": 32787
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/CubeEigenrelation.lean",
+      "sha256": "65b940fa98ffaaaf49561e36c103a39f1c5c9ba4a2df833acf25a62ae24dd7ba",
+      "git_blob": "370dddfd3c63ea221d66ab32e237b200d488000d",
+      "normalization": "none",
+      "bytes": 30583
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/CubeResidueStrata.lean",
+      "sha256": "395f646488de11481dab9fcb1270db591cd5bcce06eff3d828ead02638ecaeed",
+      "git_blob": "30131152abfeb423e317a3c5201150d815f95ea7",
+      "normalization": "none",
+      "bytes": 27539
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/CuspAverage.lean",
+      "sha256": "f229f1fd1125b76732560aee62cfe3e7f9dea3a39626f9a2523acbe07a08285b",
+      "git_blob": "43d6d62f242a1a8bfde01ff0a790897bb213fbe6",
+      "normalization": "none",
+      "bytes": 30293
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/CuspDilation.lean",
+      "sha256": "d5e0ea6d1486278f3d2d75e7c50ba55977543ae117af5197a1b79455f8dc392e",
+      "git_blob": "a9d3bce856af89fb296cd2d631b07515899aa1dd",
+      "normalization": "none",
+      "bytes": 28697
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/CuspHeight.lean",
+      "sha256": "f42e1fd406a61f5ec479d3e7889d42c1880093ac27b21bdd83297e5b3eafbb66",
+      "git_blob": "c49a8fe267d1a63e35e66c2c798882e23c825339",
+      "normalization": "none",
+      "bytes": 31179
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/CuspIntegration.lean",
+      "sha256": "ea45860d5b37638dc7bf498090b3821f11c6320cafe9d5668b942a833f417f3f",
+      "git_blob": "e3468ff3eae71340a820d38117582e112720bdf1",
+      "normalization": "none",
+      "bytes": 41196
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/CuspResidues.lean",
+      "sha256": "d2fda4f589bb97b11e7215e3f8d159ca24739684eb448f60711b630fbe1d3590",
+      "git_blob": "8004cf8d00ce8f622d272a2d775875fc05d01c47",
+      "normalization": "none",
+      "bytes": 35945
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/CutoffApproximation.lean",
+      "sha256": "26d2893e506db572e630ae50c9ce32ec42f561f3ed90c9892155a925ccff0a6f",
+      "git_blob": "8f300ab5c2b1707b41f65983b1e9d6307a872031",
+      "normalization": "none",
+      "bytes": 32986
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/DirichletForm.lean",
+      "sha256": "7e2badae293ad8ba491822b8b14b5188868428f210606e2752553e40fe6761c0",
+      "git_blob": "31e55062e1bc4afba39d17724f7fdd772f271346",
+      "normalization": "none",
+      "bytes": 31675
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/EntireMellinProfile.lean",
+      "sha256": "6b451edbc9a81602ef313056b02371d4a26bb7baa55debffac16eccf9685008f",
+      "git_blob": "66e72fa4e541ffe7ebae77f971e4e4d7297dbdd5",
+      "normalization": "none",
+      "bytes": 30174
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/FixedConductor.lean",
+      "sha256": "f644f63b1e9d735658f616059dffaab6bc22d4323ad79edcb2ab73d8a9cfe467",
+      "git_blob": "0c6b2ff70dc679a0f4410108a9d00eeee25cfdfa",
+      "normalization": "none",
+      "bytes": 31395
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/FixedCuspArrays.lean",
+      "sha256": "8a9735a01cfd98c3745094028db29df94594dd1d10b7fc5de0a24f620350077c",
+      "git_blob": "4bc660f9b063cb2506f4b22c12bb67c29323a840",
+      "normalization": "none",
+      "bytes": 33901
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/FixedFrequencyExpansion.lean",
+      "sha256": "147b6a869c1a68f126f68b8430b9446d7bccd34402ef2deb51d6352f3b0f200a",
+      "git_blob": "83199152b31b7ccd616e055436a8338c2572e59a",
+      "normalization": "none",
+      "bytes": 31542
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/FixedThetaTwists.lean",
+      "sha256": "8aa61529274beb6f42b7584ffe317de37c7649ab99514866dc8eb2a87b96352f",
+      "git_blob": "66ca148c038898d0327583fcc9cc4edbf574052b",
+      "normalization": "none",
+      "bytes": 29392
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/FourierCoefficients.lean",
+      "sha256": "73f35c200beb697d81223235ddba7c6d3529aa62c0857a42bdf65beb535a2001",
+      "git_blob": "6ac9d42f895dd7daeeb9b23d804f7b2af3e68348",
+      "normalization": "none",
+      "bytes": 30608
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/FredholmAlternative.lean",
+      "sha256": "f21621cb451f18d949dcd949897df2fbd30ea2552b894293aa60a78fb0bc36f7",
+      "git_blob": "56d327fc387b0a7e4949bfaa186ac27f9da6ad26",
+      "normalization": "none",
+      "bytes": 33203
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/FullFrequencyExpansion.lean",
+      "sha256": "f6ba6af56eb2321f6d00980586c2190158c729e00e305af1bf38623bbadda717",
+      "git_blob": "1e4c9089420f792370d37b8022c910c30c49b68b",
+      "normalization": "none",
+      "bytes": 27622
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/FundamentalDomain.lean",
+      "sha256": "ef062fec1374a8357443edb52a70e33f0b6c5b6318a3675a94ce09397d433bd6",
+      "git_blob": "40035615383b1b535b7d9c9ae666f15f466bcb95",
+      "normalization": "none",
+      "bytes": 35010
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/GaussFactorization.lean",
+      "sha256": "3d94eb6d99032833643c849cd4596281cabb3ed5a035c9f8e667e17011fd9bad",
+      "git_blob": "719733bc30c0b05fcf0c527339397a19bb7b4603",
+      "normalization": "none",
+      "bytes": 31551
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/GreenIdentity.lean",
+      "sha256": "6a8cb7a54e025401f4d5d1f2dac3595a53940fec4ed69cbb59c028f68cac209a",
+      "git_blob": "1e0f2468a0bd55f5d79db2137c17db54de2e4027",
+      "normalization": "none",
+      "bytes": 34521
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/HyperbolicSpace.lean",
+      "sha256": "7e26e3e66e8e46814a84e5a03d223547d497327f5177a8f9b9306016f253c29d",
+      "git_blob": "45627aa5498aa148b200452118190a3aa3480b3c",
+      "normalization": "none",
+      "bytes": 27460
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/HyperbolicVolume.lean",
+      "sha256": "8c3aab3d32df1f51fb34bee7bb4297d813140caad07ed5e5592d383a943a9268",
+      "git_blob": "9a844c398867e2bb5a6d11cdf06d7186946e693b",
+      "normalization": "none",
+      "bytes": 31136
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/IntegralCover.lean",
+      "sha256": "e8e2813019516ed764bbd54066979f83b5908fad2836578afb28790dba7518d1",
+      "git_blob": "22811d95ccd68d7796a55f74237efe33ddccd8ff",
+      "normalization": "none",
+      "bytes": 34007
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/InverseCorrespondence.lean",
+      "sha256": "65b7533164abeb7b08edcdcb3e366afe9f0d5954ae268505f98c7cbb4f165f5d",
+      "git_blob": "556b12f2e6db92aadddb5140756b7f726edc812f",
+      "normalization": "none",
+      "bytes": 33221
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/InverseCuspCoordinates.lean",
+      "sha256": "b6fe12c57904fccfa6ea027e2b9a41b595de257635dd4615b21b8ddd2f8bade9",
+      "git_blob": "a660ae491923e706779633d16642dc421df5c03e",
+      "normalization": "none",
+      "bytes": 27687
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/LocalCutoffs.lean",
+      "sha256": "1791d6dd574ee0d8288d77b087b9e2d6f485dc2beb401a600846eba6cdc0a316",
+      "git_blob": "8cda032e5aca1e1827785ec4b17447cd05c8783b",
+      "normalization": "none",
+      "bytes": 34213
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/MeromorphicResolvent.lean",
+      "sha256": "3cff92549cd07c861846e4a28df2202f794eee3ef9fed52ab5157144b2b48645",
+      "git_blob": "a966372450e690c876f01af94ea12ee4dc9315f3",
+      "normalization": "none",
+      "bytes": 35936
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/OppositeCusp.lean",
+      "sha256": "a9405a37a1c385d5c32bd3cbdf6f8904d0ed100f59e283fb11984fd9cc9ad155",
+      "git_blob": "6ee50a02c064812aadef17d7878be8bbb0d66474",
+      "normalization": "none",
+      "bytes": 30085
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/PrimeGaussFactors.lean",
+      "sha256": "6945dae60beda1c8d425bd9b22ce953d71c417bc5a2c0fbf1d6d6df3768be0a3",
+      "git_blob": "c89ffbcd262837931e0edb4e2bff1f6e1f12b75e",
+      "normalization": "none",
+      "bytes": 32223
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/PrimePowerGaussSums.lean",
+      "sha256": "f08de15f301586d79eb28505f401324b83df709a7f4e374b47b13d1d37699af4",
+      "git_blob": "83e2df3aad4a0c00b964bb671a75eef62e8d4c88",
+      "normalization": "none",
+      "bytes": 33741
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/PrimeRecurrence.lean",
+      "sha256": "81dad378c9cede43d2053cad96171f842019ae83ebc84f6ec05f1e27bea31688",
+      "git_blob": "18a19b4c6d4575468cd0adc1cd0faeb3bb022f5d",
+      "normalization": "none",
+      "bytes": 30884
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/PrimitiveRows.lean",
+      "sha256": "c6154e230f6a02734a1c6dd0e6c206d2f4786d0365b9eece1996ed7b67737149",
+      "git_blob": "165f549527782d50e20e1cb204898e226fa084de",
+      "normalization": "none",
+      "bytes": 30664
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/QuotientTopology.lean",
+      "sha256": "f5678b485ac2676e890b1b6bd20f420e0ae86a130e12506d2f45aba6d94e1f61",
+      "git_blob": "0cb1d987d6def1945bda2445736007c8c79078d8",
+      "normalization": "none",
+      "bytes": 37672
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/RamifiedGaussSeries.lean",
+      "sha256": "99b25e640f6ec4a22162fc054fb04b86846448af69499fe28b44046a859b7d0f",
+      "git_blob": "5d3ed3efd6c0db6a72d87586255c902fbf58a129",
+      "normalization": "none",
+      "bytes": 26412
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/RamifiedNormWeights.lean",
+      "sha256": "27ca2eb8d85b202e403789ca080c4efdd8e30f53cbb2061da53fc99789f1c5ae",
+      "git_blob": "0252525eaf6fb3c096286f9c8be48261c4b9dd82",
+      "normalization": "none",
+      "bytes": 29710
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/RamifiedSixBranches.lean",
+      "sha256": "0da590091cc234b6ff0c9314e78cedcad50b5d9e22fd2ecd54c5d1ecf66767e0",
+      "git_blob": "b3bef06d8859980e3594c50940754d6e80b8924d",
+      "normalization": "none",
+      "bytes": 31533
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/RamifiedTransform.lean",
+      "sha256": "600ddc6c3205d1a1faca8e4495703d35f4f93fbcc45f2e88435a7b9fe5a0cf58",
+      "git_blob": "dab9ef8644ead0ec1245b3166ef587ee2444f0d6",
+      "normalization": "none",
+      "bytes": 30694
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/RamifiedValuation.lean",
+      "sha256": "f387ff9794c6dee76b80989686d685e3a136f5bc6e2c6133c306f7b864011e6e",
+      "git_blob": "7964449fb7f2d6df1ad6fee39b508524f923e03b",
+      "normalization": "none",
+      "bytes": 33102
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/RationalTranslations.lean",
+      "sha256": "617df3f531065924d9f62e2a65ba4f33b84c4e389084e6be4ea70594b3def2fb",
+      "git_blob": "8d2c458029bcf5485d6ab50aa366d9ac6494b802",
+      "normalization": "none",
+      "bytes": 33384
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/ReflectedCuspMellin.lean",
+      "sha256": "d46a7926f33947f15ae3e9d00fdb5495e8af6cdf1b771dc9035a6ebc5cb47edd",
+      "git_blob": "746bf36a50c2beca8bbb3fab44a0079a1f402b6b",
+      "normalization": "none",
+      "bytes": 34216
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/ReflectionFibers.lean",
+      "sha256": "d585663bd9772292150668fb218adfe3ba055a71f229a6e374f9de01a0058049",
+      "git_blob": "f3f7149c99ae9991dd0e607381a1dbd44301f2e9",
+      "normalization": "none",
+      "bytes": 28636
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/ResidualCuspDecay.lean",
+      "sha256": "74a59113fdcb7d904d27054530ada03ef3d876b1ffefbcb08b9a6f15d72f5c5c",
+      "git_blob": "e3d49b15a939410bc31868d19426ef96a7b64763",
+      "normalization": "none",
+      "bytes": 31708
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/ResidualFourierBounds.lean",
+      "sha256": "3992a53330dc896355f9744e89f09781b055d2a8d0c99c3f87ddc1d2249c020d",
+      "git_blob": "2341067c18e36021aeefc66a1262fc40deee312f",
+      "normalization": "none",
+      "bytes": 36722
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/ResidualFourierExpansion.lean",
+      "sha256": "412e4049ef936e30bad3e286d9e73a6e6e70c5bf66a18ee355844c06413581a1",
+      "git_blob": "58a82ea35fc34d95d7ecd8b988104b817f01e7b8",
+      "normalization": "none",
+      "bytes": 29987
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/ResidualFourierSeries.lean",
+      "sha256": "1a7a32d5eb921322d0bbc830308c217b3e791e22f6f41c5a94a4ed1f890b9a25",
+      "git_blob": "e6601ddd0e564954537dcd0b58acc2968ab479b9",
+      "normalization": "none",
+      "bytes": 33329
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/ResidualOrthogonality.lean",
+      "sha256": "b40471e85b7c21ead806f99c264ffdbd9675c521bbf27fa9d389f74818ad8ed7",
+      "git_blob": "a233624476ff3035ea52c004761276cdb6a0b7e0",
+      "normalization": "none",
+      "bytes": 29555
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/Rows.lean",
+      "sha256": "e1dc4f2c8f0112180e67fcde0714b1e6b5c029e6b87adfecab3860a573a508aa",
+      "git_blob": "cb1a46b0b38b5a7f00c5131f3556d50c208f0420",
+      "normalization": "none",
+      "bytes": 26573
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/ScatteringCoefficients.lean",
+      "sha256": "f0520ea6bf2a1efea393c0ed3e3b14ac64f80f7a0d4849c12bf9ddd7ccc5a02d",
+      "git_blob": "0b5312bd91bbd1f046ac9734917c5bcdc6fe3908",
+      "normalization": "none",
+      "bytes": 37756
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/ScatteringResidues.lean",
+      "sha256": "34ef8abe76d4592ff9277f30808d74cefd8c5bd16fff87c433425328ccd50544",
+      "git_blob": "53a983eace8db0e441793856410babfc65940168",
+      "normalization": "none",
+      "bytes": 31054
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/SeedDefects.lean",
+      "sha256": "84d756d4f63556c745485648efb25fb39dbe65b530f3750332f44d360a933a8b",
+      "git_blob": "d231a06d1fb1c4314e37fcb886132ea50c34c36c",
+      "normalization": "none",
+      "bytes": 36718
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/SeedHeight.lean",
+      "sha256": "66be2c4e5522cfcce39313e6881eba43efb5c006c60074be04c8dbe211c0fe79",
+      "git_blob": "306e4ed4548a4ffdffecaf1da82c247ff553df8f",
+      "normalization": "none",
+      "bytes": 30600
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/SmoothCuspCutoffs.lean",
+      "sha256": "0e3447dc237d29e57d96f993939fd96411cf488e298726088256b460e379e186",
+      "git_blob": "7533529eeb9dbd429c5719e94eee91f1f1719e46",
+      "normalization": "none",
+      "bytes": 33540
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/SmoothSummands.lean",
+      "sha256": "3ca1acd9402fc3df665d38d035b7b956ad9160474719991b6f95bf2b16e423bb",
+      "git_blob": "41000c6798a2ac607b2e1781f3e15ddd0d61105b",
+      "normalization": "none",
+      "bytes": 36834
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/SmoothTests.lean",
+      "sha256": "aba89b76bc4b7c11533c26af4e024843ff64af8f632c909c0802e10788308db6",
+      "git_blob": "134db6c6372afc799390b6fd13de7b01b6543733",
+      "normalization": "none",
+      "bytes": 33383
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/SourceBesselExpansion.lean",
+      "sha256": "945330421ef559aed774fb3776019a4a3d767a5f86ab2d5004dbc1f68d8d0968",
+      "git_blob": "97af5d5713a76f4b7141a4b6f908870325d20050",
+      "normalization": "none",
+      "bytes": 33929
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/SourceCuspKernels.lean",
+      "sha256": "821da51cb4db6bf70f5e4b005ad5bfa8711e4ba181dcbd5a2045c6eb0f1d3ecf",
+      "git_blob": "906a678f81520e0d9313d590dde112f23dd9c9e1",
+      "normalization": "none",
+      "bytes": 29242
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/SourceMellinInversion.lean",
+      "sha256": "980fda0a1173f92dabc089e7f002c889b858db6bda4e8c07c6fcd29c184ea4e4",
+      "git_blob": "7830dfe17fd39e4b462832d6ff6a2fa786b37080",
+      "normalization": "none",
+      "bytes": 30386
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/SourceProjection.lean",
+      "sha256": "c85a3c9cead0519a990c8036170a1c3ff6600b03a87b76724765bb79cd8ebe7c",
+      "git_blob": "f6a97c47a404f41f8ccfb90ed7d01fc60a305948",
+      "normalization": "none",
+      "bytes": 29251
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/SourceQuotient.lean",
+      "sha256": "b12e6da893af919f830e88bc51d9201bfd55c33b627220b1ca89a07f7811b7c1",
+      "git_blob": "aa871ed605cc6e83051acb2361797c7bf2ae79b0",
+      "normalization": "none",
+      "bytes": 30040
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/SquarefreeCoefficients.lean",
+      "sha256": "9715a7b8385bebefefe4e642be887838c5f95165608dd7f35458bad395e0d2d8",
+      "git_blob": "c824ead702d8d6ee82b1456d25c7d3847ea15c64",
+      "normalization": "none",
+      "bytes": 27400
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/TranslatedFourierResidues.lean",
+      "sha256": "7cdbe982716d2c4932a573634f7a019bfe9b93d627fdd31668977f1c77c86cee",
+      "git_blob": "5fd10c4a726e984c0b30d31bc5118c5ec885fa6c",
+      "normalization": "none",
+      "bytes": 30335
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/UnitNormalization.lean",
+      "sha256": "d6e2c448f97f60cced629e1f7a390dfca1f6007537b1db256b9532206710c062",
+      "git_blob": "fa4c3434d200a7fd7e38c7daa619bfa4553ab1c8",
+      "normalization": "none",
+      "bytes": 33089
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/VariationalLaplacian.lean",
+      "sha256": "056490af1a915e434289b57c9ed6943ca6c522b427512f78bba9f31346d827da",
+      "git_blob": "d478506058afda3a2fec549114d91f70b271d32e",
+      "normalization": "none",
+      "bytes": 35494
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Eisenstein/WhittakerContinuation.lean",
+      "sha256": "f58c9c870c116dda730f07d5b43b6ebd8dc83062d1b7cb24f51b77ee1db45cac",
+      "git_blob": "358b68311598b0b2f4af0ed7bf1474ab6a9546ae",
+      "normalization": "none",
+      "bytes": 34967
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/EisensteinTheta.lean",
+      "sha256": "da30674e27b65d10a3f472564263c57e26c24a9f1986e22cdcab26209e79da17",
+      "git_blob": "bb0e5d1bf34612f953c0b411c6308a184df33afe",
+      "normalization": "none",
+      "bytes": 6247
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/EulerFactors.lean",
+      "sha256": "50f6f2d96896496111c5e21f79dc8ba20ddd0dfba0421da1a83650361f239572",
+      "git_blob": "434927c959480d2317c48e778b1ad5e05256d89b",
+      "normalization": "none",
+      "bytes": 3049
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/FiniteConductor.lean",
+      "sha256": "efff3ee4999760e7db7b797896074878bfe220865fe5679f96e6f23e2f8c5955",
+      "git_blob": "87f1a4186177c895d91a4236a388ad73b89f9aa0",
+      "normalization": "none",
+      "bytes": 6268
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/FiniteFourier.lean",
+      "sha256": "2bf96ef222c6a2d587e00567ca46688b378bb11547621ea3037270e0905ff84c",
+      "git_blob": "50ce5d61dcfb97ef8620bdd3540ce3bba7ec46c8",
+      "normalization": "none",
+      "bytes": 6179
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Foundation.lean",
+      "sha256": "ebfe6353a647f9e09bce1891343398e49094bc60f72b9b525f1e0fe97ee9e59d",
+      "git_blob": "6e5eb3e049dd725f960908ea1f80e80712318c8d",
+      "normalization": "none",
+      "bytes": 18060
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Fourier/FrequencyTwists.lean",
+      "sha256": "b0adf20206c6e064a5bb9d82eda42b5a63aad139140f496803b87d804b46c551",
+      "git_blob": "debf9d95802ee80a548007c3def5f9434e6f3ac2",
+      "normalization": "none",
+      "bytes": 31337
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Fourier/LogDensity.lean",
+      "sha256": "a3eb6bed0afbb2e4054ef484b3c57210ac599f953aa5580d27b67988fe1c1032",
+      "git_blob": "c666047671b31209953f92b4ee6833e862387dae",
+      "normalization": "none",
+      "bytes": 30618
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Fourier/PositiveLogProfiles.lean",
+      "sha256": "5fd3ab9a7523009f2ea23a36b42f220eee975e8db31b1205dc932509aa21f2e8",
+      "git_blob": "626fbaeed60858f772f2a934d8d4c273e1a6482a",
+      "normalization": "none",
+      "bytes": 40458
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Fourier/TupleWeights.lean",
+      "sha256": "3bf8c7fdf4ede391645c6244f113aa752c8b38831a843869dcc03afa1619840b",
+      "git_blob": "8c71866319abba3ed8a30e02e6700f6781b3865c",
+      "normalization": "none",
+      "bytes": 32205
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussianTheta.lean",
+      "sha256": "ae3496a86f536df3c5eb068eb006818cfe15c1de183946de06b1b46a250d1e8f",
+      "git_blob": "b36fe06c170ec382eee57914062ec6ddf5970920",
+      "normalization": "none",
+      "bytes": 15352
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/AbelPhaseLimit.lean",
+      "sha256": "53993b78f3b59061c136fbf292f1c1291dac99c0ef9a8378b035f984e66fd78e",
+      "git_blob": "861125319b35ccb0513eeb26a5bda1bcda59155e",
+      "normalization": "none",
+      "bytes": 25764
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/ActiveConductor.lean",
+      "sha256": "c7bef7d846cb76f5cc7fee07191f35e9ac89c6f9ee79877705c94e8872249ce2",
+      "git_blob": "1fd55e7af7946baac158cc7a651af122d104981f",
+      "normalization": "none",
+      "bytes": 31049
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/ActiveReindexing.lean",
+      "sha256": "1164b2b1a3cd5ceb019521e6e908fb475d50feee94695759de0021c5446b5a18",
+      "git_blob": "df7ac443d613f8f03ce2ffe23947656c7cee6d87",
+      "normalization": "none",
+      "bytes": 30041
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/BesselReflection.lean",
+      "sha256": "d25806f3923da61e1f3cd5fd70b0c28febcc2d51f70765c14e97b0042d703ffb",
+      "git_blob": "89217ff94a7f067e73ae3119afd6cef825468586",
+      "normalization": "none",
+      "bytes": 32044
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/BranchScaling.lean",
+      "sha256": "9d0e679cd9254946d3f6d70785a903348f00b70f1823443737815995fd632a81",
+      "git_blob": "f3e8f7ce0ad29779a6b3d56279b75c7063cbd4c8",
+      "normalization": "none",
+      "bytes": 31108
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/ChineseRemainder.lean",
+      "sha256": "8884d2987203e1ffffde1a4a69663a41915d11e8be255e6688376a167e9c21e4",
+      "git_blob": "cfc17434ea42992fc625ee141eb5412d42bcde4d",
+      "normalization": "none",
+      "bytes": 29196
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/CompletedDyadicRows.lean",
+      "sha256": "df231006e788b1255565e1914b703bb3f78a8c513426232334c4d41ac2cdde98",
+      "git_blob": "e9f2736bb601becd67d22dfb67f297f49b3c4d0b",
+      "normalization": "none",
+      "bytes": 30766
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/CompletedExpansion.lean",
+      "sha256": "01569023b64065bc867e0a0ce170bc71a006758313b4b05b886b4af7a0b7ee94",
+      "git_blob": "d9436239ccd86ccfca3bb92468f3f4cb94603b85",
+      "normalization": "none",
+      "bytes": 32585
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/CubicNormalization.lean",
+      "sha256": "39534abc411210d7f2e8736994a72cf46abda4e5b937dd2f507a00a6bd96324a",
+      "git_blob": "41afff43493b953416b8120bdc6c5ba966ef108a",
+      "normalization": "none",
+      "bytes": 24109
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/CubicTrace.lean",
+      "sha256": "cb21f0e22054cbc24ce4cb9d0ba7cd69297c10482ad2418e5f4431eeb13cd13e",
+      "git_blob": "88c9c3df43e3a3fa64c623e659e8cb03f85c5923",
+      "normalization": "none",
+      "bytes": 35072
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/DualKernelSummability.lean",
+      "sha256": "0e698285af1dba4ade360062aa2095fe1f9ea45776cf7b656b2df0d26c7f2c8a",
+      "git_blob": "23f71bf1b547162e5f51bbb6523ba1874fd44036",
+      "normalization": "none",
+      "bytes": 27022
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/FiniteFourier.lean",
+      "sha256": "0e8e4184de91161a75802e3a26abfd19a322dffa6441968bf9caeb25800b5d7c",
+      "git_blob": "06304e1efc036727b3fa27e37dd6a06ce0bf5e56",
+      "normalization": "none",
+      "bytes": 59918
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/FiniteTranslations.lean",
+      "sha256": "433fc19b3771f3d14f595ec15f121fa25d1e579047291ee4ce8d8c6ef21f683e",
+      "git_blob": "dbbfb77423971c21067ba946c466aced46a4b604",
+      "normalization": "none",
+      "bytes": 27631
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/FixedRayFibers.lean",
+      "sha256": "7c6fa56f60cb842441dafc8e727ee46be05bde1335f59d1104b058ce64421c7c",
+      "git_blob": "34b6c8dce66a6d0da6277fe625f8956efa7cca21",
+      "normalization": "none",
+      "bytes": 29435
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/GaussianDualLimit.lean",
+      "sha256": "f665567f3702c04d2a05c64ef2850f7a9eac3e67d6a3ab6f4594892fcda67d91",
+      "git_blob": "b05695c1118bb7d9f2d9a365b0baacd95d4d825f",
+      "normalization": "none",
+      "bytes": 23247
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/GaussianFiberMass.lean",
+      "sha256": "3a282037cb84afc186e3f2e374369543ca08f14fdd7529d3eddf48d9cf995690",
+      "git_blob": "44cb72a496313765e620f1f378483e3de04dcbcc",
+      "normalization": "none",
+      "bytes": 25205
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/GlobalScales.lean",
+      "sha256": "810f85a5bd5136f497d21031ad79106bcb73ff5d0075aef8d1cda30a11570bca",
+      "git_blob": "aae476224c7f720e82bf70410da6864117fe54c2",
+      "normalization": "none",
+      "bytes": 39231
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/LocalProductAssembly.lean",
+      "sha256": "cda1a20b78d89a7d5c8c91ecae5f8ab2ee1d695d9a23394d3297404d63707d09",
+      "git_blob": "6f9f7d9474357cf24c9fad3dd7180a8b011017a2",
+      "normalization": "none",
+      "bytes": 26558
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/MellinSupport.lean",
+      "sha256": "f1421d1fb2a954d78b1f618d85156aca861ee8fb97a5eb41b7cf24b4fff3b429",
+      "git_blob": "1da606b0e3d6d5f9448d51a3ac807239cc4e0a19",
+      "normalization": "none",
+      "bytes": 28657
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/MixedConversion.lean",
+      "sha256": "7a7d7459142cb9f2462fd41c7d59b28ab4c5a55e725a6cf2336f1083dca84df8",
+      "git_blob": "9a5ff04b9a2c6ff6f9995abcfea75ccf31aeab44",
+      "normalization": "none",
+      "bytes": 36715
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/PowerfulParts.lean",
+      "sha256": "fb9f1875a1ba3c3b2eea80943538bba741a0d2cc8e7a7d8b17d3eacaf47a712a",
+      "git_blob": "8ff47525cb36ab13898590c030b8058373cae6d7",
+      "normalization": "none",
+      "bytes": 36448
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/QuadraticNormalization.lean",
+      "sha256": "9c53a3ed0355834facdea096e2e402ad83893a7688e603f4f3f572a1f3f39c62",
+      "git_blob": "9c9ea7701dc83d4eaede222ee02f6afa7d77d9a6",
+      "normalization": "none",
+      "bytes": 35528
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/QuadraticTrace.lean",
+      "sha256": "cd11e2de58ab4326bcd2d7c376ef25987f8a06031d5cf3ac67e1b9f704d10048",
+      "git_blob": "3eff643ef6e9df3bd3694b6077a996eeb329325e",
+      "normalization": "none",
+      "bytes": 23933
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/RamifiedTracePhase.lean",
+      "sha256": "2928d469a01996582b4c0ed9c3795d3ddde5a34c76b636a95616550858bf0ccb",
+      "git_blob": "6e5a9c2ec29306a0d9c3d44deed406f43354aced",
+      "normalization": "none",
+      "bytes": 23115
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/RayCharacters.lean",
+      "sha256": "1dd2abcb3b701760af193e7ec339fb238a82dbce044276a6dc39fcb85cdf17b4",
+      "git_blob": "9adbfc8b822b1695ba146b2468630a6081ff6c6a",
+      "normalization": "none",
+      "bytes": 34153
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/ReflectedBranches.lean",
+      "sha256": "ec2f89738ea74354e0b152f496b0e248a203130fd78cb778b8aee0ec332755d4",
+      "git_blob": "126c49f7d836c9388b23bcba00943d53322ad750",
+      "normalization": "none",
+      "bytes": 35875
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/ReflectionBrackets.lean",
+      "sha256": "d151b5efbcd982f613a10187cebc7105d0a7c2cb8559991e3ff178c31e49d2c9",
+      "git_blob": "efed607b0eda7a30d07bf9ce7a11b218526402c7",
+      "normalization": "none",
+      "bytes": 32351
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/ReflectionPool.lean",
+      "sha256": "d212ab20bb18930de6c970385f93156c267b17e0606593de376ba68f9a6d535a",
+      "git_blob": "df89a806cbdc057c5d79fec7648cccd5ccad3d09",
+      "normalization": "none",
+      "bytes": 32525
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/ResidualEquivalence.lean",
+      "sha256": "c0e0c97ca9636fce2aa1ada1fa884e3d69efd251f7e5482751b3f9541998c9b5",
+      "git_blob": "b21933582e6ae00806800ff2384a98a4a70cf42f",
+      "normalization": "none",
+      "bytes": 33011
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/SecondPoissonScale.lean",
+      "sha256": "5453ff3e38024577604c103d57018cad7f4caecc57297192d2de6c56fa9a99d5",
+      "git_blob": "8137b57c1d8279ec5c58cb80555a9da158799f8d",
+      "normalization": "none",
+      "bytes": 41605
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/SexticNormalization.lean",
+      "sha256": "11bc22bdaa6864eeb8792acc6cd1f33094e5c8726af5aad95e483b0d66656b76",
+      "git_blob": "85788ebc6a7d751a4388844d594c50a902121aee",
+      "normalization": "none",
+      "bytes": 25054
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/SexticRadialPoisson.lean",
+      "sha256": "ca68cab23a762c9ec4b0cccfea9c8aab39596e713ff561bf199394d4c79173a4",
+      "git_blob": "d06abef7f561b28392ed3a27e0c58227e5493c37",
+      "normalization": "none",
+      "bytes": 40081
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/SquarePhaseFactorization.lean",
+      "sha256": "72607eef57bb692a8f488250c84294fd058057bd9c56235116afe799acb4c74c",
+      "git_blob": "5a62ad07fdbbd95453c4f241085f72e9a846f655",
+      "normalization": "none",
+      "bytes": 27596
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/GaussSum/ThetaLocalRows.lean",
+      "sha256": "785995f2ef45c7b5a3ca7885fd7433d44e5be445154c17706e5c465dc36e774e",
+      "git_blob": "02b45076f6c33cefca8da74e9a430da97dc743d3",
+      "normalization": "none",
+      "bytes": 23105
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/Boundary.lean",
+      "sha256": "10cf42c76993a667b631241e70e3105681331d83a466beb9cdb069392d623fc6",
+      "git_blob": "0ef0adc9f0eefd385d8f82fdb577e3e99f91a0dd",
+      "normalization": "none",
+      "bytes": 29643
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/BoundaryIntegration.lean",
+      "sha256": "404bb346650e5a84f6e839eaee1c4598b45296af0dcaeacd2bc6a5a0470a5045",
+      "git_blob": "d919a9aef5ab81575c7cdc3a4bbfe2bdc3e3941d",
+      "normalization": "none",
+      "bytes": 3269
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/CharacterAnalytic.lean",
+      "sha256": "e426e0a61e9e7caaa8bf95071dd6a2b86464fee067bcb43c0ac7b58ca989ea28",
+      "git_blob": "0cfa1c5a30e5a619d182d70a1c1d4d5eae502a95",
+      "normalization": "none",
+      "bytes": 5140
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/Coordinates.lean",
+      "sha256": "0bd4412f7f9599222632de140616fc1cb0105d9c47e3d730a12857c47b0918ab",
+      "git_blob": "afab18be7bcb5a3a9590457f285a3b286553ef16",
+      "normalization": "none",
+      "bytes": 3861
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/Euler.lean",
+      "sha256": "3c2d31189b4eb5efa3417c73fa7390c7add3350143df5e98fd951a375631558d",
+      "git_blob": "e5a4790fbd39d41b27c04efe8cfd45d238c189aa",
+      "normalization": "none",
+      "bytes": 2024
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/Family.lean",
+      "sha256": "9871d175749b34ec40cf66ccc14b4faa0a9ef08831cb3fa901c944e57c7b9ec6",
+      "git_blob": "3d87da47cd57f0a4f11859c654e3e3202a519100",
+      "normalization": "none",
+      "bytes": 3888
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/FamilySeries.lean",
+      "sha256": "e1f13693e9b19dcdca6ff4da5e2bba935790506dd253228372fdc23356ce946a",
+      "git_blob": "445b25ae3b9c13d59ee0ac03c5c8d8b6777970d2",
+      "normalization": "none",
+      "bytes": 3066
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/FiniteDeletion.lean",
+      "sha256": "dfb26a8cb221175f3c7cef4e854e21c467b040ca903bde1ff75bca00ff7eeee1",
+      "git_blob": "87804d8c6e1c119b6fc4dedbebc3e040dd7032f5",
+      "normalization": "none",
+      "bytes": 7526
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/FiniteEulerFactors.lean",
+      "sha256": "54d432aa1884ffb6f3652d9c32a4e7d893d742e941842b3192f8801e4f7d9d14",
+      "git_blob": "fd80570730fa825b14520d70c41835e3f4aa9b09",
+      "normalization": "none",
+      "bytes": 29035
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/IdealBridge.lean",
+      "sha256": "6c1fc33b7372108323bf3af3d4ab6f6e454ea9896b89e78964463a8e35df735f",
+      "git_blob": "bcb15758326db111dd0b007b79a58103a4fa659e",
+      "normalization": "none",
+      "bytes": 5193
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/IdealOperations.lean",
+      "sha256": "81fb7846d22a952e64ca4e97177b11aa443a0a7b9be827a6be13da8576c8f01e",
+      "git_blob": "eba511d195344d51351eed2f6aeb8914b3576110",
+      "normalization": "none",
+      "bytes": 2047
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/LocalEulerIdentities.lean",
+      "sha256": "2ac43e029b570b5804aa1b1f5a9142b2736678c84fed57905365d898029014b0",
+      "git_blob": "c96c6adc859aa13d8a945e8798340076d969c0d6",
+      "normalization": "none",
+      "bytes": 32374
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/MobiusEulerCorrection.lean",
+      "sha256": "75d572e9739e36d437d021ea13f7d32e8bda8702c6dce6d02b40fa11b03d4f32",
+      "git_blob": "84f6919166421a00c4e1ec289db1f7af8a59cd77",
+      "normalization": "none",
+      "bytes": 34854
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/NormFiberCharacters.lean",
+      "sha256": "65bd032797c30d9d9ab5c7ee4d98eb8ee552e4333516e1f771a390faf6be765c",
+      "git_blob": "443c266bbd83d1391f6c1473be3211f8f597bc15",
+      "normalization": "none",
+      "bytes": 27481
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/Operations.lean",
+      "sha256": "489c63376991b67a57b09714e80de6f990a18943d498601984c9bcbef71b00fa",
+      "git_blob": "d4f95f5b0b1224d94644d1159c6e1e663d3c647d",
+      "normalization": "none",
+      "bytes": 2021
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/PrimeExtraction.lean",
+      "sha256": "1da3b4eabf405bcf8e37af8340154791b0b79ded6b552287914158976f0956e2",
+      "git_blob": "c096d30c4029f0522837a653ab046294c75c3e00",
+      "normalization": "none",
+      "bytes": 23710
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/Reciprocal.lean",
+      "sha256": "d243f1e44bb2fcec20d209300980172dcaf2f5a09e31c45dcb761343b9c9e89b",
+      "git_blob": "410473525d9137044367ae748bac302babe923d4",
+      "normalization": "none",
+      "bytes": 5082
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/RowClosure.lean",
+      "sha256": "de7e714eb48cc959993b8e58311cae6090e3258670a5c5618db6d98b19b986ea",
+      "git_blob": "807f0d81f722d25db47e97f9cc5d48ecf703bdf2",
+      "normalization": "none",
+      "bytes": 13533
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/Theta.lean",
+      "sha256": "5fe20e38278c74632a0b77aac4bc7a2b6217360378178e0b7dc5085cd73954c9",
+      "git_blob": "80c0dae9ed00c82f982c93a151e29d68bc064b79",
+      "normalization": "none",
+      "bytes": 10476
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/ThetaSeries.lean",
+      "sha256": "25d74f312961971c15115137887094db35e9ee466127444694a4da29a007a2d1",
+      "git_blob": "90831515f03c3125f1eeb52ea30a76d8cbf34493",
+      "normalization": "none",
+      "bytes": 2931
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Hecke/ZeroSupremum.lean",
+      "sha256": "3b3ca749fb669e5a278a5d956a61eec73bab919e0369f7d46d2abae2e0f0011e",
+      "git_blob": "1139da5652ec349aebb9f395fe7ca0ba6e1fa654",
+      "normalization": "none",
+      "bytes": 2889
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/IdealCharacter.lean",
+      "sha256": "ae9e08095d0eaa044a305e11db19c7d363302159897fcd54d07f65f952cc1f6e",
+      "git_blob": "b07c7b3e309678863c8d3161a0e3cbadf307cefc",
+      "normalization": "none",
+      "bytes": 11400
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/IdealEuler.lean",
+      "sha256": "6d266b5758b5e34be713d67cdaccbfdb9686899f20f22e75ad1fe574eb785825",
+      "git_blob": "95b4c97b19b2250d5aaedb779e118c3993330288",
+      "normalization": "none",
+      "bytes": 15026
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/LatticeSummability.lean",
+      "sha256": "c8c238c1504428039efdfde34bf6c56958038ef60913490d3b5e0bd5d87801d3",
+      "git_blob": "2913b3f38b364154c5755d8a0b1ec00cbfc042c1",
+      "normalization": "none",
+      "bytes": 3587
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/MeanSquare/CanonicalDensity.lean",
+      "sha256": "110aad3190ef2f2bfb7dc422ed4f02f4b8dbd5b7eba685c841b0b38771fd52bf",
+      "git_blob": "0824d364db43ea74fdae0466d3c261aa77a977b2",
+      "normalization": "none",
+      "bytes": 34476
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/MeanSquare/CanonicalTailBounds.lean",
+      "sha256": "4a7fe863e5abd113e7c98a36506f20bb80f89253e9b01aba0c31d6bd71b1173d",
+      "git_blob": "42a4f3ecfa7c2ffe3e3c08da4e7eb4097543d2db",
+      "normalization": "none",
+      "bytes": 37406
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/MeanSquare/DiagonalDensity.lean",
+      "sha256": "fe5c40e52effbe06e56ca897b86b56ff3e69513df6259e1ce2f366bb3da0f045",
+      "git_blob": "8309cb4d8dfc5b95da756163f728c0980c72cf50",
+      "normalization": "none",
+      "bytes": 33903
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/MeanSquare/HarmonicAggregation.lean",
+      "sha256": "7c9ad1bd2f44c4de6567080753e9afb64252392366337cb628db4e02f9696c58",
+      "git_blob": "eefde5b65f4b988545ba8b83d58dfc9258ca8ec4",
+      "normalization": "none",
+      "bytes": 36057
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/MeanSquare/HighRadialBounds.lean",
+      "sha256": "62e5ea716c68c1bae7449bceb3650220667fee2ee8d6f972b2e877efa8f09822",
+      "git_blob": "276158cff6f41f413fe324d2808a845c97ea329f",
+      "normalization": "none",
+      "bytes": 32584
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/MeanSquare/InputEnergy.lean",
+      "sha256": "0ec1f738fe80aef452f38abcff849e1049d4e5c088aa8d60379c629749e5b356",
+      "git_blob": "b8a93056714cdb1e22d201f1d184060acb1a2fa3",
+      "normalization": "none",
+      "bytes": 34373
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/MeanSquare/LogarithmicBins.lean",
+      "sha256": "f3f4a46d2183c3388b0fc8566c45384dfe5f8c189dd9322e86421889052d90bb",
+      "git_blob": "e5b6e891e66888d8faccd70cb400f6e3804347ea",
+      "normalization": "none",
+      "bytes": 34829
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/MeanSquare/OutsideIdeals.lean",
+      "sha256": "8a82948b64d0b417b5b1c2287bcf7d848a5a00c2187dc767767b5db5c63a340c",
+      "git_blob": "9d4993b00c3fd2477f3827e8e8cc6bbddbbe7e97",
+      "normalization": "none",
+      "bytes": 8486
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/MeanSquare/PoissonSource.lean",
+      "sha256": "bc07cdfc3e24fef666e5ee885ba84c53cdf60b4d1d7294fee4fc0eb40dfa39ca",
+      "git_blob": "5a4e8a91d99ba929c5ce73c97c8fd57b8741b0d4",
+      "normalization": "none",
+      "bytes": 39804
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/MeanSquare/PolynomialHeight.lean",
+      "sha256": "6a2a9872f8a071e495291b5fc16ed5d9402c0e76728bb231c72f9e354e07c312",
+      "git_blob": "45666b77e81093dfc34112b42e47410fc0989973",
+      "normalization": "none",
+      "bytes": 37604
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/MeanSquare/ReflectedDyadicSeries.lean",
+      "sha256": "802274350373afc99d21c84ae7a90b69862ecf981e65094236440de15570909b",
+      "git_blob": "e36024a43de63e73455be9845f7f727ca6b75971",
+      "normalization": "none",
+      "bytes": 30838
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/MeanSquare/RetainedDensity.lean",
+      "sha256": "1723ab7836b304eb9ec5388dd105613bace95e7c2a8e2c728ecfe75774b97ca0",
+      "git_blob": "26e1aab8e74550935ba78230fddb432bd9087772",
+      "normalization": "none",
+      "bytes": 38483
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/MeanSquare/SourceRemainders.lean",
+      "sha256": "17730eaa323879fc918194fddc78c1b95db74c949e85f6842dcf0049442f3141",
+      "git_blob": "d3f33c7ce161afdc637f544015f0dcd4dcf7840e",
+      "normalization": "none",
+      "bytes": 36973
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/MeanSquare/SourceTransfer.lean",
+      "sha256": "1d27c07cfa41e4438dd61f0c6f2de6abc26091f352260eab6d6d1ee2a7771b76",
+      "git_blob": "b39286f27f36e24ec3638b40493f4726f6be5406",
+      "normalization": "none",
+      "bytes": 32232
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/MeanSquare/ThetaDensity.lean",
+      "sha256": "317247ddc7135b06a35186f290ece58d0abf8a4e9025bcd7c96697e32e5206b4",
+      "git_blob": "41953ce61e46265d47fa81ebf69eb33e5ecee367",
+      "normalization": "none",
+      "bytes": 34305
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/MeanSquare/TransformedColumns.lean",
+      "sha256": "5db804f219387b4af4730d4d24cf20d85ffaf40ac90cdfd725e5dbcb7410c84f",
+      "git_blob": "70a7841fee5be5da0656d604f946466e420bfaab",
+      "normalization": "none",
+      "bytes": 34212
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/MeanSquare/UniformPolynomialHeight.lean",
+      "sha256": "f8331197ab797c9cd4ef54678d886fc926a0625878179343e2561ab75a97663a",
+      "git_blob": "1a6d6b089d3adfd025dda13d2e8d31041a524cf0",
+      "normalization": "none",
+      "bytes": 36335
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/MeanSquare/UnitRows.lean",
+      "sha256": "4d4ca338e12ac2144de16e27ba9186644bc9676ab178dedd952e5bd2970bbbb5",
+      "git_blob": "8d05eacee7ec0645c8546f30a886594c066f7f9c",
+      "normalization": "none",
+      "bytes": 34484
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Mellin/CompactScale.lean",
+      "sha256": "7262fb3b7362a6e3cb153b685ab4fd7c27a1214f0fe6b8e9d42a1708bdc0431d",
+      "git_blob": "33e119a984e9d61bb07da86de10d0fed916cd18b",
+      "normalization": "none",
+      "bytes": 35496
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Mellin/CompactWeights.lean",
+      "sha256": "819234aaf334c97ea09351c4f6e0171f187718cda5e4d8dcecae7f7db45d79dd",
+      "git_blob": "e7864fbac8a212328614c6dc263a6ee1f48b77f0",
+      "normalization": "none",
+      "bytes": 23733
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Mellin/ExponentialSmoothing.lean",
+      "sha256": "cf2ef440e2058d798f362b45d09db9ff7464911c750978c20713bf0f96a41491",
+      "git_blob": "769622b0dffc24c0522dd6b0f4326b35da9adf18",
+      "normalization": "none",
+      "bytes": 26619
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Mellin/FiniteEulerRestoration.lean",
+      "sha256": "1fcbfb1b01e40575a1fd017fd625f123fe8d5eeececc6549c15ca6532cb9a87f",
+      "git_blob": "8d92a34a608f182da045d8484ae68c1f759ee47f",
+      "normalization": "none",
+      "bytes": 30523
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Mellin/InverseContour.lean",
+      "sha256": "77a34ef6a916727383393a046051fe1f1424a5583344a883f6a6bbf9da283d44",
+      "git_blob": "7a3a90f5076faba3a309ca636fd37cff0e2926f1",
+      "normalization": "none",
+      "bytes": 31963
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Mellin/LocalNonvanishing.lean",
+      "sha256": "74e3eb47b546ccc6759405b0e686bafd3e5691b48925f45303ae1137b9016c5d",
+      "git_blob": "a442103b0c57804c4411e6ad66319592adb2a918",
+      "normalization": "none",
+      "bytes": 25210
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Mellin/LogProfiles.lean",
+      "sha256": "ff8735e421a2ee659df15272704206f2d114d7e2a849e8a755d545508f4038be",
+      "git_blob": "4ca0df6768674c87654fe3637be3851c8c6d12cc",
+      "normalization": "none",
+      "bytes": 66745
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Mellin/ReflectedKernel.lean",
+      "sha256": "1b8cdac8957ad098d2834e9ddc30a6653abd526dd91632e5477dfc8525e2a1e6",
+      "git_blob": "9df21c0c6338c3174e12cef9e794799f571b60b0",
+      "normalization": "none",
+      "bytes": 28196
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Mellin/SixthPowerAverage.lean",
+      "sha256": "5e83e8741e30c8163745b493223c3018cf7146f565f49e8520fd75427818aa56",
+      "git_blob": "54e707dc12ac026a0fbd50c04a1b326217fd93d4",
+      "normalization": "none",
+      "bytes": 33456
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Mellin/UniformKernelBounds.lean",
+      "sha256": "bc8071918ac9e5a87485400e8d6fd22bff752d993e70f8c8f61067329bd24c11",
+      "git_blob": "ec1a013f10358ed5a4d47659f95d6f0fedf53f1b",
+      "normalization": "none",
+      "bytes": 34058
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Mellin/VerticalContourShift.lean",
+      "sha256": "58bf5cc6eea4e4cbb530518eab4067c296833000fbd13ef3cc603a4faa727a7f",
+      "git_blob": "845c74f1630daf8fdbb2a5c79c601b175a43cc5a",
+      "normalization": "none",
+      "bytes": 27699
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Moments/Basic.lean",
+      "sha256": "437f147882d26f668db45b3ed9721f3c9c334ecc4e76fe22e8848e005f26ba71",
+      "git_blob": "f7aed3cfcfd45cd5c87e7db5f5815b15973eab70",
+      "normalization": "none",
+      "bytes": 11764
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Moments/Canonical.lean",
+      "sha256": "3f13deefe9d03002173a565be205edab82dfa53f50ff2a66b860b8b4ed22b358",
+      "git_blob": "91df584105ed95bc611b0c17ac584668b19b8a79",
+      "normalization": "none",
+      "bytes": 6569
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Moments/CommonSupport.lean",
+      "sha256": "113f473e9110173390c8d05d3471bf87f6e4a4ebf1cc95ab0dca0b1f4732f396",
+      "git_blob": "99c57c0e77a4e022e1f368b545cf3fc945d744b3",
+      "normalization": "none",
+      "bytes": 11648
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Moments/Correlation.lean",
+      "sha256": "90d0837fc41a775de40975dae29ff985ceaf4a4b01e7c1f0c078de251addedbe",
+      "git_blob": "5c9a0dab0fca7273ad839ab2dd240b163eeeefa2",
+      "normalization": "none",
+      "bytes": 12254
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Moments/CRT.lean",
+      "sha256": "870db8546c08aea6d11ffad289fcd0e6c8d2454d29d3cb04a9c1ce269935aa36",
+      "git_blob": "7cadbf8f9097552131ad1b88f3d66175d7bb4597",
+      "normalization": "none",
+      "bytes": 5565
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Moments/FixedRay.lean",
+      "sha256": "93bf6619e9b13079c5181df0aaa48e2781dff3f191a301e033bb73857b766cd9",
+      "git_blob": "519cdf66f7972822cd8e82d58b689829dcfcceef",
+      "normalization": "none",
+      "bytes": 7226
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Moments/FullCorrelation.lean",
+      "sha256": "1ca3f1b22920fbc75dd7f41351aebd6293db8a421196210048175e235d51ef65",
+      "git_blob": "86a82fab14daa72c201229d871ca9595dee320a9",
+      "normalization": "none",
+      "bytes": 7843
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Moments/Lattice.lean",
+      "sha256": "c10b2547ea7aaea9732333a1631dad6983cb605a99f7a93ac396d49a751ae4b6",
+      "git_blob": "1645239efdfb1eac219649c0d89b401a5fc41cdd",
+      "normalization": "none",
+      "bytes": 8905
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Moments/Mask.lean",
+      "sha256": "d97b84e6f9e170826f96c17bda9cbe979257f5823032244acfc48702d9071e43",
+      "git_blob": "05e5ec6958c082c2a1bfa24c8ad55b45ed48f88b",
+      "normalization": "none",
+      "bytes": 5686
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Moments/Primary.lean",
+      "sha256": "bd589a83fd21ddad4ee199b4c3724672c2faa94898866a7a839402e4827d523b",
+      "git_blob": "c32701f9d2362010bbdc7fbf8d66cb267c047a54",
+      "normalization": "none",
+      "bytes": 7184
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Moments/PrimePower.lean",
+      "sha256": "bc1c13575d102be643e58ccf58777559f8dacb3529caae27c08fab91218bcc55",
+      "git_blob": "7a0ce5b8b20c582674056b865e726b217c189493",
+      "normalization": "none",
+      "bytes": 6637
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Moments/SupportedCorrelation.lean",
+      "sha256": "1b1544a26117427e8f81bbd6cf36248b1899164a746e63215716440c82c9a82e",
+      "git_blob": "60ff9177fcd60a676148d529885c01ae12869f50",
+      "normalization": "none",
+      "bytes": 9738
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Poisson/BinaryGaussian.lean",
+      "sha256": "a00b58ab5dc7d2b0e0bcfedbf29372b276dcffc056e0f4e8911d9a6630c61eaa",
+      "git_blob": "cdb3b926bd9b6421dbf55b7262bbbc3c6d208067",
+      "normalization": "none",
+      "bytes": 30935
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Poisson/EisensteinLattice.lean",
+      "sha256": "0853b934802de3bd7a308988983964fc801d54fb96a44710cacfc4cc5d500536",
+      "git_blob": "226813526b901f11057d4e4ae0f4be1a52957d4d",
+      "normalization": "none",
+      "bytes": 27994
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Poisson/GaussianMoments.lean",
+      "sha256": "748ddcf5d8126be339ac5d05dd8d67a7dc0c232f055c9cbfc84b98889fafcbd9",
+      "git_blob": "3e8f66426e34558e063220f936fd0453dc449d33",
+      "normalization": "none",
+      "bytes": 23440
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Poisson/LatticeEnvelopes.lean",
+      "sha256": "f14ab74f6e52c9b8ce94799157dcd2a129e78ef990c3521d74fdeaf7f5c36835",
+      "git_blob": "563eef624e6c69f65e941aabc683cd09803027c9",
+      "normalization": "none",
+      "bytes": 37341
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Poisson/OscillatoryGaussian.lean",
+      "sha256": "a57d5f82137b5908d287a50eee88f6a6d7810c1eff3f1b5f8960134723cc70dd",
+      "git_blob": "c32bbe07d46fbfcebdf111095345a28316c94fce",
+      "normalization": "none",
+      "bytes": 24244
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Poisson/PrincipalTruncation.lean",
+      "sha256": "92b624322980b29e4756775d4d7f2b40d00c3f8c6eb9b94641db126a51a24e5d",
+      "git_blob": "6a3163acd002965e5e68b408271d3e34e30b63f9",
+      "normalization": "none",
+      "bytes": 33720
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Poisson/QuadraticProfiles.lean",
+      "sha256": "c132cd3f3731f2589379f8affc780f1ded9283841f1c225e63eeb34b53cfc018",
+      "git_blob": "7604af10688fa75b2a90d82caca57da8b725b34f",
+      "normalization": "none",
+      "bytes": 36156
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Poisson/RadialFourier.lean",
+      "sha256": "68d0d11ce81916b00e43a03bdb65a60094954c2fec44bea991dc9f7f29a84263",
+      "git_blob": "aa523f187da7bab91ce9000682ee730ec8ddd478",
+      "normalization": "none",
+      "bytes": 28220
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/PrimeRows/ActiveGaussFactorization.lean",
+      "sha256": "944b4154dad5c6ca880a210a9e23a0add57d944c5cd6748f36d6eadc2a55d77b",
+      "git_blob": "556b4c24de1bf947a705fee6b5fae38cb0295974",
+      "normalization": "none",
+      "bytes": 38645
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/PrimeRows/IdealGenerators.lean",
+      "sha256": "3c934cf47286a751655cc5aff2def2793e760f703c0cfd5048a0ed33ae69a533",
+      "git_blob": "8d847f4da79d1364769a8c6948f1039030389d73",
+      "normalization": "none",
+      "bytes": 26878
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/PrimeRows/NormFiberExtraction.lean",
+      "sha256": "e7d2b7ad532e2a7fd3b3910e970b904a92d9e56a8fc6bdfabcd60ac2e6eedf22",
+      "git_blob": "fd3bd0b8135b1751b71e1d29d5d08adc59d1eba9",
+      "normalization": "none",
+      "bytes": 25685
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/PrimeRows/RationalApproximation.lean",
+      "sha256": "012355cc98f2de5f32ba6d9a09d0f7702f2b17f4b28bfb4c3d09143e416083f6",
+      "git_blob": "577160055a08716f23d77ed2100d5433a65fa611",
+      "normalization": "none",
+      "bytes": 23881
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/AnnularLifting.lean",
+      "sha256": "8c80c67bfaa27f8c7a2b1c58c630141574f40bdeac1114db09cd54c7b648695e",
+      "git_blob": "20685311caacdfe7afa09fe0413fe6e9a6a79984",
+      "normalization": "none",
+      "bytes": 32687
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/AnnularRecursion.lean",
+      "sha256": "6e09a66a8f79fcd654bd40e49bb288b739e70d1ed2e4fb294543ef45de71ebd1",
+      "git_blob": "17dec79fe7bc1d4fc609aad6b69b49e2123b834b",
+      "normalization": "none",
+      "bytes": 31704
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/CoefficientCancellation.lean",
+      "sha256": "4e5d5286ced57ac8ec45136d112cbc215d5ac7ee46fff4a2c8e3a77eb77e2069",
+      "git_blob": "3185b8d488631005e12b98d070118106c48f0aa4",
+      "normalization": "none",
+      "bytes": 34959
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/CommonMasks.lean",
+      "sha256": "3d974dc4aeb9d277ab4be2a3dfe0a9722ce4505ae63eaf2af89afe040e116c0d",
+      "git_blob": "2e88f1fc178b792bb642144a8a911007f6c14862",
+      "normalization": "none",
+      "bytes": 32516
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/CoprimeBilinearBound.lean",
+      "sha256": "ec14257256dc7e0441b2fb52d435bde1627fa0c3a18523da27367d2de60029e2",
+      "git_blob": "acdf23433390343a7cdbc2e2400757e235f58d71",
+      "normalization": "none",
+      "bytes": 28409
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/CrossSeparation.lean",
+      "sha256": "b76feecf4a3bb5055eae0d2eab5d0010ea881623d77cdf36ba2b66042b2a2ab9",
+      "git_blob": "e20f174cb2ae48cc9388a5f7d7495c1894d54b24",
+      "normalization": "none",
+      "bytes": 28076
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/CuspCoercivity.lean",
+      "sha256": "96228e3d216646d2ae4e211a86159e78023ea5cc6e4c593073b6bc75dda5b570",
+      "git_blob": "37ea732127a9a0bbb13d00682bb38d861d1f14f6",
+      "normalization": "none",
+      "bytes": 29861
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/DivisorBlocks.lean",
+      "sha256": "48be5e32c0a93e4db774fb62cd825cba57c02074ed646a5bd8dbab81968d3f60",
+      "git_blob": "a31a9ebedf25df9079c32497509590dc65c5a1e1",
+      "normalization": "none",
+      "bytes": 37576
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/DualMiddleExpansion.lean",
+      "sha256": "67afec6b5aaa9228984f79b0c1f2f332779ff9100483bb276e4f6b8e776a5403",
+      "git_blob": "61009e8576e7407848298a9096f06f87ef3f48d9",
+      "normalization": "none",
+      "bytes": 38991
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/DyadicColumns.lean",
+      "sha256": "258cfe6c584a8076b7555833cca71c36a61858ee49030df76e4cae3dc3246f14",
+      "git_blob": "60c2a1117825ca4f3e81e9180e5d8cfe705dd252",
+      "normalization": "none",
+      "bytes": 34540
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/FiniteOperator.lean",
+      "sha256": "0561af36787abe84636a4274f92539b53b78166a5de530dccd96cc4feb9acc1e",
+      "git_blob": "dd620f7a837fe9d754f9ddf6730774725d3b6993",
+      "normalization": "none",
+      "bytes": 36020
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/GcdReduction.lean",
+      "sha256": "9193efbb9c345834908432791717b7f33cf9580a417acb76e184effc8610c0b3",
+      "git_blob": "4966097a826a4bf4bc383de4d5e88691de17d322",
+      "normalization": "none",
+      "bytes": 35683
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/GlobalBinLoss.lean",
+      "sha256": "e2a947a5519bf21f180c9418b3528e3d947f8d3517a3aac0f14d32afcb334802",
+      "git_blob": "b90a2d80dc8077d35e675cd6a9bceacebbf14423",
+      "normalization": "none",
+      "bytes": 34277
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/GreenIntegrals.lean",
+      "sha256": "2bbe6a8c3bd1465aa73b7512dc1721a3f2e64188d02ece9b3ab1c385ea5e09ea",
+      "git_blob": "2d4da19693bad0b712463f6a7afb38758a52ee71",
+      "normalization": "none",
+      "bytes": 30894
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/HighKernelGeometry.lean",
+      "sha256": "8a8e12ece220c7da1216b684dc077c9abe70e145a9af3bdc11194c9523a20e58",
+      "git_blob": "4bb6e753b5aa5a8c953253cb31b52af8e5ea0f3c",
+      "normalization": "none",
+      "bytes": 28650
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/IdealQuotients.lean",
+      "sha256": "f7f5d5b4e8d5ef142c0370928e926f16413cd76c852272d016080373a051c820",
+      "git_blob": "44c550e2fab96c45db54154a320ab7badf837fc6",
+      "normalization": "none",
+      "bytes": 35239
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/InitialBound.lean",
+      "sha256": "3c9c167b74671ed905cdd6a6a46a9d61d801e29b9f28d552a664785bc795d8f6",
+      "git_blob": "22abca379f0b5ba1ad554d97cefea612b5b4e955",
+      "normalization": "none",
+      "bytes": 30782
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/LogarithmicLoss.lean",
+      "sha256": "eee2f4bbf9a66ec704ad90cda630861aa19783d916e37d4316a927adfc05abd3",
+      "git_blob": "ddcbe7184a20695364dfbd92293847eaac128c6a",
+      "normalization": "none",
+      "bytes": 29569
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/LogarithmicSectors.lean",
+      "sha256": "09b2108931a41a74e14e702ee1167984548a159419a7c4138191edd98886885d",
+      "git_blob": "e739bfbf2e928b08542846c153c3208c5b7f2962",
+      "normalization": "none",
+      "bytes": 38602
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/MainTermDifference.lean",
+      "sha256": "abeb2af5e9ed8037c1a3a72a7c00d45ff9a486586e091ed92d38205ed9fde54d",
+      "git_blob": "da9b65c473d048e4ba3fce228a2af5c2c5996576",
+      "normalization": "none",
+      "bytes": 31608
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/MaskedPrincipalBounds.lean",
+      "sha256": "f880872b4e1b664e008a9b143da89fe723c69d5e7e05b0025e50b153888ce14f",
+      "git_blob": "89ca45ed350aad4f1961d99d970af00c828a87de",
+      "normalization": "none",
+      "bytes": 34625
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/MiddleWindows.lean",
+      "sha256": "eddcf852b416ad861398e43fcd11e2187c9f9cb287a2a511e761343b881e16df",
+      "git_blob": "d25067aad4aa4cb419a8bbafebcf1dfe00dc9f92",
+      "normalization": "none",
+      "bytes": 35606
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/PoissonComparison.lean",
+      "sha256": "b5996fd877bfc1cf91a35f87aa6e89d2ba575680b81871cef4ee8e60d7f7b176",
+      "git_blob": "d0c1c7781d20ca294921b4cd92c2694b2b66279a",
+      "normalization": "none",
+      "bytes": 31031
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/PoissonConstants.lean",
+      "sha256": "f4855c14105e6b2f236d0ff171fb786ae907d49a845ac49f44b8419dca14da30",
+      "git_blob": "3e9a8ffb7d6751512ee76d16b58cca0b364d7789",
+      "normalization": "none",
+      "bytes": 32549
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/PrimePools.lean",
+      "sha256": "626604988296f8e449a2d6d35853bc30bf2e12a1c11993daa272bf19f4d45666",
+      "git_blob": "79371e3e53bc9997f6f95a41ad5a1aabb1118689",
+      "normalization": "none",
+      "bytes": 33252
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/PrincipalDifference.lean",
+      "sha256": "828764d399499da3f836a248fae75ca97b686cd5c18db7a34077c5f1f13eb7b8",
+      "git_blob": "6e15820002148cdbddd1c5313355aadf6baa288d",
+      "normalization": "none",
+      "bytes": 34817
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/PrincipalMajorants.lean",
+      "sha256": "00d49e81128d8e6997b8f8c954b7a9d30fbd702045a062d5d02d6eb44d57711d",
+      "git_blob": "db201a7b00da229be43913ac1993b9407675b321",
+      "normalization": "none",
+      "bytes": 42451
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/PrincipalTruncation.lean",
+      "sha256": "577ae8718b9e90c886957bc85dcc7c3cc8d5504ca8f0d0b892e557faa6bb9413",
+      "git_blob": "0d9bdbbd02848398bbce1b0a7b0371184f61eed2",
+      "normalization": "none",
+      "bytes": 29761
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/ProductColumns.lean",
+      "sha256": "abba37684c7822c666f678aea4dcf6eefc5c4216372b3be58749c7cb2ceea67c",
+      "git_blob": "08444faec113161573694f59177fe796b1711871",
+      "normalization": "none",
+      "bytes": 35504
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/RetainedDualBounds.lean",
+      "sha256": "700e9acc79afbc5f397062543b10ee623d074861ae4a4073ab6349afc03b212d",
+      "git_blob": "ff0777a85d52f003184097d34ed507b7efc6f7d3",
+      "normalization": "none",
+      "bytes": 35236
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/SelectedExponents.lean",
+      "sha256": "583b72b9f05ab3e90f3f86962eeebc227c1405f7a7bc333026837ce78e1a9139",
+      "git_blob": "f370869e111b39cc40523b56476985a159481edd",
+      "normalization": "none",
+      "bytes": 30569
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/SpatialDerivatives.lean",
+      "sha256": "f5a86610579017593edc584076d431f4e47ea76c558bee132412d6746682a5b6",
+      "git_blob": "93d8a5987455d2dfaa411d16326683488feeec39",
+      "normalization": "none",
+      "bytes": 36198
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/SquareParts.lean",
+      "sha256": "c2b08f430b19873829799dc24def35482a4ee9c82b3c28f18636246960440381",
+      "git_blob": "9711a8f2f934b9d3424b6f21e09558d387c3201d",
+      "normalization": "none",
+      "bytes": 34658
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/TruncatedSecondTransfer.lean",
+      "sha256": "b3529071e4b824a858b9c53225956a05d5f63be4e3bb1b5eebf5a072be5f9e5f",
+      "git_blob": "8d3a9508207463ed391f09ed945928dec7c4bbc5",
+      "normalization": "none",
+      "bytes": 37581
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/UniformTailBounds.lean",
+      "sha256": "7bd3ed31f80d1394b9748b805ad9b9bb915382e3af8d8593783c3beb0bc0768f",
+      "git_blob": "ec46991dcec9b852e684ca6c9c0f38d22e637cb4",
+      "normalization": "none",
+      "bytes": 32971
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/QuadraticSieve/UnrestrictedCharacters.lean",
+      "sha256": "1fb0c4fc3a3495ff3963cbc320e198a33bef7f062b7be1dc69a8b75d6f6d88df",
+      "git_blob": "55a1a30309c10607fb8550bb542fcb861797f29a",
+      "normalization": "none",
+      "bytes": 29051
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Reciprocity/CubeCorrespondence.lean",
+      "sha256": "30c6799e21e12a66c29bc84f4f60be9a1dc84b95740f346bf659a788a9a017f3",
+      "git_blob": "826c3e0ac196442345a5a4c15a5c137457df4ebf",
+      "normalization": "none",
+      "bytes": 29303
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Reciprocity/CubicJacobi.lean",
+      "sha256": "7fe0e2350ea2e264ce57b84fa1f15549978a9501f0d1d03a7ca1a13d41edc7fe",
+      "git_blob": "b3aff6b2cdc17b4f302616a40f7d2f136242dc53",
+      "normalization": "none",
+      "bytes": 33242
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Reciprocity/KubotaCharacter.lean",
+      "sha256": "71ad7258f9d933640d65295f589f0de47e1a1850a9113b63af78b8a88ea8f0c1",
+      "git_blob": "187fbeeffc133c23c8f2e3f55f922342406f9b68",
+      "normalization": "none",
+      "bytes": 33833
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Reciprocity/PrimaryCongruences.lean",
+      "sha256": "46f58ae465bcd89da31df5400e2cbdf0d06ecd9b9c7ecfc40d0eb6a7f3f67103",
+      "git_blob": "62eee75b823bd14ba85343548bc7aa00df5d3c84",
+      "normalization": "none",
+      "bytes": 34164
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Reciprocity/RamifiedCuspPhases.lean",
+      "sha256": "a6f544e2b6c0e7ad808a52b7f40be5fec38caf01a8f5b6e94f91912db65c4776",
+      "git_blob": "8fa4c86c0c25090522fcef25511602e024dd6b1d",
+      "normalization": "none",
+      "bytes": 33492
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Reciprocity/RamifiedSymbol.lean",
+      "sha256": "b393ffbece71820d28827135c26a9e81139329825d452aff1b70ecae9ce80249",
+      "git_blob": "c5c3b3becb37406d442c25aea1aea79bf9f2eb1f",
+      "normalization": "none",
+      "bytes": 36295
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/ResidueCharacter.lean",
+      "sha256": "f535a3a570315f6d3658542e8f4881bab5bc5f44f5e261332982ee702120d2de",
+      "git_blob": "952f0cb71dd21fdb12f30c55c89a52ef09fe0301",
+      "normalization": "none",
+      "bytes": 8206
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/RowCompletion/BranchDecoding.lean",
+      "sha256": "61322cab57ec244b17c5d2175464de8a7806d65b1b7c4519bc7f6644d9465cd5",
+      "git_blob": "0f5368d05ae6ed9a3892ff811384479ed16c0d2d",
+      "normalization": "none",
+      "bytes": 32567
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/RowCompletion/CompletedEnergy.lean",
+      "sha256": "85c10fcf824fc7f06e7b408b575d4a9cb40803596839a147e9d6e1a2052c6d64",
+      "git_blob": "d4a04b6d075e9a2b010f6c5b7c1e0a7edc918e76",
+      "normalization": "none",
+      "bytes": 31842
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/RowCompletion/ControlledPrimeStrata.lean",
+      "sha256": "569a971442b37e2f6d7e8ea50a978c07c6196393349a75d229dbe6c47370f550",
+      "git_blob": "a60c2aff51360b55baf2a04529f8d5d9a33f13d5",
+      "normalization": "none",
+      "bytes": 30260
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/RowCompletion/CubicReopening.lean",
+      "sha256": "574e90f9f9586d9c7a4d7393824a7867bf88dfea2495a63a1fdbe63d994e0aa2",
+      "git_blob": "9050c8888853b8fed32599a2c1d76a785953223c",
+      "normalization": "none",
+      "bytes": 35773
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/RowCompletion/DensityTransfer.lean",
+      "sha256": "07d87a7d25124dde00e884e345083eca072c7bb5cd653db7fa87266ec8b45b4c",
+      "git_blob": "98d2caf53366864e6812e3ba3cd021a9d448baf0",
+      "normalization": "none",
+      "bytes": 31095
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/RowCompletion/FixedCuspBranches.lean",
+      "sha256": "b8aefff6f7ce990f97b7695b1f7f147ea53fb7de98846fd5f459cd18b44053cb",
+      "git_blob": "8051daa023e12b71762a568885f508d4235973fb",
+      "normalization": "none",
+      "bytes": 33920
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/RowCompletion/FreePrimePools.lean",
+      "sha256": "a73b10feb302f5de02b6e463a0494a2c39739d011114999119b18639ac8cad30",
+      "git_blob": "463fdb9a7e26ab7fb3a576f0b7ab26ad87d1c219",
+      "normalization": "none",
+      "bytes": 30198
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/RowCompletion/InitialDensity.lean",
+      "sha256": "78d0b56e675d445e1c62a0d2647b6f69d5aa659d004318669ad1ef3e299ab82f",
+      "git_blob": "61a44ffa06fbdef16e24de7132e585e7dbb41801",
+      "normalization": "none",
+      "bytes": 36394
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/RowCompletion/PeriodicRows.lean",
+      "sha256": "7306d53cc2364f05c53923d9db94cac9f28ab1a754fa0130c49b813dc69e7c8f",
+      "git_blob": "c7de901347311f25495185f43a46075f1f8e7853",
+      "normalization": "none",
+      "bytes": 32479
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/RowCompletion/PolynomialHeight.lean",
+      "sha256": "e225c890d9f8601b6358ca1158be947ff459a010480fd4f3fc13749c978bebdb",
+      "git_blob": "3a6f4e7903d2e832e562687bccf13a2fce551aed",
+      "normalization": "none",
+      "bytes": 35332
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/RowCompletion/ReflectedFibers.lean",
+      "sha256": "c5969d08a8987606011e516173ab97859e045856f9d5755ebddbaa6e95e1a296",
+      "git_blob": "f3ec5ad70199af68fd2e94efc21d9fdf294b35a9",
+      "normalization": "none",
+      "bytes": 40265
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/RowCompletion/RowAmplitudes.lean",
+      "sha256": "73c29da29926d60ccfbd8ab04305948c11e9d4784b16f5adc385c08695903d07",
+      "git_blob": "c8720f93322893bab9492ca1e9bf4fb04b104e27",
+      "normalization": "none",
+      "bytes": 32169
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/RowCompletion/SupportBounds.lean",
+      "sha256": "e6ddea5d982cef3e63fc651ebc5508878b1c3bb9485dbf89c64894efa2ba5663",
+      "git_blob": "a0782ab66b4c02e18f666795acfbe229b8b01b80",
+      "normalization": "none",
+      "bytes": 34617
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/RowCompletion/ThetaNonvanishing.lean",
+      "sha256": "8027e02d12f871c42b640534070cd18383f5fbfb433a07a7a269eea692ccbe43",
+      "git_blob": "4054a25c2e7617396a56673cb4e943c903c9adbd",
+      "normalization": "none",
+      "bytes": 34699
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/RowCompletion/ZeroFreeRegion.lean",
+      "sha256": "0342d5cd682913d53289281c0bc421a37abaa626845fb4bf1a7288871f3deab8",
+      "git_blob": "88d491bdbbff5e22be2bebefd87108a9af166564",
+      "normalization": "none",
+      "bytes": 10343
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/Supremum.lean",
+      "sha256": "4731fe9e9d86cde2ba9accf807fa8e257fe8114674a304040d7515a0aee1880d",
+      "git_blob": "54f346f4b187d6ee0ae8303c44dc59fbf0ed4ab3",
+      "normalization": "none",
+      "bytes": 3893
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/ThetaProduct.lean",
+      "sha256": "6748e3720bcd136b2c688b12b5cc50f7fab6a764d9da82ba87e7149b86d75595",
+      "git_blob": "72b6d802048658eabc42f6d82fbc90db512846a1",
+      "normalization": "none",
+      "bytes": 7508
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/TraceCharacter.lean",
+      "sha256": "4589b073e682eaf08d284c02447ad938c1197c7f3879a06674886a1890cb2703",
+      "git_blob": "ff1d1237e3dd4754aa2e432002de16b5efb2d86b",
+      "normalization": "none",
+      "bytes": 8150
+    },
+    {
+      "path": "lean/OAI/NumberTheory/DirichletL/TraceConductor.lean",
+      "sha256": "8fa161f44ec9988d35ff37ec2ebaf5e8165cc84a35c647011961fd4f6266503d",
+      "git_blob": "97ae206f2f8fa23ffc6bb854dbbf8ebbe882f4e8",
+      "normalization": "none",
+      "bytes": 5822
+    },
+    {
+      "path": "lean/README.md",
+      "sha256": "292ff9d539f494158dfbf68d989ba85a82782a4343b2fe43088f8fa62525bf1b",
+      "git_blob": "f1ab618366051a4b3683b14ed2a0ac4bb7c620fb",
+      "normalization": "none",
+      "bytes": 650
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "git_blob": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "normalization": "none",
+      "bytes": 11357
+    },
+    {
+      "path": "README.md",
+      "sha256": "af984f110f6583ba57ec1af907dc989bfce86713161e9c8b0543b052a138ff64",
+      "git_blob": "8ac0cb7dbf1f38ad3b7480310d4e1d9482f0cfe8",
+      "normalization": "none",
+      "bytes": 4131
+    }
+  ]
+}

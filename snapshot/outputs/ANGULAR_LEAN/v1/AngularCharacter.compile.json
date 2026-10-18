@@ -1,0 +1,49 @@
+{
+  "module": "AngularCharacter",
+  "attempt": 3,
+  "exit_code": 0,
+  "utc": "2026-10-16T18:37:22.062659+00:00",
+  "seconds": 23.656973123550415,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularCharacter.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularCharacter.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularCharacter.olean"
+  ],
+  "source_sha256": "32cbc859ff91251215bcb68482134f80377f6a2eeab4e0003c1abbf77cc5a8de",
+  "setup_sha256": "9c13eccaf06af59739fab87d8bc24a71b53d34c18abbef6606b224e9b07cccb1",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Arithmetic.IdealMobius",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Arithmetic\\IdealMobius.olean",
+      "olean_sha256": "237562d556c63c5ede0e8479eecd1854dd1a22b1035f47d3a3904d1d6f1d722a",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Arithmetic\\IdealMobius.setup.json",
+      "setup_sha256": "319b08b3cd0793e736a37a55f3a127e8e514594044ee4445477f00d76e144404"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Hecke.Family",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Hecke\\Family.olean",
+      "olean_sha256": "1e200bee5ebe444716a8da29b7d3195e94fb200ce77cc19917e48622f22e0869",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Hecke\\Family.setup.json",
+      "setup_sha256": "5b4328ecc863dec231022dea044c4fdd474bb190d467d4f702131d2956aa4862"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.IdealCharacter",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\IdealCharacter.olean",
+      "olean_sha256": "1ae0628be55f12aaee4997cbe2b600e8b57609aecb9d5e86becf00c5a3afc1d4",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\IdealCharacter.setup.json",
+      "setup_sha256": "bd75c7f4a9c5106b5dfef8027c3a2fd04d76dd8c97fa76bb72f0e8c01603c06a"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "ee601e8d8b3ad8f3577a648eff96c88967c995e81e7e21335319398ebfe4a60d"
+}

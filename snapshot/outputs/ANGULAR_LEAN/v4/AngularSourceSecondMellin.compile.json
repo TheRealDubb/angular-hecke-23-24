@@ -1,0 +1,49 @@
+{
+  "module": "AngularSourceSecondMellin",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:04:53.116405+00:00",
+  "seconds": 20.158273458480835,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularSourceSecondMellin.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularSourceSecondMellin.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularSourceSecondMellin.olean"
+  ],
+  "source_sha256": "11465c72258ffc2e2651f4113780bbeab118207c6f4d37035094a17312b345a2",
+  "setup_sha256": "7c951ae0ae633a4394cf52d01731df3fb54ab31bbbd7bb71c09a861134228da8",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularCuspSecondReflection",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspSecondReflection.olean",
+      "olean_sha256": "60c04711f428a2fdd02b33dc3e5eebd26e75f52831a6235a5d76dc874a48190e",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspSecondReflection.setup.json",
+      "setup_sha256": "7c04470e19c61276e4d262c067ace7a237e10b3988442dd939a067530b56bedf"
+    },
+    {
+      "module": "AngularHigherProfiles",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularHigherProfiles.olean",
+      "olean_sha256": "1468ddfee6858002a602359263c0e8af901321b0fbd0ea53c8d9ca860dff1e0b",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularHigherProfiles.setup.json",
+      "setup_sha256": "4ad384406ba59bcc74e0207e8c21f96c8c8716fbebe824b7f7c9e56627166e19"
+    },
+    {
+      "module": "AngularHigherMellin",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularHigherMellin.olean",
+      "olean_sha256": "8c04690d027af88977d26bdc3af43cd17d49f632846453f20663e9ab69a61248",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularHigherMellin.setup.json",
+      "setup_sha256": "56e26788c791c09b95baf5345702d7ab446981d73b7644ed6569482389c2c733"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "47579f36a66b6555b278bd00b9779da3b2d9e690c71a76c52e4e6eaeccdf524c"
+}

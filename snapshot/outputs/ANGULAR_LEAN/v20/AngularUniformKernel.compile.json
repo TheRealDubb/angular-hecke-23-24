@@ -1,0 +1,42 @@
+{
+  "module": "AngularUniformKernel",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T23:34:37.401290+00:00",
+  "seconds": 16.50741171836853,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v20\\AngularUniformKernel.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v20\\AngularUniformKernel.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v20\\AngularUniformKernel.olean"
+  ],
+  "source_sha256": "638f83f5312bed74a36e453bb28352880e2a1c69448fa84a2a7160bfbceeb5cf",
+  "setup_sha256": "e57bf7ecb3e91d010e5bc5cec7839df015ebc2322074ccecbdbbb22c7a32ca21",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularPolynomialKernel",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v20\\AngularPolynomialKernel.olean",
+      "olean_sha256": "c2d1166d3c7c12440bc05d3d33ff4abf7dee826df1de4b5b02d039ab36b74004",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v20\\AngularPolynomialKernel.setup.json",
+      "setup_sha256": "9ec306f18f888f37ebb41b940001a1a809438fa3e56da60e70b43726fa6fa3e8"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.CubicSieve.RankMargins",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\CubicSieve\\RankMargins.olean",
+      "olean_sha256": "6fec599d4d35197e3ee6e42650e4c7042b15036d516e2d93e13700b8e2b2fc3d",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\CubicSieve\\RankMargins.setup.json",
+      "setup_sha256": "6db4e3156d46f02d6b9338fe6839710b744b2d4203fc244e0c9d7b62f6e6f0ed"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "3c66f94ffe879e7cb000d912d7e461d5c25558660886af098584fe2fb3f70338"
+}

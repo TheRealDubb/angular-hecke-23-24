@@ -1,0 +1,35 @@
+{
+  "module": "AngularBesselHigherDensity",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:21:32.683166+00:00",
+  "seconds": 26.12545919418335,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselHigherDensity.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselHigherDensity.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselHigherDensity.olean"
+  ],
+  "source_sha256": "6c487bc9005d44618ecb2b4460d4a36550bca558dda9f8ac71c4208c50dd8cd6",
+  "setup_sha256": "4f038585d3d1c8718c2ebaae83fb86c731c97b9129850e9f009a26d5cf043ca3",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Eisenstein.ConjugateCuspProfiles",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Eisenstein\\ConjugateCuspProfiles.olean",
+      "olean_sha256": "ccbe75e2e9353d625e9670541d374101a2efe69502d8b50a1d26f0054f084b07",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Eisenstein\\ConjugateCuspProfiles.setup.json",
+      "setup_sha256": "1cb2d1892ff234c172391b7b346eb6c0e79ebeb7f9bab4b3847f77674fbd1a80"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "d15e893e13b5f829d1a758182e00756ce791e055e35da0aadc041704a69928bc"
+}

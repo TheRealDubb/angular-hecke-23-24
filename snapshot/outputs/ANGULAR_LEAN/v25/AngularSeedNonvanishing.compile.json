@@ -1,0 +1,56 @@
+{
+  "module": "AngularSeedNonvanishing",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-17T00:17:40.246907+00:00",
+  "seconds": 90.09123158454895,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v25\\AngularSeedNonvanishing.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v25\\AngularSeedNonvanishing.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v25\\AngularSeedNonvanishing.olean"
+  ],
+  "source_sha256": "eae94006c4a6391d3dd80ce16b5004b39ca9907398c7633f8db253c420dedaa3",
+  "setup_sha256": "e72dafc6b7b290ae66c365f3e9fb211cfcb7a196a08023f885173a6ae477d799",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularFiniteRestoration",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v24\\AngularFiniteRestoration.olean",
+      "olean_sha256": "a2e06842343c76d28be27277dbd4f46823a35d6dbe8024dcb7b503203a83e61f",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v24\\AngularFiniteRestoration.setup.json",
+      "setup_sha256": "1a672a30a9c46cd75eb9dc5bb1c4e0b4c4b4bc96a9894571f15d110d8470a27d"
+    },
+    {
+      "module": "AngularSeedRegularization",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v25\\AngularSeedRegularization.olean",
+      "olean_sha256": "c82c7e2f5040c3413298311d4ac424d4adc2697670bade75dda6bb7627521e67",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v25\\AngularSeedRegularization.setup.json",
+      "setup_sha256": "15c254d49407fa8298d67b5be33cef205ad56ba91ad1e00262467ac9ad42f0db"
+    },
+    {
+      "module": "AngularFamilyConjugation",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFamilyConjugation.olean",
+      "olean_sha256": "14844db1cccb3ae3fcc361594ceec42d13cebe69260094666c721e1f5b9e68a5",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFamilyConjugation.setup.json",
+      "setup_sha256": "ac6e18946099eaaff2aa797a92060ddbd9009ec6a9df4b736e82753aa659cf2d"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Mellin.CompactScale",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Mellin\\CompactScale.olean",
+      "olean_sha256": "9d8f0d164a446d8298b5b85ed2a322bf62d9db51a20c63b5f19a1c88a7b2f4ee",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Mellin\\CompactScale.setup.json",
+      "setup_sha256": "4c900192396e313b74dc991986353c3792b57b17ec64f79838801ea7df041188"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "2b8c5fb29f34f5c0ba40b1096bd655a99836d640f04c102411e7578030b2329a"
+}

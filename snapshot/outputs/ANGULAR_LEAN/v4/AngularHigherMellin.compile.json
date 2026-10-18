@@ -1,0 +1,42 @@
+{
+  "module": "AngularHigherMellin",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:00:33.016118+00:00",
+  "seconds": 16.58386492729187,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularHigherMellin.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularHigherMellin.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularHigherMellin.olean"
+  ],
+  "source_sha256": "41901caa25c0748be006bbd993ad9ad9c516bb187170ec0ca7d4711f8f78bcd7",
+  "setup_sha256": "56e26788c791c09b95baf5345702d7ab446981d73b7644ed6569482389c2c733",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularAnalyticFoundation",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularAnalyticFoundation.olean",
+      "olean_sha256": "346a75680176bf9b0021a4a827b1f2dfb49e708816660f87aea1f12cfc71c7b2",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularAnalyticFoundation.setup.json",
+      "setup_sha256": "d42c975b9c1b21d910d580e8c8ce3aa444bdae0bb22851dd6d426e78c50946b7"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Eisenstein.ReflectedCuspMellin",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Eisenstein\\ReflectedCuspMellin.olean",
+      "olean_sha256": "0c178a7e678ede957fa257af33a66c45d80611bb00a6c70f52869176cf060b8b",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Eisenstein\\ReflectedCuspMellin.setup.json",
+      "setup_sha256": "1fdd9272c53f5ec88890e4c7f2cfe0937ab9bcedb33201e7c98ddd2810657589"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "8c04690d027af88977d26bdc3af43cd17d49f632846453f20663e9ab69a61248"
+}

@@ -1,0 +1,25 @@
+{
+  "theorem_names": [
+    "OAI.SevenEighths.Angular.NormTwist.normTwist_apply",
+    "OAI.SevenEighths.Angular.NormTwist.norm_normTwist",
+    "OAI.SevenEighths.Angular.NormTwist.norm_normTwist_le_one",
+    "OAI.SevenEighths.Angular.NormTwist.twistedIdealHom_apply",
+    "OAI.SevenEighths.Angular.NormTwist.twistedIdealHom_norm_le_one",
+    "OAI.SevenEighths.Angular.NormTwist.weighted_shift",
+    "OAI.SevenEighths.Angular.NormTwist.series_shift",
+    "OAI.SevenEighths.Angular.NormTwist.twisted_series_summable_norm",
+    "OAI.SevenEighths.Angular.NormTwist.shift_re",
+    "OAI.SevenEighths.Angular.NormTwist.shift_ne_one_iff",
+    "OAI.SevenEighths.Angular.NormTwist.LFunction_eq_series",
+    "OAI.SevenEighths.Angular.NormTwist.LFunction_differentiable",
+    "OAI.SevenEighths.Angular.NormTwist.LFunction_differentiableAt",
+    "OAI.SevenEighths.Angular.NormTwist.halfPlane_transport_iff",
+    "OAI.SevenEighths.Angular.NormTwist.physical_seed_all_norm_twists"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

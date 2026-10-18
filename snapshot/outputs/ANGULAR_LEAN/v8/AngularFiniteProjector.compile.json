@@ -1,0 +1,42 @@
+{
+  "module": "AngularFiniteProjector",
+  "attempt": 3,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:50:22.849523+00:00",
+  "seconds": 19.90218424797058,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v8\\AngularFiniteProjector.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v8\\AngularFiniteProjector.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v8\\AngularFiniteProjector.olean"
+  ],
+  "source_sha256": "8ee0d8e918675be4b75af8ed35065b224a872b6b5fe20c1315cfb62e7c87553f",
+  "setup_sha256": "a2386bf16cbda5c8c932dce7e3faff419099a897482177dad87d70d0e36580bf",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularCompletedCoefficient",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v7\\AngularCompletedCoefficient.olean",
+      "olean_sha256": "b50f7fe2c6ed251de6ce45435714f74f1dff3e9734d0b5ef31ce4f9a434279ea",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v7\\AngularCompletedCoefficient.setup.json",
+      "setup_sha256": "9337eec0ec9ce8e602610fb694750882a95e2274eb4105ed433e7dace858f07d"
+    },
+    {
+      "module": "AngularProfileDirichlet",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v7\\AngularProfileDirichlet.olean",
+      "olean_sha256": "70cc10e6b18e7f92c76a40aae5e38a2f4036ce6f5bece8cd1f3b8508abae74bb",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v7\\AngularProfileDirichlet.setup.json",
+      "setup_sha256": "2b5ce30c367c983214e276a770fe0139d406723978209a465271625d51cb2207"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "c3857e36a0bc71d652d7cf11fc474997a256ba6c4baa0a1f2aa24896d7ee39bd"
+}

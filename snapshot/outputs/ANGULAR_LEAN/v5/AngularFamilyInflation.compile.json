@@ -1,0 +1,35 @@
+{
+  "module": "AngularFamilyInflation",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:11:38.370054+00:00",
+  "seconds": 42.85812044143677,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFamilyInflation.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFamilyInflation.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFamilyInflation.olean"
+  ],
+  "source_sha256": "5ab0c91c4097ba8849a1ee7c696343459219f4a8279d58666faed25f6642a440",
+  "setup_sha256": "9bff0de63150ea479d5aeaf33cae544c543099000d9404ca8cb07342238b3472",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularFamilyConjugation",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFamilyConjugation.olean",
+      "olean_sha256": "14844db1cccb3ae3fcc361594ceec42d13cebe69260094666c721e1f5b9e68a5",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFamilyConjugation.setup.json",
+      "setup_sha256": "ac6e18946099eaaff2aa797a92060ddbd9009ec6a9df4b736e82753aa659cf2d"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "0b9ec264d88428adcbdf86cc61f2ab2fa6a16d540c145c53ca498496992702fc"
+}

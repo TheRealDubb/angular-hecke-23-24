@@ -1,0 +1,49 @@
+{
+  "module": "AngularActiveStrata",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T22:15:06.186592+00:00",
+  "seconds": 19.793126344680786,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v14\\AngularActiveStrata.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v14\\AngularActiveStrata.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v14\\AngularActiveStrata.olean"
+  ],
+  "source_sha256": "d902165f790189a6c419a98ebb0694981c21f3b20610d6d378ec55db38c10ce4",
+  "setup_sha256": "3c95fc12d0920f69cb07eefcdd1a5a0ffc11383fba7d0c089cb6e5b6a0769235",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularFiniteCuspAssembly",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v14\\AngularFiniteCuspAssembly.olean",
+      "olean_sha256": "16ab65339406e9378f87bf6eab6139a2261f8c8fe58a7a2072749151288b4507",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v14\\AngularFiniteCuspAssembly.setup.json",
+      "setup_sha256": "553c29f09f13b7613b1256b894aeae29f5a1c439f443c43f3d0fa9b5b439404a"
+    },
+    {
+      "module": "AngularControlledStratum",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v12\\AngularControlledStratum.olean",
+      "olean_sha256": "9657534e64dc4afc25cd2ebd512ef1a6c396580342f35e0443a5e3c3c61f204a",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v12\\AngularControlledStratum.setup.json",
+      "setup_sha256": "3357d9556ce681fb7f4a4aa131d499177c8ccf53b3a446bc88d0475aafedf83a"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.GaussSum.ResidualEquivalence",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\GaussSum\\ResidualEquivalence.olean",
+      "olean_sha256": "39327c60f8f769ef449196534a429e16e760efe750ea633a00ece0e5baf43606",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\GaussSum\\ResidualEquivalence.setup.json",
+      "setup_sha256": "16cb020ec3aa62fab857caacff573f5acd5ac7e1dc9ea48a4c30bb1abc194f42"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "208fb9d76d67e154f0d8c22872c259c412c1eb946fb9d7497e61e0b8247bb028"
+}

@@ -1,0 +1,35 @@
+{
+  "module": "AngularBesselKernelDifferentiation",
+  "attempt": 3,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:31:12.990298+00:00",
+  "seconds": 19.797903776168823,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselKernelDifferentiation.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselKernelDifferentiation.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselKernelDifferentiation.olean"
+  ],
+  "source_sha256": "8eab45cb8426145ce9b41fd46d62cc0b103121ecd688be17150466c63d8af01a",
+  "setup_sha256": "00e2ea6bc245e51ec9114a9f68ca2a1e6b285c4135bf57dd21e7e0e8a51818cd",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularBesselKernelSeries",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselKernelSeries.olean",
+      "olean_sha256": "ae65a6787331c655fd6853cf3634aae7986fdf7e5df4123336dc8d4b8cc1a91a",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselKernelSeries.setup.json",
+      "setup_sha256": "51c1102f1405098ba253f7a96c851c1ff1a49251a043cc06ad304a085bd39803"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "eea41487bc11cc7adc68fddfb538d37cdc5524d6dd822ae1a2f9b412d8e5c154"
+}

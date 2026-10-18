@@ -1,0 +1,42 @@
+{
+  "module": "AngularAllOrderCusp",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:28:40.061450+00:00",
+  "seconds": 19.445114135742188,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularAllOrderCusp.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularAllOrderCusp.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularAllOrderCusp.olean"
+  ],
+  "source_sha256": "e8515c705f817c9f2c19909f881d2848068dfc6ca7e2fb58fab65b69c97f98f7",
+  "setup_sha256": "267d34e9b72866cddef73c9bdcc448947d5c1079963fdfde84b385b44640a5d8",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularWirtingerJets",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularWirtingerJets.olean",
+      "olean_sha256": "332b70671747e21237a03582124364980cac87289e98de6d3057c76c13b367b7",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularWirtingerJets.setup.json",
+      "setup_sha256": "afee8ac32a78e8d44b1c1054c9e0b5c4c0915ecc6b64c7cf74eb260662b17826"
+    },
+    {
+      "module": "AngularCuspDerivativeCoefficients",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspDerivativeCoefficients.olean",
+      "olean_sha256": "279a5ae1863de8eac188c70cb242046b5dc7a52f0a1b1be8c5d8a7c329ffe49b",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspDerivativeCoefficients.setup.json",
+      "setup_sha256": "00bd76aa0bccc37aaf56236004c9128d138de16aa2086760c52ca681c74f4c63"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "e9098a2ee670505739b7667beb483fbca49243c24f1e395aae5ca8a6da3dc84b"
+}

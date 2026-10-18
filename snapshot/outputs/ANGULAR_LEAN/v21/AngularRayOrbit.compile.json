@@ -1,0 +1,49 @@
+{
+  "module": "AngularRayOrbit",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T23:41:15.321004+00:00",
+  "seconds": 19.758976697921753,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularRayOrbit.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularRayOrbit.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularRayOrbit.olean"
+  ],
+  "source_sha256": "485ab72edfce4076b43d74a002291e81ed93d107427631f7b9a07268433a9f93",
+  "setup_sha256": "f546260d9dd7bff15e24b7b59e3ec66cb8d5c717dc85e7b6db734b1bea82fb84",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularRowClosure",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v13\\AngularRowClosure.olean",
+      "olean_sha256": "d14cff6b7094236516779b361463a8dc3af52154c0deffe50c7766f45e804820",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v13\\AngularRowClosure.setup.json",
+      "setup_sha256": "ae36436c8610bfb441c517698d55be11ac6d2d43ea3a0337d9c6ce205f4e0c05"
+    },
+    {
+      "module": "AngularPhysicalRowEnergy",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v18\\AngularPhysicalRowEnergy.olean",
+      "olean_sha256": "643be57083ffd30774a1486fac9c0c22a26a3212e67208480b7e1d8f591a2839",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v18\\AngularPhysicalRowEnergy.setup.json",
+      "setup_sha256": "f110fe229d5396da54d73b4be34c92fe663b2432af9b3a2f4b8a8a9cf57e33b7"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Moments.FixedRay",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Moments\\FixedRay.olean",
+      "olean_sha256": "d1567ec9d93a45325c7e305d78ca308c5a481a345d4cada1efc5d1cd118cbae9",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Moments\\FixedRay.setup.json",
+      "setup_sha256": "85ec4be1f9c396de40c10d53f8e4c2e9fb56d94e5b44555cb5698de0496bc7f5"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "ac30e170821cea07036a5012a3e11357ea027b5724b974f806e2f51f49fb79c6"
+}

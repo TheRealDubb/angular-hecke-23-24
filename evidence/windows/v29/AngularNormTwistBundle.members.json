@@ -1,0 +1,88 @@
+{
+  "module": "AngularNormTwistBundle",
+  "modules": [
+    {
+      "module": "AngularNormTwist",
+      "source_sha256": "2289746fb317912144ba13ab08b88ae414d3b08ac90ad799ba9e953e95b7d2f8",
+      "olean_sha256": "61ff752bffabf16f9b854bdef91f8f3f82040f37d14cfa1e3ee92924f3e05378",
+      "compile_receipt_sha256": "449ae8b0dc32d140268832759b229366b2958205fa3bfc0ad3b9f66246c9682e",
+      "theorem_names": [
+        "OAI.SevenEighths.Angular.NormTwist.normTwist_apply",
+        "OAI.SevenEighths.Angular.NormTwist.norm_normTwist",
+        "OAI.SevenEighths.Angular.NormTwist.norm_normTwist_le_one",
+        "OAI.SevenEighths.Angular.NormTwist.twistedIdealHom_apply",
+        "OAI.SevenEighths.Angular.NormTwist.twistedIdealHom_norm_le_one",
+        "OAI.SevenEighths.Angular.NormTwist.weighted_shift",
+        "OAI.SevenEighths.Angular.NormTwist.series_shift",
+        "OAI.SevenEighths.Angular.NormTwist.twisted_series_summable_norm"
+      ],
+      "definitions_exported": [
+        "OAI.SevenEighths.Angular.NormTwist.normTwist",
+        "OAI.SevenEighths.Angular.NormTwist.twistedIdealHom"
+      ],
+      "shadow_module": "AngularNormTwistExpected",
+      "shadow_source_sha256": "ad9ad5a44998229572d4d2c52d1118721b726570debef80666f5d8b7a6416cd9",
+      "shadow_olean_sha256": "60424d105e010fee7431318e3f5c4dbea12bac574cda9d61d67a5198bad0dfd4",
+      "shadow_compile_receipt_sha256": "ac0d847731e8fb783d8d9599e1abcc03b10dbda84a0cb45bf50dbaa6decd4e27"
+    },
+    {
+      "module": "AngularNormTwistContinuation",
+      "source_sha256": "ab86ba389065cf358f1a4dd02e845daeafd1545b1369a3e8d79e085bdc01893c",
+      "olean_sha256": "a02868a603169150fe765e8b21f531c193c05b7a963d9f1aaca8655ae6caf496",
+      "compile_receipt_sha256": "96f850a08b5dc5c08ed79ecfc0246cb4a1922cf8a69e7873a82766eb70407395",
+      "theorem_names": [
+        "OAI.SevenEighths.Angular.NormTwist.shift_re",
+        "OAI.SevenEighths.Angular.NormTwist.shift_ne_one_iff",
+        "OAI.SevenEighths.Angular.NormTwist.LFunction_eq_series",
+        "OAI.SevenEighths.Angular.NormTwist.LFunction_differentiable",
+        "OAI.SevenEighths.Angular.NormTwist.LFunction_differentiableAt",
+        "OAI.SevenEighths.Angular.NormTwist.halfPlane_transport_iff",
+        "OAI.SevenEighths.Angular.NormTwist.physical_seed_all_norm_twists"
+      ],
+      "definitions_exported": [
+        "OAI.SevenEighths.Angular.NormTwist.LFunction"
+      ],
+      "shadow_module": "AngularNormTwistContinuationExpected",
+      "shadow_source_sha256": "28a44f7b3807f8bf105a6c4628c4126309ab259979a6d834924f6faaebc86660",
+      "shadow_olean_sha256": "505672f9d3c2b1ed32d47a5ed1fa9e8eab887eaa31e23170d812f6b728c9540a",
+      "shadow_compile_receipt_sha256": "d5c0e88855ed0414a740653187f4f22052d362f948ee24570b31a110ed477771"
+    }
+  ],
+  "theorem_names": [
+    "OAI.SevenEighths.Angular.NormTwist.normTwist_apply",
+    "OAI.SevenEighths.Angular.NormTwist.norm_normTwist",
+    "OAI.SevenEighths.Angular.NormTwist.norm_normTwist_le_one",
+    "OAI.SevenEighths.Angular.NormTwist.twistedIdealHom_apply",
+    "OAI.SevenEighths.Angular.NormTwist.twistedIdealHom_norm_le_one",
+    "OAI.SevenEighths.Angular.NormTwist.weighted_shift",
+    "OAI.SevenEighths.Angular.NormTwist.series_shift",
+    "OAI.SevenEighths.Angular.NormTwist.twisted_series_summable_norm",
+    "OAI.SevenEighths.Angular.NormTwist.shift_re",
+    "OAI.SevenEighths.Angular.NormTwist.shift_ne_one_iff",
+    "OAI.SevenEighths.Angular.NormTwist.LFunction_eq_series",
+    "OAI.SevenEighths.Angular.NormTwist.LFunction_differentiable",
+    "OAI.SevenEighths.Angular.NormTwist.LFunction_differentiableAt",
+    "OAI.SevenEighths.Angular.NormTwist.halfPlane_transport_iff",
+    "OAI.SevenEighths.Angular.NormTwist.physical_seed_all_norm_twists"
+  ],
+  "definition_names": [],
+  "definitions_exported": [
+    "OAI.SevenEighths.Angular.NormTwist.normTwist",
+    "OAI.SevenEighths.Angular.NormTwist.twistedIdealHom",
+    "OAI.SevenEighths.Angular.NormTwist.LFunction"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "external_imports": [
+    "AngularSeries",
+    "AngularFamilyContinuation",
+    "AngularSeedNonvanishing"
+  ],
+  "spec_path": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\angular_lean\\v29\\norm_twist_bundle.json",
+  "spec_sha256": "a8f701f8877d702c2e11a3ac2362a7bc42d12df1300ee843e454b3ebb040b2c7",
+  "fixture_layout": "One shadow per original module; exact external imports.",
+  "scope": "Actual multiplicative unitary norm-twisted ideal coefficients, convergent series identity, analytic shifted continuation, zero-free half-plane transport with translated type-zero exception, and physical 23/24 seed for every real norm twist. This does not prove the target 8748389/10000000 bound."
+}

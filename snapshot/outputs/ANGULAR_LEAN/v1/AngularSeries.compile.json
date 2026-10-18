@@ -1,0 +1,42 @@
+{
+  "module": "AngularSeries",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T18:39:45.100733+00:00",
+  "seconds": 26.962117195129395,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularSeries.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularSeries.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularSeries.olean"
+  ],
+  "source_sha256": "fe3d34e328c33c88e836caf42f623b8c447eea341f77b1f2a7e73dbf066dbd5f",
+  "setup_sha256": "2d0280e5fc8ef903e5b95e3dd515ed800ccb308c348920f4352f7ee9dc5d65bd",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularCharacter",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularCharacter.olean",
+      "olean_sha256": "ee601e8d8b3ad8f3577a648eff96c88967c995e81e7e21335319398ebfe4a60d",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularCharacter.setup.json",
+      "setup_sha256": "9c13eccaf06af59739fab87d8bc24a71b53d34c18abbef6606b224e9b07cccb1"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Hecke.Euler",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Hecke\\Euler.olean",
+      "olean_sha256": "dfa43e52da1ad02803efc29f5a651b39bb292cea5668e5b860acd54606103026",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Hecke\\Euler.setup.json",
+      "setup_sha256": "13e92457fefd3d7013bd475d27c4dd5e3ea94a48939847cc10dd76bf2afbe270"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "08d0ef9fbc53af273e4914f10936fdd0cafe19c71c49c3d58b6e1bd063fb599d"
+}

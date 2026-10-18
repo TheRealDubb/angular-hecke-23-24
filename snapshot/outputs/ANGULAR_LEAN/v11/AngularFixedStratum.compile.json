@@ -1,0 +1,35 @@
+{
+  "module": "AngularFixedStratum",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T21:47:33.566241+00:00",
+  "seconds": 15.759912490844727,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v11\\AngularFixedStratum.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v11\\AngularFixedStratum.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v11\\AngularFixedStratum.olean"
+  ],
+  "source_sha256": "c00e49af792e01a0fa68cff542a70baee158609953a53b821fbf1c87105cc189",
+  "setup_sha256": "e2e72678ee3e9a4b45326a2c4ca76079347cdbac8d040cfa9610cefe8c349c02",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularPhysicalReindex",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v11\\AngularPhysicalReindex.olean",
+      "olean_sha256": "e651352db59e1853932b8d8b6aed3d3410a7159030e192aa424d7d4e8bc84bd0",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v11\\AngularPhysicalReindex.setup.json",
+      "setup_sha256": "174580077c45e3c20f42618563d07904eb7daf26a5d96fd4fe6d880b1c66acdb"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "ecfcced048860830637db310083627a5eb4d152167ae16611d913dbd7e90ae1e"
+}

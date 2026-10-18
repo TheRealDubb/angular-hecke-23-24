@@ -1,0 +1,35 @@
+{
+  "module": "AngularGaussianDeriv",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T19:23:43.826825+00:00",
+  "seconds": 15.28982400894165,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianDeriv.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianDeriv.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianDeriv.olean"
+  ],
+  "source_sha256": "9382faab2f1733e601e10c6c16a1b987e72fcac7e17eb570bce773dd5d51018a",
+  "setup_sha256": "d5a74dde2e0af4ebced0c8daa446e3e95bcf226724f86e46fb3513b4822b7d01",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularGaussianWeighted",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianWeighted.olean",
+      "olean_sha256": "0f47aca3e1a00feb68ca310daa38909474e6a8923abc2dbadeb7809551a42f82",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianWeighted.setup.json",
+      "setup_sha256": "b911d9aefc43c947d80f5220f64ca018184d5f412d5c57e9020eca17b661cbfe"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "8fede7e483ca46279f2a6d28a8e702c34099e9aef74596d57b154b5f3247342d"
+}

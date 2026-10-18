@@ -1,0 +1,35 @@
+{
+  "module": "AngularGaussianFourier",
+  "attempt": 3,
+  "exit_code": 0,
+  "utc": "2026-10-16T19:25:25.115719+00:00",
+  "seconds": 14.835449695587158,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianFourier.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianFourier.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianFourier.olean"
+  ],
+  "source_sha256": "b56f6a0229fc413507f6d790dc02d7ee1993f76d1fa1c974d8588c300133d922",
+  "setup_sha256": "0539ae88e4edf5c754ab11be43f48e3cdd8310f8678fa7bc8561c1713dbfaabf",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularGaussianDeriv",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianDeriv.olean",
+      "olean_sha256": "8fede7e483ca46279f2a6d28a8e702c34099e9aef74596d57b154b5f3247342d",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianDeriv.setup.json",
+      "setup_sha256": "d5a74dde2e0af4ebced0c8daa446e3e95bcf226724f86e46fb3513b4822b7d01"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "fc638cbb5e4aee1058d43a23aa26b6f77eb139feec09a6cf0236f56a9bb3290d"
+}

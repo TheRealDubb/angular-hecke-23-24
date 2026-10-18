@@ -1,0 +1,35 @@
+{
+  "module": "AngularGaussianSchwartz",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T18:58:11.419165+00:00",
+  "seconds": 21.188196659088135,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v2\\AngularGaussianSchwartz.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v2\\AngularGaussianSchwartz.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v2\\AngularGaussianSchwartz.olean"
+  ],
+  "source_sha256": "4fa83ae43fcfece62bbf017d8e9e0345af0cf6007ec3e45f5fef75957f7229df",
+  "setup_sha256": "30cd33fbc2cf765520393a8f7a8cb7d3e26ac9393827f19d6fd1b057fa6952e5",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.GaussSum.SexticRadialPoisson",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\GaussSum\\SexticRadialPoisson.olean",
+      "olean_sha256": "ed7dd0cad31a71d988395b5be06f5eac15ebd5c23cf178c7d78b0ca2ee07e5e6",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\GaussSum\\SexticRadialPoisson.setup.json",
+      "setup_sha256": "0aba420a442823a288b88762d11daddf1cce6e9eb2f0860ae0b8bfb242b59f72"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "dc54cdb3a0ecab8f2b908c2132c3bbd9f1c7a30632bb69959f35625189cce3e6"
+}

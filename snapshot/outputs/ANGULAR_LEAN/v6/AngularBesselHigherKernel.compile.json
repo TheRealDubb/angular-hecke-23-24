@@ -1,0 +1,35 @@
+{
+  "module": "AngularBesselHigherKernel",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:25:55.948685+00:00",
+  "seconds": 23.43955945968628,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselHigherKernel.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselHigherKernel.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselHigherKernel.olean"
+  ],
+  "source_sha256": "fa2b1c7275961901133610aec73a5155eb061d977a84671890ddc8ed44cb20c1",
+  "setup_sha256": "263698987dbbf8f04c8d02f26378eb852ccc7b5936936a3c77881630b5d102d9",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularBesselHigherIntegral",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselHigherIntegral.olean",
+      "olean_sha256": "8978cabc11ad71c0499911aec6d11c0038069a6bc6449cb6a96f5b7a45eded82",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselHigherIntegral.setup.json",
+      "setup_sha256": "914dff972fba018fd83d74b478e8711145f684bca7a529054c085f3668bca255"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "360c6b213d75b807d00ec4ec29e77cd57fac6d760216fe4e1799f0a2d8e7cfe8"
+}

@@ -1,0 +1,42 @@
+{
+  "module": "AngularFiniteAllOrderMellin",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:34:52.315125+00:00",
+  "seconds": 16.212251663208008,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularFiniteAllOrderMellin.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularFiniteAllOrderMellin.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularFiniteAllOrderMellin.olean"
+  ],
+  "source_sha256": "37b3079039ee1b481d9a4ca1516910a617eb01fe9e1bd7f371707a4eac2402d5",
+  "setup_sha256": "62301725d5ddf451e80b0e936065a5b64337b5fd6b0714e7a517867790566cd2",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularFiniteAllOrderReflection",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularFiniteAllOrderReflection.olean",
+      "olean_sha256": "6086adcf19191d1b4605869b053ade683fcdbf5a3ea280087fe59871f9688052",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularFiniteAllOrderReflection.setup.json",
+      "setup_sha256": "2204678444822d5e9479d6cc8ab97e4fa1e564a4b6240ea14513e1b797b44275"
+    },
+    {
+      "module": "AngularMellinOrderAlgebra",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularMellinOrderAlgebra.olean",
+      "olean_sha256": "437a0d0389980f2d2a629d79db6fd19527b3ea19a7cc3f0ba8555b76ebba5a4d",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularMellinOrderAlgebra.setup.json",
+      "setup_sha256": "50aeb49b24f4ede6bc6179fff26845ba317d4e16b52fb7e69262961a4cfd4d1a"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "ecf579872128c2ac9df48b69706f8f5c0317d9e6354f5b8ef1e2fa706f473ca7"
+}

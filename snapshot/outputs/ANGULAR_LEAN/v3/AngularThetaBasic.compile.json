@@ -1,0 +1,42 @@
+{
+  "module": "AngularThetaBasic",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T19:28:03.466986+00:00",
+  "seconds": 15.873708248138428,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaBasic.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaBasic.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaBasic.olean"
+  ],
+  "source_sha256": "7815eac31a8747a0d0031dc8ed46fe63b0e211857ec311c415ed579c19ad0799",
+  "setup_sha256": "23895889bb205c15daf2aac18f54283fd57e53d549975ce96076609d8b523151",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularPolynomial",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularPolynomial.olean",
+      "olean_sha256": "fddcbc59939459aedfcdc9a06fca84ac104f075489764cc93e4d922b1709a270",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularPolynomial.setup.json",
+      "setup_sha256": "4e1f945666a7f60ceb8ea7b80d07bef3c6be465809d5ec3d70fcb7dab10b67d4"
+    },
+    {
+      "module": "AngularGaussianWeighted",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianWeighted.olean",
+      "olean_sha256": "0f47aca3e1a00feb68ca310daa38909474e6a8923abc2dbadeb7809551a42f82",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularGaussianWeighted.setup.json",
+      "setup_sha256": "b911d9aefc43c947d80f5220f64ca018184d5f412d5c57e9020eca17b661cbfe"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "d3f7b64efc37fd667d6607d00d1765152386860ee460a2b1f307852e4f1f69fe"
+}

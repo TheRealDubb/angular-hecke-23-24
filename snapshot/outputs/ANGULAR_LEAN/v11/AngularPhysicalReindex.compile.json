@@ -1,0 +1,35 @@
+{
+  "module": "AngularPhysicalReindex",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T21:47:17.727299+00:00",
+  "seconds": 16.213565587997437,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v11\\AngularPhysicalReindex.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v11\\AngularPhysicalReindex.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v11\\AngularPhysicalReindex.olean"
+  ],
+  "source_sha256": "17c79ce661bc934b80b492b29b0d1a3f9b4820860108113ca9198cb7d0a2ed64",
+  "setup_sha256": "174580077c45e3c20f42618563d07904eb7daf26a5d96fd4fe6d880b1c66acdb",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularCuspPhase",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v11\\AngularCuspPhase.olean",
+      "olean_sha256": "54e28a68c3f8a7ec72bdcbfc670477964d232f367e3f6a7c30f1aff1445aa383",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v11\\AngularCuspPhase.setup.json",
+      "setup_sha256": "53e1d913cf94f982bed2141387d267ee79e3845433b31a1843c6347941ce41a4"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "e651352db59e1853932b8d8b6aed3d3410a7159030e192aa424d7d4e8bc84bd0"
+}

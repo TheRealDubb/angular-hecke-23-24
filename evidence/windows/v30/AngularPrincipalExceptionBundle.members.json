@@ -1,0 +1,78 @@
+{
+  "module": "AngularPrincipalExceptionBundle",
+  "modules": [
+    {
+      "module": "AngularTypeZeroEntire",
+      "source_sha256": "fb4fe02abf1454a21faf6fbb2f560f1ada783e6c5ed9a1a046826c920d544a5a",
+      "olean_sha256": "4a5ff7b087012b790a6def143b824e79d1dcc8c794868299dee0783331b5d07f",
+      "compile_receipt_sha256": "e4b50841d810a7d8611daafddd07211e5b0411d2a34dda38fd76266f9805d396",
+      "theorem_names": [
+        "OAI.SevenEighths.Angular.TypeZeroEntire.finite_idealCoeff",
+        "OAI.SevenEighths.Angular.TypeZeroEntire.primitive_residue_nonprincipal",
+        "OAI.SevenEighths.Angular.TypeZeroEntire.weightedCoeff_zero",
+        "OAI.SevenEighths.Angular.TypeZeroEntire.pair_strong_nonprincipal",
+        "OAI.SevenEighths.Angular.TypeZeroEntire.primitive_LFunction_entire",
+        "OAI.SevenEighths.Angular.TypeZeroEntire.LFunction_entire",
+        "OAI.SevenEighths.Angular.TypeZeroEntire.LFunction_eq_finite",
+        "OAI.SevenEighths.Angular.TypeZeroEntire.LFunction_one_ne_zero"
+      ],
+      "definitions_exported": [],
+      "shadow_module": "AngularTypeZeroEntireExpected",
+      "shadow_source_sha256": "55274c81401fe00ac53ab86ca56cfd027a17f93effb0dd8fb48fd4811a5a7cd8",
+      "shadow_olean_sha256": "b2cf10b2c4cc7b565008ca47bf44e0597f2712ec34b125045633ee59867ffc0a",
+      "shadow_compile_receipt_sha256": "8994d0de5e878fd93ce87a96f2483a8e3b91f88cfaa02b370607e7f750bdce15"
+    },
+    {
+      "module": "AngularFullFamilySeed",
+      "source_sha256": "5ccfd581a53fb3efbc7859c7ab033fecf506caa31f3dc8bdc3e9de32d3c0c104",
+      "olean_sha256": "37ff1a36d207b4dbc73f24d49ac9d18df14809e13fd852f66744e766525f3c3a",
+      "compile_receipt_sha256": "e5d360e1c1fe83519432372cee2c118d54153f5453abd4ffa9090ff4b6712040",
+      "theorem_names": [
+        "OAI.SevenEighths.Angular.FullFamilySeed.physical_seed",
+        "OAI.SevenEighths.Angular.FullFamilySeed.physical_seed_norm_twist",
+        "OAI.SevenEighths.Angular.FullFamilySeed.nonprincipal_entire",
+        "OAI.SevenEighths.Angular.FullFamilySeed.norm_twist_nonprincipal_entire",
+        "OAI.SevenEighths.Angular.FullFamilySeed.norm_twist_differentiableAt",
+        "OAI.SevenEighths.Angular.FullFamilySeed.halfPlane_transport_iff"
+      ],
+      "definitions_exported": [],
+      "shadow_module": "AngularFullFamilySeedExpected",
+      "shadow_source_sha256": "3fcee140f97cd91144b209c34abc0aed36e900d1f7ab31f5489ea6b4bc8b3b8f",
+      "shadow_olean_sha256": "e76086175448bc4c144cf1a7e3df4ec316e1e4159cc56f54728b1c04362b8b4f",
+      "shadow_compile_receipt_sha256": "57d3a1cbf94cdb4a7ce0108e46233b12c579dcf95bb0d2c28c9fc46372d802f8"
+    }
+  ],
+  "theorem_names": [
+    "OAI.SevenEighths.Angular.TypeZeroEntire.finite_idealCoeff",
+    "OAI.SevenEighths.Angular.TypeZeroEntire.primitive_residue_nonprincipal",
+    "OAI.SevenEighths.Angular.TypeZeroEntire.weightedCoeff_zero",
+    "OAI.SevenEighths.Angular.TypeZeroEntire.pair_strong_nonprincipal",
+    "OAI.SevenEighths.Angular.TypeZeroEntire.primitive_LFunction_entire",
+    "OAI.SevenEighths.Angular.TypeZeroEntire.LFunction_entire",
+    "OAI.SevenEighths.Angular.TypeZeroEntire.LFunction_eq_finite",
+    "OAI.SevenEighths.Angular.TypeZeroEntire.LFunction_one_ne_zero",
+    "OAI.SevenEighths.Angular.FullFamilySeed.physical_seed",
+    "OAI.SevenEighths.Angular.FullFamilySeed.physical_seed_norm_twist",
+    "OAI.SevenEighths.Angular.FullFamilySeed.nonprincipal_entire",
+    "OAI.SevenEighths.Angular.FullFamilySeed.norm_twist_nonprincipal_entire",
+    "OAI.SevenEighths.Angular.FullFamilySeed.norm_twist_differentiableAt",
+    "OAI.SevenEighths.Angular.FullFamilySeed.halfPlane_transport_iff"
+  ],
+  "definition_names": [],
+  "definitions_exported": [],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "external_imports": [
+    "AngularFiniteIdentification",
+    "OAI.NumberTheory.DirichletL.Hecke.FiniteDeletion",
+    "OAI.NumberTheory.DirichletL.Hecke.BoundaryIntegration",
+    "AngularNormTwistContinuation"
+  ],
+  "spec_path": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\angular_lean\\v30\\principal_exception_bundle.json",
+  "spec_sha256": "14a5fba6ab35f359f2c8dbae2aee8f8fdf11aaefe5f020e2ce6d2aab19434129",
+  "fixture_layout": "One shadow per original module; exact external imports.",
+  "scope": "Actual type-zero nonprincipal entireness, global identification with the original finite Hecke continuation, nonvanishing at one, and physical 23/24 seed for all angular types and real norm twists with only the principal translated pole excluded. Does not prove 8748389/10000000."
+}

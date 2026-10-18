@@ -1,0 +1,49 @@
+{
+  "module": "AngularSieveModels",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T23:42:15.309149+00:00",
+  "seconds": 19.21547269821167,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularSieveModels.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularSieveModels.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularSieveModels.olean"
+  ],
+  "source_sha256": "bff105ea17d4fa0179362e78fc3762305bdea90004888fd753fdece08d851183",
+  "setup_sha256": "4314868a75a1479da33c1e22f5899dce460bd2488621df07d4139794569da50a",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularRayOrbit",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularRayOrbit.olean",
+      "olean_sha256": "ac30e170821cea07036a5012a3e11357ea027b5724b974f806e2f51f49fb79c6",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularRayOrbit.setup.json",
+      "setup_sha256": "f546260d9dd7bff15e24b7b59e3ec66cb8d5c717dc85e7b6db734b1bea82fb84"
+    },
+    {
+      "module": "AngularDyadicModels",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v19\\AngularDyadicModels.olean",
+      "olean_sha256": "130909269242b276a3b2366fb49c0ebeff55d017b2a536600bee4d32a69715c4",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v19\\AngularDyadicModels.setup.json",
+      "setup_sha256": "51143edcff3797998315ca4e95606c41cd373f5609dff8901623573fea4b2b1c"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.RowCompletion.BranchDecoding",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\RowCompletion\\BranchDecoding.olean",
+      "olean_sha256": "6f045bb0a52e43f14f4efd4735a0a080df87392276ff4c48f9e9e8d9db1ff6ee",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\RowCompletion\\BranchDecoding.setup.json",
+      "setup_sha256": "3972bf968b7ec5d45cc0ee91fb0bbd51ef15ce85477ca0c64878402790da6a07"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "9fafc239cd2d07b9c11c9bb1a1832cb4d4b6a65c9f56fbbd3226a04f9d1c0873"
+}

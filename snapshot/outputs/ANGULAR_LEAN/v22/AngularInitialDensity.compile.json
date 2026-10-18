@@ -1,0 +1,42 @@
+{
+  "module": "AngularInitialDensity",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T23:53:02.201626+00:00",
+  "seconds": 26.79438543319702,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v22\\AngularInitialDensity.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v22\\AngularInitialDensity.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v22\\AngularInitialDensity.olean"
+  ],
+  "source_sha256": "8553632ea56bff5a53bcdcbd9d1f84b8934546ea1f65b29221f82ba0d259dcc3",
+  "setup_sha256": "05782272e0283378f51538a37789483d758b4b93de9f2bba6e3d0e1c99cb5446",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularPhysicalSieveEnergy",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularPhysicalSieveEnergy.olean",
+      "olean_sha256": "cb220fc5a7828af578c2d6ff708d60c0fc6775a0b268a61872962aab9f677f18",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularPhysicalSieveEnergy.setup.json",
+      "setup_sha256": "681fb2b50c67b309af9464734eb5a5efc1914d66ca5eb7bfbec4dd60691f376a"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.RowCompletion.InitialDensity",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\RowCompletion\\InitialDensity.olean",
+      "olean_sha256": "715341b7e7afc21bf03a771bb3df39e25c22ed5f0aedb53adfb783f26433713c",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\RowCompletion\\InitialDensity.setup.json",
+      "setup_sha256": "ff94abf6a3f451d26d4b690c362bb513481c1dc918095e5811512d586954aaa9"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "97125f09eaff474b22973f2e17bdafc24e4b4627e749cc68b33655674eeabbcc"
+}

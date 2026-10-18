@@ -1,0 +1,42 @@
+{
+  "module": "AngularRowClosure",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T22:03:16.614137+00:00",
+  "seconds": 192.7477090358734,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v13\\AngularRowClosure.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v13\\AngularRowClosure.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v13\\AngularRowClosure.olean"
+  ],
+  "source_sha256": "030a640b355147d8adb920230aae0b633cbfeafdcf7c109fe10f8e0eafd8ed34",
+  "setup_sha256": "ae36436c8610bfb441c517698d55be11ac6d2d43ea3a0337d9c6ce205f4e0c05",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularCompletedCoefficient",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v7\\AngularCompletedCoefficient.olean",
+      "olean_sha256": "b50f7fe2c6ed251de6ce45435714f74f1dff3e9734d0b5ef31ce4f9a434279ea",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v7\\AngularCompletedCoefficient.setup.json",
+      "setup_sha256": "9337eec0ec9ce8e602610fb694750882a95e2274eb4105ed433e7dace858f07d"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Hecke.RowClosure",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Hecke\\RowClosure.olean",
+      "olean_sha256": "2177e063e011cde5332faf9c29e7aa1a3ea297bd8016e3442075b22987aa50c0",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Hecke\\RowClosure.setup.json",
+      "setup_sha256": "9b92b78b0805116bd7c420089168f2d9029b5f121f6fbd2ece4a9d6d28ed0206"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "d14cff6b7094236516779b361463a8dc3af52154c0deffe50c7766f45e804820"
+}

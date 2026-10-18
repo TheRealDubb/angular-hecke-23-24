@@ -1,0 +1,42 @@
+{
+  "module": "AngularPrincipalExceptionBundle",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-17T01:06:28.922871+00:00",
+  "seconds": 18.60541033744812,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v30\\AngularPrincipalExceptionBundle.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v30\\AngularPrincipalExceptionBundle.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v30\\AngularPrincipalExceptionBundle.olean"
+  ],
+  "source_sha256": "5be9a3a164d6dc7bd483ae9327bb61b7d9af657de12ef301ed72a158916fe5c9",
+  "setup_sha256": "1020552e2e9cac7fb9b871214f516f5c05c6ada33f108a6442b92b7815207a29",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularTypeZeroEntire",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v30\\AngularTypeZeroEntire.olean",
+      "olean_sha256": "4a5ff7b087012b790a6def143b824e79d1dcc8c794868299dee0783331b5d07f",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v30\\AngularTypeZeroEntire.setup.json",
+      "setup_sha256": "58c865d71cbdd407cb8fe38f340f47d85b6c8e6efb3297cf0152db751094b3ba"
+    },
+    {
+      "module": "AngularFullFamilySeed",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v30\\AngularFullFamilySeed.olean",
+      "olean_sha256": "37ff1a36d207b4dbc73f24d49ac9d18df14809e13fd852f66744e766525f3c3a",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v30\\AngularFullFamilySeed.setup.json",
+      "setup_sha256": "26a35756521e74909f6fad3aac79a5b0007b00870a594ba9f7cc5dbf96d04fc6"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "9314386e8eb619ecf104453e49b88a274883d646c4a7559341127826c76b32d0"
+}

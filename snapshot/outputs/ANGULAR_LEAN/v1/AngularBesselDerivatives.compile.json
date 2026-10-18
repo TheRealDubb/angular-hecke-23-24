@@ -1,0 +1,35 @@
+{
+  "module": "AngularBesselDerivatives",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T18:41:45.440623+00:00",
+  "seconds": 25.412437438964844,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularBesselDerivatives.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularBesselDerivatives.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularBesselDerivatives.olean"
+  ],
+  "source_sha256": "f13107e9ca7fc9e2722a714d19b8e8daa67090c1ae1a7e3eb1ae43595c2bb3d8",
+  "setup_sha256": "ee6c7f2627d97fc9c3ee3fa75bc4f4ad0a85cd4e0244e7e16096f1c75d794594",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularBesselClosure",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularBesselClosure.olean",
+      "olean_sha256": "6ae9f42d5e159db5f6a36afba3e96a7bec5a8a22064c78016be96f61a821f990",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularBesselClosure.setup.json",
+      "setup_sha256": "dd4ac73c042c4f62babc06d42f2d0ae0b9eb34d1438102a63e31ecb5e39a348a"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "457101b8ad2fd73c09ecddeb6eabfb1fae5a477a2c0f3351f627228ec5fe8dfb"
+}

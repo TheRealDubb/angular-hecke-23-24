@@ -1,0 +1,42 @@
+{
+  "module": "AngularRowSource",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T22:16:30.416111+00:00",
+  "seconds": 21.165894269943237,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v14\\AngularRowSource.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v14\\AngularRowSource.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v14\\AngularRowSource.olean"
+  ],
+  "source_sha256": "440f1dd88f91d05c2a04b17255b6925e1f11bd00908c2b09e9a238a08097a4f2",
+  "setup_sha256": "0cae3db1a85e6ffc63a1e102fefa99e58ef61225f1baa1d26b2fca1196d8dc50",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularActiveStrata",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v14\\AngularActiveStrata.olean",
+      "olean_sha256": "208fb9d76d67e154f0d8c22872c259c412c1eb946fb9d7497e61e0b8247bb028",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v14\\AngularActiveStrata.setup.json",
+      "setup_sha256": "3c95fc12d0920f69cb07eefcdd1a5a0ffc11383fba7d0c089cb6e5b6a0769235"
+    },
+    {
+      "module": "AngularRowClosure",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v13\\AngularRowClosure.olean",
+      "olean_sha256": "d14cff6b7094236516779b361463a8dc3af52154c0deffe50c7766f45e804820",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v13\\AngularRowClosure.setup.json",
+      "setup_sha256": "ae36436c8610bfb441c517698d55be11ac6d2d43ea3a0337d9c6ce205f4e0c05"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "687b2205056d6a01dfea4a379f70db9d778dea9f8d780fa325d34b57e227ab57"
+}

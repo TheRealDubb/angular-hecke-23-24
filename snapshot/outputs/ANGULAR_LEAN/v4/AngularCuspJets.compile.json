@@ -1,0 +1,35 @@
+{
+  "module": "AngularCuspJets",
+  "attempt": 4,
+  "exit_code": 0,
+  "utc": "2026-10-16T19:47:51.529027+00:00",
+  "seconds": 21.04840588569641,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspJets.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspJets.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspJets.olean"
+  ],
+  "source_sha256": "57c4f4bf1911b05b475a558a525743b82bf7e168ad8aa7088fc3f48b94ab4b80",
+  "setup_sha256": "366e7c7e6bdec2d88af38f5dff232125037c97e56ef1da7a53f6a5c6553c997f",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularBesselDerivatives",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularBesselDerivatives.olean",
+      "olean_sha256": "457101b8ad2fd73c09ecddeb6eabfb1fae5a477a2c0f3351f627228ec5fe8dfb",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularBesselDerivatives.setup.json",
+      "setup_sha256": "ee6c7f2627d97fc9c3ee3fa75bc4f4ad0a85cd4e0244e7e16096f1c75d794594"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "c8fda8d83366d6153ff6b911d981da71d790771ac68b216bae24ec3c72a3f8b3"
+}

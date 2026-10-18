@@ -1,0 +1,42 @@
+{
+  "module": "AngularSmoothedReflection",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T21:23:33.635063+00:00",
+  "seconds": 16.098239421844482,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularSmoothedReflection.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularSmoothedReflection.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularSmoothedReflection.olean"
+  ],
+  "source_sha256": "7d114d5d58ec070b3795620bbffb1164173e959b7fe86e498358f952bb6134c6",
+  "setup_sha256": "cff61293881e3d31fb33868067cece9654e717ed05a21623c1d3b484d042df0c",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularKernelContour",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularKernelContour.olean",
+      "olean_sha256": "89f88b1780b94fb9bef10efbdd73f45db78ff92215e3d5eea6b250aa7b085e19",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularKernelContour.setup.json",
+      "setup_sha256": "c040cf823fdc8e8bc31bb568a5ddbfe9b0e74bd9ec76c5912cba3b1a34259816"
+    },
+    {
+      "module": "AngularShiftedBesselReflection",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularShiftedBesselReflection.olean",
+      "olean_sha256": "a07df35ae53c622e1232b9dbf8fe691f1261d58bd271370c013edd9e7ac0d696",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularShiftedBesselReflection.setup.json",
+      "setup_sha256": "75a01b1521c1f3065d655d20e7428f17adc003a897a5661856b4ff3a9d769399"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "8fc797adeafdd46a89fb54afd2fe8d46dd320a65e98374820e4c83ae1dc60a73"
+}

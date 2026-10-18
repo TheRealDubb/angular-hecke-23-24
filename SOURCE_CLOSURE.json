@@ -1,0 +1,1616 @@
+{
+  "root_module": "AngularFullFamilySeed",
+  "module_count": 130,
+  "line_count": 18001,
+  "modules": [
+    {
+      "module": "AngularAnalyticFoundation",
+      "source_sha256": "4920911eae17e77f6e4ca4021ac303c4d0745d50e45056e855b094af5e28237a",
+      "olean_sha256": "346a75680176bf9b0021a4a827b1f2dfb49e708816660f87aea1f12cfc71c7b2",
+      "compile_receipt_sha256": "8cab9683cb0d0daa3b0f98ff91edc68a4352c18681586090f66cad0cd8b28afe",
+      "source_path": "outputs/ANGULAR_LEAN/v1/AngularAnalyticFoundation.lean",
+      "imports": [
+        "OAI.NumberTheory.DirichletL.Eisenstein.InverseCuspCoordinates"
+      ],
+      "lines": 77
+    },
+    {
+      "module": "AngularBesselClosure",
+      "source_sha256": "423035b55cffcedbffe35e19aa81a1f7419c2fc5f85162f0fa418e9004650dd9",
+      "olean_sha256": "6ae9f42d5e159db5f6a36afba3e96a7bec5a8a22064c78016be96f61a821f990",
+      "compile_receipt_sha256": "6ddb3cc5234f5b891e7f3c6ebcdc8d26a6c4c72df20bf7d4caf84a1bde794d31",
+      "source_path": "outputs/ANGULAR_LEAN/v1/AngularBesselClosure.lean",
+      "imports": [
+        "OAI.NumberTheory.DirichletL.Eisenstein.ReflectedCuspMellin"
+      ],
+      "lines": 117
+    },
+    {
+      "module": "AngularBesselDerivatives",
+      "source_sha256": "f13107e9ca7fc9e2722a714d19b8e8daa67090c1ae1a7e3eb1ae43595c2bb3d8",
+      "olean_sha256": "457101b8ad2fd73c09ecddeb6eabfb1fae5a477a2c0f3351f627228ec5fe8dfb",
+      "compile_receipt_sha256": "5afbd26413ccb7138f907ed00339e7243493bb242572c6995ba4562965cb8ac0",
+      "source_path": "outputs/ANGULAR_LEAN/v1/AngularBesselDerivatives.lean",
+      "imports": [
+        "AngularBesselClosure"
+      ],
+      "lines": 164
+    },
+    {
+      "module": "AngularCharacter",
+      "source_sha256": "32cbc859ff91251215bcb68482134f80377f6a2eeab4e0003c1abbf77cc5a8de",
+      "olean_sha256": "ee601e8d8b3ad8f3577a648eff96c88967c995e81e7e21335319398ebfe4a60d",
+      "compile_receipt_sha256": "7a98416fbc64e2c5c54d3e2b8e62c40162b8ec7acff7d5a8916540a27ff8cdee",
+      "source_path": "outputs/ANGULAR_LEAN/v1/AngularCharacter.lean",
+      "imports": [
+        "OAI.NumberTheory.DirichletL.Arithmetic.IdealMobius",
+        "OAI.NumberTheory.DirichletL.Hecke.Family",
+        "OAI.NumberTheory.DirichletL.IdealCharacter"
+      ],
+      "lines": 303
+    },
+    {
+      "module": "AngularOrientation",
+      "source_sha256": "a25f9bfd77207e5299b35265429fd21f0a3414eef6d5b7bfa2ab57be3079b2e1",
+      "olean_sha256": "03acd90c32e0d6bb57c91872f28fb02d646b3bc3a75b1735c886c245610a1805",
+      "compile_receipt_sha256": "d0f8f0c872743bb7ec6dd07c16d475fe4448704d413d0705782352cec75b6a4d",
+      "source_path": "outputs/ANGULAR_LEAN/v1/AngularOrientation.lean",
+      "imports": [
+        "Mathlib.Tactic.NormNum",
+        "Mathlib.Tactic.Linarith"
+      ],
+      "lines": 78
+    },
+    {
+      "module": "AngularOrientedCharacter",
+      "source_sha256": "56ebf649886e928c1e702a860a557880e9eda26d383a02799f93d8d1e4eb1051",
+      "olean_sha256": "3c45c5726a0942b9192e4297fbca7dc172c6a7755985e228a05c42763c716c49",
+      "compile_receipt_sha256": "ae1a574b0168022f5feb35dd2602f1cfc3f5387799bb0c1db15f81119bee7b09",
+      "source_path": "outputs/ANGULAR_LEAN/v1/AngularOrientedCharacter.lean",
+      "imports": [
+        "AngularCharacter",
+        "AngularOrientation"
+      ],
+      "lines": 243
+    },
+    {
+      "module": "AngularSeries",
+      "source_sha256": "fe3d34e328c33c88e836caf42f623b8c447eea341f77b1f2a7e73dbf066dbd5f",
+      "olean_sha256": "08d0ef9fbc53af273e4914f10936fdd0cafe19c71c49c3d58b6e1bd063fb599d",
+      "compile_receipt_sha256": "f60f7140f130455bf3fa9ddfe0e453bfc60070296b138e1997abf8e9e24d4a6b",
+      "source_path": "outputs/ANGULAR_LEAN/v1/AngularSeries.lean",
+      "imports": [
+        "AngularCharacter",
+        "OAI.NumberTheory.DirichletL.Hecke.Euler"
+      ],
+      "lines": 110
+    },
+    {
+      "module": "AngularDyadicEnergy",
+      "source_sha256": "973db9307f1bd21d63951aed693103f3ed514146fefe05deb7bb6424929b1b19",
+      "olean_sha256": "13767552ca72ed780a93354ae826f5c88ecd588fb86960b643709de2ba05e2df",
+      "compile_receipt_sha256": "6842d1fccc6a36b7ea3f6c38744b2e66d46c415046ae59b0e5b741eaf97e787a",
+      "source_path": "outputs/ANGULAR_LEAN/v10/AngularDyadicEnergy.lean",
+      "imports": [
+        "AngularKernelEnergy",
+        "OAI.NumberTheory.DirichletL.MeanSquare.ReflectedDyadicSeries"
+      ],
+      "lines": 180
+    },
+    {
+      "module": "AngularKernelEnergy",
+      "source_sha256": "3144124f6ab182f94b3e2b1d907cdf2fd3075572043cab77d27def0c32701f38",
+      "olean_sha256": "8056754406f5934bc635a472334579c2b7ec65507232e07edd038e40ac38d0f8",
+      "compile_receipt_sha256": "99262a418a9932067a173347f88df79389d7f3824a7b3a29321f949f5270ecad",
+      "source_path": "outputs/ANGULAR_LEAN/v10/AngularKernelEnergy.lean",
+      "imports": [
+        "AngularKernelContour",
+        "OAI.NumberTheory.DirichletL.Eisenstein.DirichletForm"
+      ],
+      "lines": 161
+    },
+    {
+      "module": "AngularRawKernel",
+      "source_sha256": "c853365be2b2f1c184101cd080c39ba2a79bed92f64af99701b79447155dfd4c",
+      "olean_sha256": "880274e47179f1eac7fe820d5ea13e90c8ad4a42b50b94029d47111636e49278",
+      "compile_receipt_sha256": "3feb56c78b2b9a2e98686030ae6c731358c814a954b2746d8a4a303cbf4a8bca",
+      "source_path": "outputs/ANGULAR_LEAN/v10/AngularRawKernel.lean",
+      "imports": [
+        "AngularDyadicEnergy",
+        "OAI.NumberTheory.DirichletL.GaussSum.DualKernelSummability"
+      ],
+      "lines": 138
+    },
+    {
+      "module": "AngularCuspPhase",
+      "source_sha256": "4c2163547747300c74a4cdf8e36651947234d6e0a6f420854e4faa7e382b3cf6",
+      "olean_sha256": "54e28a68c3f8a7ec72bdcbfc670477964d232f367e3f6a7c30f1aff1445aa383",
+      "compile_receipt_sha256": "c5f4c7733ee5b4814f65354f2f47f29865fc2945ae4afe859c8c74460ca6dffa",
+      "source_path": "outputs/ANGULAR_LEAN/v11/AngularCuspPhase.lean",
+      "imports": [
+        "AngularPhysicalSmoothedReflection",
+        "OAI.NumberTheory.DirichletL.RowCompletion.FixedCuspBranches"
+      ],
+      "lines": 149
+    },
+    {
+      "module": "AngularFixedStratum",
+      "source_sha256": "c00e49af792e01a0fa68cff542a70baee158609953a53b821fbf1c87105cc189",
+      "olean_sha256": "ecfcced048860830637db310083627a5eb4d152167ae16611d913dbd7e90ae1e",
+      "compile_receipt_sha256": "2af3f59f657c272e2e037ee5c9dc04e000eaddae5cb6aa1c7651d8808f10d2ba",
+      "source_path": "outputs/ANGULAR_LEAN/v11/AngularFixedStratum.lean",
+      "imports": [
+        "AngularPhysicalReindex"
+      ],
+      "lines": 144
+    },
+    {
+      "module": "AngularPhysicalReindex",
+      "source_sha256": "17c79ce661bc934b80b492b29b0d1a3f9b4820860108113ca9198cb7d0a2ed64",
+      "olean_sha256": "e651352db59e1853932b8d8b6aed3d3410a7159030e192aa424d7d4e8bc84bd0",
+      "compile_receipt_sha256": "edbbc0332da2fedd51fbd15af8b965a6e006ad62bc77e34903b9df8f33d1bd95",
+      "source_path": "outputs/ANGULAR_LEAN/v11/AngularPhysicalReindex.lean",
+      "imports": [
+        "AngularCuspPhase"
+      ],
+      "lines": 146
+    },
+    {
+      "module": "AngularControlledStratum",
+      "source_sha256": "c022f0b194675c8e3071c8bab171c80340ae78b4d84b193633738db0fc29b26a",
+      "olean_sha256": "9657534e64dc4afc25cd2ebd512ef1a6c396580342f35e0443a5e3c3c61f204a",
+      "compile_receipt_sha256": "9ef086066d4ef07b29a6b7b0e053e2812c97f255456bdfce1838325caab15ba5",
+      "source_path": "outputs/ANGULAR_LEAN/v12/AngularControlledStratum.lean",
+      "imports": [
+        "AngularFixedStratum",
+        "OAI.NumberTheory.DirichletL.Eisenstein.FixedFrequencyExpansion"
+      ],
+      "lines": 93
+    },
+    {
+      "module": "AngularStratumModel",
+      "source_sha256": "a6c3ead0687c53ee91ad20c53172bf8759f66626b022bcc8781363882575a04b",
+      "olean_sha256": "e10ffde18b182f9cf1e0fc1cde9417bd5ab5abece9b50b33f9d1d02c46d1f10c",
+      "compile_receipt_sha256": "48a31370f48599907cfc363f02891ebb7e60bf33393beac4d6810369615a4e4a",
+      "source_path": "outputs/ANGULAR_LEAN/v12/AngularStratumModel.lean",
+      "imports": [
+        "AngularControlledStratum",
+        "OAI.NumberTheory.DirichletL.Eisenstein.ReflectionFibers"
+      ],
+      "lines": 97
+    },
+    {
+      "module": "AngularStratumSeries",
+      "source_sha256": "a3d000d3071d6c8da36005238c8fe02d75eb47f66e28f0d33402afac8dec8659",
+      "olean_sha256": "e88d78340f5bdbb304c5ce11c59e20bd395db59297d7ec2eca39a44949dc0b34",
+      "compile_receipt_sha256": "92a0b181db034fbdbbe3b6b770b95daa275442037c6c93c72c96b562f51cca68",
+      "source_path": "outputs/ANGULAR_LEAN/v12/AngularStratumSeries.lean",
+      "imports": [
+        "AngularStratumModel"
+      ],
+      "lines": 119
+    },
+    {
+      "module": "AngularRowClosure",
+      "source_sha256": "030a640b355147d8adb920230aae0b633cbfeafdcf7c109fe10f8e0eafd8ed34",
+      "olean_sha256": "d14cff6b7094236516779b361463a8dc3af52154c0deffe50c7766f45e804820",
+      "compile_receipt_sha256": "0b477ccf00f14db3f45161608693b1aec69c449f9e2e898833b0c79cddac0a22",
+      "source_path": "outputs/ANGULAR_LEAN/v13/AngularRowClosure.lean",
+      "imports": [
+        "AngularCompletedCoefficient",
+        "OAI.NumberTheory.DirichletL.Hecke.RowClosure"
+      ],
+      "lines": 100
+    },
+    {
+      "module": "AngularActiveStrata",
+      "source_sha256": "d902165f790189a6c419a98ebb0694981c21f3b20610d6d378ec55db38c10ce4",
+      "olean_sha256": "208fb9d76d67e154f0d8c22872c259c412c1eb946fb9d7497e61e0b8247bb028",
+      "compile_receipt_sha256": "ec2b276bce4569212a18480dbf0b814412e1b07703995967c8fa23460c1b4122",
+      "source_path": "outputs/ANGULAR_LEAN/v14/AngularActiveStrata.lean",
+      "imports": [
+        "AngularFiniteCuspAssembly",
+        "AngularControlledStratum",
+        "OAI.NumberTheory.DirichletL.GaussSum.ResidualEquivalence"
+      ],
+      "lines": 70
+    },
+    {
+      "module": "AngularFiniteCuspAssembly",
+      "source_sha256": "48f4ac0b1c1be7a86ee1e5136f5edb5ba071d54b2a01754f0ac8700c133e96d6",
+      "olean_sha256": "16ab65339406e9378f87bf6eab6139a2261f8c8fe58a7a2072749151288b4507",
+      "compile_receipt_sha256": "9209bef97a0a64fd56854b64291a1f6f3c8024a276b2d66d5f5212c090d2988a",
+      "source_path": "outputs/ANGULAR_LEAN/v14/AngularFiniteCuspAssembly.lean",
+      "imports": [
+        "AngularPhysicalReindex"
+      ],
+      "lines": 161
+    },
+    {
+      "module": "AngularIdealIndex",
+      "source_sha256": "ef8f9aa611517b93c397ff3259a801a9abbb470f1b201557280e1519aefce6b7",
+      "olean_sha256": "4dc92ba8063fb1edb17cded5d9e32e98c0963bbfb96cb8d17e7fbdf051c40bf2",
+      "compile_receipt_sha256": "49f7137ae8368bc80ba6649b96d4c091129b3d8cee8758e09a0c6bbb49c9fa6a",
+      "source_path": "outputs/ANGULAR_LEAN/v14/AngularIdealIndex.lean",
+      "imports": [
+        "AngularStratumSeries"
+      ],
+      "lines": 103
+    },
+    {
+      "module": "AngularRowSource",
+      "source_sha256": "440f1dd88f91d05c2a04b17255b6925e1f11bd00908c2b09e9a238a08097a4f2",
+      "olean_sha256": "687b2205056d6a01dfea4a379f70db9d778dea9f8d780fa325d34b57e227ab57",
+      "compile_receipt_sha256": "57f92faa37d8f6abf7641431856410d80c25b128f7c34e66b2f2e959c0398f90",
+      "source_path": "outputs/ANGULAR_LEAN/v14/AngularRowSource.lean",
+      "imports": [
+        "AngularActiveStrata",
+        "AngularRowClosure"
+      ],
+      "lines": 137
+    },
+    {
+      "module": "AngularResidualBranches",
+      "source_sha256": "8521ea9673a76fde6b84dae1a034ba7cd773c4de5e62c94e263d1971cbb9f414",
+      "olean_sha256": "1b83df40b93041588e1fbc4528f6a4f20ed73f7dc91ff76491c58c7d50bd6db0",
+      "compile_receipt_sha256": "a16269bd61f0b6888256dbc22ad3a4b11964d5223473fb7cfcf0aee4fc9df747",
+      "source_path": "outputs/ANGULAR_LEAN/v15/AngularResidualBranches.lean",
+      "imports": [
+        "AngularStratumBranches",
+        "OAI.NumberTheory.DirichletL.GaussSum.ResidualEquivalence"
+      ],
+      "lines": 84
+    },
+    {
+      "module": "AngularStratumBranches",
+      "source_sha256": "5c6756ca57eea9460a1304d4041c92b0015f4e62ab6464886ff4c207c78c5de4",
+      "olean_sha256": "5cc53fafb426606a3315005a332b164be796590796912771e027bb8bf02126ed",
+      "compile_receipt_sha256": "460aaebf2bcbd63f290ca37fdb8c163790b012325196f42b2cb0a195224d9fdd",
+      "source_path": "outputs/ANGULAR_LEAN/v15/AngularStratumBranches.lean",
+      "imports": [
+        "AngularIdealIndex",
+        "AngularRawKernel",
+        "OAI.NumberTheory.DirichletL.RowCompletion.ControlledPrimeStrata"
+      ],
+      "lines": 180
+    },
+    {
+      "module": "AngularBranchData",
+      "source_sha256": "bccf18fc1461529e87fd9c0015e4c3133f482f52f7e24372263c2bb02d5e6869",
+      "olean_sha256": "05c83cf1d519101eb886643fffc1d0ba6806dce13e28a23551c2bab208cee46b",
+      "compile_receipt_sha256": "4cb9d76f3b9b5966b712cccfd19a06a5a615cd8079b5525e1ff919c368064651",
+      "source_path": "outputs/ANGULAR_LEAN/v16/AngularBranchData.lean",
+      "imports": [
+        "AngularRawKernel",
+        "OAI.NumberTheory.DirichletL.RowCompletion.FixedCuspBranches"
+      ],
+      "lines": 95
+    },
+    {
+      "module": "AngularBranchPhase",
+      "source_sha256": "510ffed9282e3f575a1c8198d624eb1e57f22117a4306f440710fd3285996a46",
+      "olean_sha256": "636767fad1baa71fdbd25031a0ffe47945f30a0c6df4ad7278a8daedaed034bf",
+      "compile_receipt_sha256": "d943c52daad898f1e7b2dc2013b4d72626407c9f58df8013aa34b584f1462088",
+      "source_path": "outputs/ANGULAR_LEAN/v16/AngularBranchPhase.lean",
+      "imports": [
+        "AngularBranchData"
+      ],
+      "lines": 49
+    },
+    {
+      "module": "AngularBranchRealization",
+      "source_sha256": "9cbdac631d7f3cb9880f2d4c37aa418d0132d38eb3a465eaa80f2ee33dcef4eb",
+      "olean_sha256": "721b5f889cb8812507ed04086a074afa10a895ed72cab4da5e3853c0ce0540d2",
+      "compile_receipt_sha256": "069ae1ac3de1cbb4b6d2fa876142139fb467aa3cec1d2c0927c2f4018ab8eb3e",
+      "source_path": "outputs/ANGULAR_LEAN/v16/AngularBranchRealization.lean",
+      "imports": [
+        "AngularBranchData",
+        "AngularStratumBranches",
+        "OAI.NumberTheory.DirichletL.GaussSum.ActiveReindexing"
+      ],
+      "lines": 166
+    },
+    {
+      "module": "AngularFiberEnergy",
+      "source_sha256": "f0aba2a0f47b5fb80e3820b8ef2a4def23d5dda4b17038e21c05dcab4eaab21a",
+      "olean_sha256": "1ee01acfa7aed1c92da91d5231a8da1430a35e370cf41e72342b90ffdd671f69",
+      "compile_receipt_sha256": "718e5e325e57482233e3d6ccecce04be4507350f4872cc1b26b2d84e36bc4283",
+      "source_path": "outputs/ANGULAR_LEAN/v16/AngularFiberEnergy.lean",
+      "imports": [
+        "AngularBranchData"
+      ],
+      "lines": 129
+    },
+    {
+      "module": "AngularRepresentativeSource",
+      "source_sha256": "af0dc2a75ad815e1a343c651e7abdbfd9b1def264816e9d76ca37c3e553c68cd",
+      "olean_sha256": "14bd05031d5c229be88a5ed8c5f2d37c64b61b8e0c040cc6daf468b3cc57f03a",
+      "compile_receipt_sha256": "1d5a81e47391ecb7a7774f9e3bc083935256a928f1e23e418cd1a1db760330c0",
+      "source_path": "outputs/ANGULAR_LEAN/v16/AngularRepresentativeSource.lean",
+      "imports": [
+        "AngularRowSource",
+        "OAI.NumberTheory.DirichletL.RowCompletion.ReflectedFibers"
+      ],
+      "lines": 132
+    },
+    {
+      "module": "AngularRowAmplitudes",
+      "source_sha256": "f397e303c8611b84974aaaedf98b006287c34a38fa0e46674b3302e3dc2d7c80",
+      "olean_sha256": "04747da3a6c5c128c7ae8d98d16354874fb7a0ad7a0c0e3969de6ce4811d7581",
+      "compile_receipt_sha256": "fb35ed4302ae08ddacd2303315788d858298b21764a440c07f905ba9c45aded3",
+      "source_path": "outputs/ANGULAR_LEAN/v16/AngularRowAmplitudes.lean",
+      "imports": [
+        "AngularStratumModel",
+        "AngularCompletedCoefficient",
+        "OAI.NumberTheory.DirichletL.RowCompletion.RowAmplitudes"
+      ],
+      "lines": 80
+    },
+    {
+      "module": "AngularFiberCollection",
+      "source_sha256": "63ff3209ac9cf5b21974fd3517b54c5cac2d2c05e51b67711293868cca54e70a",
+      "olean_sha256": "9a8ed950b0f3a1ece7c810d294d0dee4493588d4ad1c77064102cb7912f651fa",
+      "compile_receipt_sha256": "e13cefaa67f5ee324bad660b8e2d4872d737adf0c7138d2be9e55f57b564c803",
+      "source_path": "outputs/ANGULAR_LEAN/v17/AngularFiberCollection.lean",
+      "imports": [
+        "AngularPhysicalFiberData",
+        "OAI.NumberTheory.DirichletL.RowCompletion.BranchDecoding"
+      ],
+      "lines": 84
+    },
+    {
+      "module": "AngularPhysicalFiberBranch",
+      "source_sha256": "062e144b057b010d69844ebd3937820450375ed0af2edc6b115c8b8f2bade6cf",
+      "olean_sha256": "7bffae6148f20aaf166d37d0ce06246a2dccb3fb5023855a36f351f39b78836f",
+      "compile_receipt_sha256": "4f566a35ee3d9f19bab908a0fdfde4c349cfacd11ae30ad3452e1f28eb4440f5",
+      "source_path": "outputs/ANGULAR_LEAN/v17/AngularPhysicalFiberBranch.lean",
+      "imports": [
+        "AngularPhysicalFiberData",
+        "AngularBranchPhase",
+        "AngularStratumBranches"
+      ],
+      "lines": 156
+    },
+    {
+      "module": "AngularPhysicalFiberData",
+      "source_sha256": "7f83d0d9e202c72994605c87b886888df88a066607ff805b0c48cb382b8ddda1",
+      "olean_sha256": "dcfcc6169dda58821b7687dd28dadc7419ce849a3c418a0c35c3e995f2f81279",
+      "compile_receipt_sha256": "e8548a2bcbb097b9104ae97c78beef0ba62208935cf1106e3b124efea740bc0d",
+      "source_path": "outputs/ANGULAR_LEAN/v17/AngularPhysicalFiberData.lean",
+      "imports": [
+        "AngularFiberEnergy",
+        "AngularRowAmplitudes",
+        "AngularBranchRealization",
+        "OAI.NumberTheory.DirichletL.RowCompletion.ReflectedFibers"
+      ],
+      "lines": 149
+    },
+    {
+      "module": "AngularCompletedModels",
+      "source_sha256": "bf5cd2641c5fad03ffbe601cb0c14d62f9f9e89c6f6ad25fa9b89a9890296d5f",
+      "olean_sha256": "c32e4360d4f2a926c584180c54a161ce67a11bc36692df8c9f0edaee0824bec1",
+      "compile_receipt_sha256": "28544cfe63945f61f696c0292913a8ce39deeadbfc479cb0f2782010ffbfeafa",
+      "source_path": "outputs/ANGULAR_LEAN/v18/AngularCompletedModels.lean",
+      "imports": [
+        "AngularFiberEnergy",
+        "OAI.NumberTheory.DirichletL.RowCompletion.ReflectedFibers"
+      ],
+      "lines": 97
+    },
+    {
+      "module": "AngularCompressedSource",
+      "source_sha256": "807f3649698d9f72d5f7f7ab2c6b970942dbfc898bdfef975d34317ee012087d",
+      "olean_sha256": "e1565b9b791120759018ead2f4559e7e90cec1f96197c6063c95bf694c0e4c6c",
+      "compile_receipt_sha256": "15491834d7b2a8d2d89e0e8c51885639802ae01621792c3c49d34636d641ce87",
+      "source_path": "outputs/ANGULAR_LEAN/v18/AngularCompressedSource.lean",
+      "imports": [
+        "AngularRepresentativeSource",
+        "AngularResidualBranches",
+        "OAI.NumberTheory.DirichletL.RowCompletion.BranchDecoding"
+      ],
+      "lines": 162
+    },
+    {
+      "module": "AngularFiberDecoding",
+      "source_sha256": "0cf3634c53eab02e413073f50b91c455ff4dd339138a99377506e9a272cecb99",
+      "olean_sha256": "46d07e9bf03a92fb08506a698ef856241488fb8cf237c76976518605872a4919",
+      "compile_receipt_sha256": "1d522d92eac448fde10e797dff082d340e25d7964424e8b5973cdafb1b59438f",
+      "source_path": "outputs/ANGULAR_LEAN/v18/AngularFiberDecoding.lean",
+      "imports": [
+        "AngularCompressedSource",
+        "AngularPhysicalFiberBranch"
+      ],
+      "lines": 137
+    },
+    {
+      "module": "AngularPhysicalFiberIdentity",
+      "source_sha256": "84856b3bba077e7cab109b70d62feb2c357dcb32ad7f358860474d52254ad001",
+      "olean_sha256": "a7a408e5bc0b3421541e98a9b79e9259a7f482592ca692ce6fcf5744f6d36238",
+      "compile_receipt_sha256": "b25b4fd7ec94ef79189206892513f5d2c5725f6b00aeb679331954d9879193f0",
+      "source_path": "outputs/ANGULAR_LEAN/v18/AngularPhysicalFiberIdentity.lean",
+      "imports": [
+        "AngularFiberDecoding",
+        "AngularFiberCollection",
+        "AngularCompletedModels"
+      ],
+      "lines": 97
+    },
+    {
+      "module": "AngularPhysicalRowEnergy",
+      "source_sha256": "aa5aa80bcac970fea35cfb973f74b32deaf7e38c82f53739e4e8770b6409e5e8",
+      "olean_sha256": "643be57083ffd30774a1486fac9c0c22a26a3212e67208480b7e1d8f591a2839",
+      "compile_receipt_sha256": "a84fcf48763f6c4579491327933ee873e64a182e8c63c3784c48dbb0f737c9ac",
+      "source_path": "outputs/ANGULAR_LEAN/v18/AngularPhysicalRowEnergy.lean",
+      "imports": [
+        "AngularPhysicalFiberIdentity"
+      ],
+      "lines": 120
+    },
+    {
+      "module": "AngularDyadicModels",
+      "source_sha256": "6ad7d1910d85d100073c2b9ac5845a7a0d1c30d6dc60e2c688f3b2ebdc393ddb",
+      "olean_sha256": "130909269242b276a3b2366fb49c0ebeff55d017b2a536600bee4d32a69715c4",
+      "compile_receipt_sha256": "eb1392d69e60c6c362196781d498b39e7abae134f2c78fc70257340a08a9f606",
+      "source_path": "outputs/ANGULAR_LEAN/v19/AngularDyadicModels.lean",
+      "imports": [
+        "AngularPhysicalRowEnergy",
+        "OAI.NumberTheory.DirichletL.GaussSum.CompletedDyadicRows"
+      ],
+      "lines": 82
+    },
+    {
+      "module": "AngularPhysicalMeanSquare",
+      "source_sha256": "2429eb3731e2deea664b2251e72c95df6752388f0a5c3ebee4b527c4eaf9a90b",
+      "olean_sha256": "418c593c6f9f7e9f3b4a0a2a7a0dc3a352572acb1230951c8d582c6d34901d7f",
+      "compile_receipt_sha256": "f0539ec6cc6d7901f435819fababe76cc42a9d32f6f23c065f40a07ab78f8ac8",
+      "source_path": "outputs/ANGULAR_LEAN/v19/AngularPhysicalMeanSquare.lean",
+      "imports": [
+        "AngularDyadicModels"
+      ],
+      "lines": 92
+    },
+    {
+      "module": "AngularGaussianSchwartz",
+      "source_sha256": "4fa83ae43fcfece62bbf017d8e9e0345af0cf6007ec3e45f5fef75957f7229df",
+      "olean_sha256": "dc54cdb3a0ecab8f2b908c2132c3bbd9f1c7a30632bb69959f35625189cce3e6",
+      "compile_receipt_sha256": "ca3b04335d499cd8b07f4a014250fe0fbdce945cb7c5848790f88f2cf1b9533c",
+      "source_path": "outputs/ANGULAR_LEAN/v2/AngularGaussianSchwartz.lean",
+      "imports": [
+        "OAI.NumberTheory.DirichletL.GaussSum.SexticRadialPoisson"
+      ],
+      "lines": 122
+    },
+    {
+      "module": "AngularPolynomialKernel",
+      "source_sha256": "e76e5df1c7bc8fdb8c7f904c212fde5786aadfa3b056231063f4676e93f342ff",
+      "olean_sha256": "c2d1166d3c7c12440bc05d3d33ff4abf7dee826df1de4b5b02d039ab36b74004",
+      "compile_receipt_sha256": "f276f321cb0dc4faad9195b8fe875ed69cfd711d9330a69714d30dec08f92375",
+      "source_path": "outputs/ANGULAR_LEAN/v20/AngularPolynomialKernel.lean",
+      "imports": [
+        "AngularKernelContour",
+        "OAI.NumberTheory.DirichletL.RowCompletion.PolynomialHeight"
+      ],
+      "lines": 51
+    },
+    {
+      "module": "AngularUniformFiberEnergy",
+      "source_sha256": "5f3e9e0d1fe42deece830f45c0c3d9462fb40f90b52f23ee161fececea1d531f",
+      "olean_sha256": "2c05545ca09a1fffe57e86984bf241e53eeaa0a8a426bf9d07a994395c733360",
+      "compile_receipt_sha256": "17f2e4f859549f49a983dee47f272ada913221318ec08c5cd9f7af8ac217e73c",
+      "source_path": "outputs/ANGULAR_LEAN/v20/AngularUniformFiberEnergy.lean",
+      "imports": [
+        "AngularUniformKernelEnergy",
+        "AngularPhysicalMeanSquare"
+      ],
+      "lines": 309
+    },
+    {
+      "module": "AngularUniformKernel",
+      "source_sha256": "638f83f5312bed74a36e453bb28352880e2a1c69448fa84a2a7160bfbceeb5cf",
+      "olean_sha256": "3c66f94ffe879e7cb000d912d7e461d5c25558660886af098584fe2fb3f70338",
+      "compile_receipt_sha256": "3a362d705431e5e4283b9d259c20961e5f0a31b4514c58ed5d893ecd5815f78b",
+      "source_path": "outputs/ANGULAR_LEAN/v20/AngularUniformKernel.lean",
+      "imports": [
+        "AngularPolynomialKernel",
+        "OAI.NumberTheory.DirichletL.CubicSieve.RankMargins"
+      ],
+      "lines": 107
+    },
+    {
+      "module": "AngularUniformKernelEnergy",
+      "source_sha256": "5ee3c3a8e3112f06d6501b1d818b8cb7d8477bf5f515b9a924851a95bdca9f56",
+      "olean_sha256": "34b95548f8549ada23fc229236b24b8f0c51ec67d051c7ddaff7a0a54431c6d5",
+      "compile_receipt_sha256": "0b575f58c216408c736ff29cf4353682e07ce97a65b1072e3f7049deba93b030",
+      "source_path": "outputs/ANGULAR_LEAN/v20/AngularUniformKernelEnergy.lean",
+      "imports": [
+        "AngularUniformKernel",
+        "AngularDyadicEnergy"
+      ],
+      "lines": 232
+    },
+    {
+      "module": "AngularPhysicalSieveEnergy",
+      "source_sha256": "16efdb41d4acc4bd179a1d6a048a8ccaff81b5621168aac0f9c6e0f2ec37bfa9",
+      "olean_sha256": "cb220fc5a7828af578c2d6ff708d60c0fc6775a0b268a61872962aab9f677f18",
+      "compile_receipt_sha256": "c5626e6f3dd2563d7c8a1a99268e35d011534fab944f52a5d43d9ee2c23cfa02",
+      "source_path": "outputs/ANGULAR_LEAN/v21/AngularPhysicalSieveEnergy.lean",
+      "imports": [
+        "AngularSieveDensity"
+      ],
+      "lines": 39
+    },
+    {
+      "module": "AngularRayOrbit",
+      "source_sha256": "485ab72edfce4076b43d74a002291e81ed93d107427631f7b9a07268433a9f93",
+      "olean_sha256": "ac30e170821cea07036a5012a3e11357ea027b5724b974f806e2f51f49fb79c6",
+      "compile_receipt_sha256": "fc672ae4b341f3e825d1f2cbdd62ff22fba47390ecb3bf6541817998ed230a9d",
+      "source_path": "outputs/ANGULAR_LEAN/v21/AngularRayOrbit.lean",
+      "imports": [
+        "AngularRowClosure",
+        "AngularPhysicalRowEnergy",
+        "OAI.NumberTheory.DirichletL.Moments.FixedRay"
+      ],
+      "lines": 126
+    },
+    {
+      "module": "AngularShortAverage",
+      "source_sha256": "d714422f297ee1d64dc4f827a5b842148e1874eddb089e41ea15d538b70cfa21",
+      "olean_sha256": "e4fb2e69c0d74d99e5ab5db3b362d22234306e42ac5122c5e4c13b0e3a9ee5df",
+      "compile_receipt_sha256": "11c150e4f3404b6a8fbe92817051059bbd934a4a25c0213b6801c955924363af",
+      "source_path": "outputs/ANGULAR_LEAN/v21/AngularShortAverage.lean",
+      "imports": [
+        "AngularUniformFiberEnergy"
+      ],
+      "lines": 136
+    },
+    {
+      "module": "AngularShortEnergy",
+      "source_sha256": "ee636f4ae038458b6d24a985df47c2f4aedebb7aec61183c14107527f05a9207",
+      "olean_sha256": "66c76be400274ab379e227993d18458e82909e8d94897eefaa01fad1e89ac3f7",
+      "compile_receipt_sha256": "eb9b9cae9d62cda0842b26ddf245a7be5e71c6f9176ecb3f2e35e61bf0c38b5b",
+      "source_path": "outputs/ANGULAR_LEAN/v21/AngularShortEnergy.lean",
+      "imports": [
+        "AngularShortAverage",
+        "AngularSieveModels"
+      ],
+      "lines": 192
+    },
+    {
+      "module": "AngularSieveDensity",
+      "source_sha256": "7c8f6e681c4ecd94f209e4c45f4ad40961f77bf04506066dfccc37e5403cd678",
+      "olean_sha256": "c9fe0d45c05b9a706dac1969dd1259dfdeaa444074dcbd04ce7dff059655494f",
+      "compile_receipt_sha256": "b588a0e8bf36d5c0805f28733409926dd63eb24ad69f9b3cffb05ae09628b78f",
+      "source_path": "outputs/ANGULAR_LEAN/v21/AngularSieveDensity.lean",
+      "imports": [
+        "AngularShortEnergy"
+      ],
+      "lines": 338
+    },
+    {
+      "module": "AngularSieveModels",
+      "source_sha256": "bff105ea17d4fa0179362e78fc3762305bdea90004888fd753fdece08d851183",
+      "olean_sha256": "9fafc239cd2d07b9c11c9bb1a1832cb4d4b6a65c9f56fbbd3226a04f9d1c0873",
+      "compile_receipt_sha256": "b514b896c3fb33eeb07d35eeabf69e7559f3d4d322f85310cf83e63e6afff7e1",
+      "source_path": "outputs/ANGULAR_LEAN/v21/AngularSieveModels.lean",
+      "imports": [
+        "AngularRayOrbit",
+        "AngularDyadicModels",
+        "OAI.NumberTheory.DirichletL.RowCompletion.BranchDecoding"
+      ],
+      "lines": 122
+    },
+    {
+      "module": "AngularIdealRow",
+      "source_sha256": "03bd91ac6cfaac090cd1b42c7967514297b87b5158cf5e5450ba5e17811f75be",
+      "olean_sha256": "97de27a0afa032737ce68fd8c5a7792cee6c9490f55b09185d513b6d71cd47ef",
+      "compile_receipt_sha256": "5f25e1c349d2fdad61bb30c07341eced03c80826ee1c4140ed5ae8219b49816f",
+      "source_path": "outputs/ANGULAR_LEAN/v22/AngularIdealRow.lean",
+      "imports": [
+        "AngularPhysicalSieveEnergy",
+        "OAI.NumberTheory.DirichletL.MeanSquare.PoissonSource"
+      ],
+      "lines": 161
+    },
+    {
+      "module": "AngularInitialDensity",
+      "source_sha256": "8553632ea56bff5a53bcdcbd9d1f84b8934546ea1f65b29221f82ba0d259dcc3",
+      "olean_sha256": "97125f09eaff474b22973f2e17bdafc24e4b4627e749cc68b33655674eeabbcc",
+      "compile_receipt_sha256": "82ed78e11e1c6d5ad9a4348958e6c9fe81f26003bedaae3dcee0d3a6388e2b44",
+      "source_path": "outputs/ANGULAR_LEAN/v22/AngularInitialDensity.lean",
+      "imports": [
+        "AngularPhysicalSieveEnergy",
+        "OAI.NumberTheory.DirichletL.RowCompletion.InitialDensity"
+      ],
+      "lines": 179
+    },
+    {
+      "module": "AngularNonzeroSource",
+      "source_sha256": "8e8eca9f114b9768385083b68425d2d3f585ffb0b11c28909adaa140fcc7a0af",
+      "olean_sha256": "9da54124e5ca55b080c0901dfc2c99664f643b3ae470e49195adb36b797edecc",
+      "compile_receipt_sha256": "39bc98ce90c8aa25925b3464d4ef7a88be7f358573ab98fc3e9b1877aa6a262d",
+      "source_path": "outputs/ANGULAR_LEAN/v22/AngularNonzeroSource.lean",
+      "imports": [
+        "AngularRetainedSource",
+        "OAI.NumberTheory.DirichletL.MeanSquare.ThetaDensity"
+      ],
+      "lines": 115
+    },
+    {
+      "module": "AngularPoissonMoment",
+      "source_sha256": "d88e989c035681552a9e4815394dc21269a8afef8cb6d923b3037fa6b7b7ce47",
+      "olean_sha256": "2f61619782fe1c89d2c8f64bd5c9453d7568f95270f686985008977d0909997a",
+      "compile_receipt_sha256": "c223d88a3557d82d49063cc7a480a7aacf2b06baaa0121aee4b3e327caf53e9b",
+      "source_path": "outputs/ANGULAR_LEAN/v22/AngularPoissonMoment.lean",
+      "imports": [
+        "AngularIdealRow",
+        "AngularNonzeroSource"
+      ],
+      "lines": 224
+    },
+    {
+      "module": "AngularRetainedSource",
+      "source_sha256": "89ae6478998b41d37ab8c3b03335faaa1b2ad3461c45ff3412250c21449af850",
+      "olean_sha256": "da17f684a7161122c182ececd9d5a7a16e8c449ff1cc066058d45f75a1a6fecc",
+      "compile_receipt_sha256": "c364d0a2b2230d15b1f85f2668226000e22cd1b10b3f65261752b794c75e1b5a",
+      "source_path": "outputs/ANGULAR_LEAN/v22/AngularRetainedSource.lean",
+      "imports": [
+        "AngularInitialDensity"
+      ],
+      "lines": 269
+    },
+    {
+      "module": "AngularSixthPower",
+      "source_sha256": "526f2474d059946a0f6125f7476c5809116809cab76f8f947355a35bd5f3e05c",
+      "olean_sha256": "7ea11a1dab2c0b1b1ac5892047c90d6aea3f64a6cb060aa1f683f3c7ba891687",
+      "compile_receipt_sha256": "ca7b4da29fe5a058cc4028fa9e5c2bc4722cb0b147690dfdc8056c840d49950f",
+      "source_path": "outputs/ANGULAR_LEAN/v23/AngularSixthPower.lean",
+      "imports": [
+        "AngularPoissonMoment",
+        "OAI.NumberTheory.DirichletL.Mellin.SixthPowerAverage"
+      ],
+      "lines": 173
+    },
+    {
+      "module": "AngularTotientSeed",
+      "source_sha256": "ce0cfa149b9b30cf666cd131e2009eeb236730a91e6be6a5eb5c5ec474fa0a1c",
+      "olean_sha256": "85f0b22020b3a0641504be1240371c54f12bd3cf9706b9e2fb284563cc9a16d5",
+      "compile_receipt_sha256": "b9c9f17eb2a8a672666db2366ef463a0a8deac55beef4079e54ee6ff9658bcb3",
+      "source_path": "outputs/ANGULAR_LEAN/v23/AngularTotientSeed.lean",
+      "imports": [
+        "AngularSixthPower"
+      ],
+      "lines": 144
+    },
+    {
+      "module": "AngularWeightedMellin",
+      "source_sha256": "202e42f3daf013ee4312e5c495808db83a8ff5ee6244ffce2e170c7d7a8fb06b",
+      "olean_sha256": "7ec1562689efa063fea33d2c005955a6301977084f29f8d62d9a9d2edd6629a3",
+      "compile_receipt_sha256": "3d958d7ee9459cd986bee978f3c4807d31f5fa064e3c5ed76c40011a366ed6e1",
+      "source_path": "outputs/ANGULAR_LEAN/v23/AngularWeightedMellin.lean",
+      "imports": [
+        "AngularTotientSeed"
+      ],
+      "lines": 326
+    },
+    {
+      "module": "AngularEulerCorrection",
+      "source_sha256": "463ad2262d8e8872764ca8c40c5e353d3b274653cb1b1c01f5c43604f8a36c13",
+      "olean_sha256": "353e04561cd049a4de25b77d9fafff8192756393228d436f42531bfdc8eb83bc",
+      "compile_receipt_sha256": "3978ecfa527a1ec43a08b8a17c28e2cc3776543f4ed2f43bb26380d9ab0d714c",
+      "source_path": "outputs/ANGULAR_LEAN/v24/AngularEulerCorrection.lean",
+      "imports": [
+        "AngularWeightedMellin",
+        "OAI.NumberTheory.DirichletL.Hecke.MobiusEulerCorrection"
+      ],
+      "lines": 167
+    },
+    {
+      "module": "AngularEulerProducts",
+      "source_sha256": "91c39f6a944f3767ffef0770fc8449253601b8ac2de77f04ed2e305cab2cc1a0",
+      "olean_sha256": "71da6b87f64669527dbf35412fefcad2ba37b0be22b771c7f7ec17e10e1a41d1",
+      "compile_receipt_sha256": "99bab55f37224beb7154287e7b888300101c15b4dd6441aacecf86087a49c9f4",
+      "source_path": "outputs/ANGULAR_LEAN/v24/AngularEulerProducts.lean",
+      "imports": [
+        "AngularEulerCorrection"
+      ],
+      "lines": 189
+    },
+    {
+      "module": "AngularFiniteRestoration",
+      "source_sha256": "7b5c5f8fc1539dff5271ec4d7c2767ee6b9fb2b17da3c3074bddfb85a9cc81b1",
+      "olean_sha256": "a2e06842343c76d28be27277dbd4f46823a35d6dbe8024dcb7b503203a83e61f",
+      "compile_receipt_sha256": "9fd4a841cefcda1404223ed94bbe0a08e4f54f36372e572869bd8f3403d5dc05",
+      "source_path": "outputs/ANGULAR_LEAN/v24/AngularFiniteRestoration.lean",
+      "imports": [
+        "AngularEulerProducts",
+        "AngularFamilyContinuation"
+      ],
+      "lines": 107
+    },
+    {
+      "module": "AngularSeedNonvanishing",
+      "source_sha256": "eae94006c4a6391d3dd80ce16b5004b39ca9907398c7633f8db253c420dedaa3",
+      "olean_sha256": "2b8c5fb29f34f5c0ba40b1096bd655a99836d640f04c102411e7578030b2329a",
+      "compile_receipt_sha256": "303c9b83de58801f0f6e1dde78ff99473a893f9048644ad73bd77e8370e7f794",
+      "source_path": "outputs/ANGULAR_LEAN/v25/AngularSeedNonvanishing.lean",
+      "imports": [
+        "AngularFiniteRestoration",
+        "AngularSeedRegularization",
+        "AngularFamilyConjugation",
+        "OAI.NumberTheory.DirichletL.Mellin.CompactScale"
+      ],
+      "lines": 112
+    },
+    {
+      "module": "AngularSeedRegularization",
+      "source_sha256": "82378ce8b17046987b34ecd41ff4be4e229ca194cade1691509180ba816783c5",
+      "olean_sha256": "c82c7e2f5040c3413298311d4ac424d4adc2697670bade75dda6bb7627521e67",
+      "compile_receipt_sha256": "486e08cb7fc9efe077a53b021af463d236a8ed543daacb2fb22e89591c0902e8",
+      "source_path": "outputs/ANGULAR_LEAN/v25/AngularSeedRegularization.lean",
+      "imports": [
+        "AngularAllTypeTransport",
+        "OAI.NumberTheory.DirichletL.Hecke.FiniteDeletion"
+      ],
+      "lines": 40
+    },
+    {
+      "module": "AngularNormTwist",
+      "source_sha256": "2289746fb317912144ba13ab08b88ae414d3b08ac90ad799ba9e953e95b7d2f8",
+      "olean_sha256": "61ff752bffabf16f9b854bdef91f8f3f82040f37d14cfa1e3ee92924f3e05378",
+      "compile_receipt_sha256": "449ae8b0dc32d140268832759b229366b2958205fa3bfc0ad3b9f66246c9682e",
+      "source_path": "outputs/ANGULAR_LEAN/v29/AngularNormTwist.lean",
+      "imports": [
+        "AngularSeries"
+      ],
+      "lines": 85
+    },
+    {
+      "module": "AngularNormTwistContinuation",
+      "source_sha256": "ab86ba389065cf358f1a4dd02e845daeafd1545b1369a3e8d79e085bdc01893c",
+      "olean_sha256": "a02868a603169150fe765e8b21f531c193c05b7a963d9f1aaca8655ae6caf496",
+      "compile_receipt_sha256": "96f850a08b5dc5c08ed79ecfc0246cb4a1922cf8a69e7873a82766eb70407395",
+      "source_path": "outputs/ANGULAR_LEAN/v29/AngularNormTwistContinuation.lean",
+      "imports": [
+        "AngularNormTwist",
+        "AngularFamilyContinuation",
+        "AngularSeedNonvanishing"
+      ],
+      "lines": 60
+    },
+    {
+      "module": "AngularElementSeries",
+      "source_sha256": "b6d5700ea551e06a5702604b1118d4a7a1c74c60ef307db62468952b4cdae20e",
+      "olean_sha256": "f221e21be1e223d8978a32a30c843c90407f3e26d2c0e9bc467580786c093ea2",
+      "compile_receipt_sha256": "79df1f526ec539cbe42a0a12294fe30b93a6a1fa3d61ff3bed63ad8a7a7f5865",
+      "source_path": "outputs/ANGULAR_LEAN/v3/AngularElementSeries.lean",
+      "imports": [
+        "AngularSeries",
+        "OAI.NumberTheory.DirichletL.CubicSieve.ResidualSectors"
+      ],
+      "lines": 155
+    },
+    {
+      "module": "AngularFamilyContinuation",
+      "source_sha256": "2b19d8fde4877b67defbb64a83dce4a800a0f3322c2aac5cb14f06962a64c664",
+      "olean_sha256": "3d17e77f289e8b524b02a722939745a7e9d676b4e85a99c8f705b349c0994dfe",
+      "compile_receipt_sha256": "e4890e7ab943035feeebeed70360fef4109322cab7e158744a42546018f890b6",
+      "source_path": "outputs/ANGULAR_LEAN/v3/AngularFamilyContinuation.lean",
+      "imports": [
+        "AngularPrimitiveContinuation",
+        "AngularPrimitiveReduction"
+      ],
+      "lines": 72
+    },
+    {
+      "module": "AngularGaussianDeriv",
+      "source_sha256": "9382faab2f1733e601e10c6c16a1b987e72fcac7e17eb570bce773dd5d51018a",
+      "olean_sha256": "8fede7e483ca46279f2a6d28a8e702c34099e9aef74596d57b154b5f3247342d",
+      "compile_receipt_sha256": "2cc8eee904cc72e34e8deb262f258bbd27ce5e98aa0c58bdec55c83d9ecc709d",
+      "source_path": "outputs/ANGULAR_LEAN/v3/AngularGaussianDeriv.lean",
+      "imports": [
+        "AngularGaussianWeighted"
+      ],
+      "lines": 78
+    },
+    {
+      "module": "AngularGaussianFourier",
+      "source_sha256": "b56f6a0229fc413507f6d790dc02d7ee1993f76d1fa1c974d8588c300133d922",
+      "olean_sha256": "fc638cbb5e4aee1058d43a23aa26b6f77eb139feec09a6cf0236f56a9bb3290d",
+      "compile_receipt_sha256": "5ef3fa7c31cbd422456ade0f68701a174764b6d858b49ec86fb31fbb5da68b79",
+      "source_path": "outputs/ANGULAR_LEAN/v3/AngularGaussianFourier.lean",
+      "imports": [
+        "AngularGaussianDeriv"
+      ],
+      "lines": 165
+    },
+    {
+      "module": "AngularGaussianPaper",
+      "source_sha256": "3257d352cc02df895135b4e651728a0adbd7e0a67b9424ed0bdc41af5fe6e8fa",
+      "olean_sha256": "776ea1177700c02a82323c5c382a36cd5a769b862af0dda820c670b3309bbe35",
+      "compile_receipt_sha256": "7c0b4288d522707e58acd56335ddf90b8c551979b5a6b34c0ab3e85bbf703164",
+      "source_path": "outputs/ANGULAR_LEAN/v3/AngularGaussianPaper.lean",
+      "imports": [
+        "AngularGaussianFourier"
+      ],
+      "lines": 95
+    },
+    {
+      "module": "AngularGaussianWeighted",
+      "source_sha256": "5d3bc23abf8ba032581a7a9e357e369fd51a1822a6cf88f857bdb7b244c29725",
+      "olean_sha256": "0f47aca3e1a00feb68ca310daa38909474e6a8923abc2dbadeb7809551a42f82",
+      "compile_receipt_sha256": "0ad508807c8da3b69395ab1b727db0337ce149e24462ed03b9492d1090a9b1ff",
+      "source_path": "outputs/ANGULAR_LEAN/v3/AngularGaussianWeighted.lean",
+      "imports": [
+        "AngularGaussianSchwartz"
+      ],
+      "lines": 43
+    },
+    {
+      "module": "AngularMellinConvergence",
+      "source_sha256": "209e06c9ca26ab89fb63b21a1cb73b7708cd577e429df01ff5d7c5ab91faa5a6",
+      "olean_sha256": "16f07d20db4998cc3c3ccbe8ab14c3e1f279b35289769b5d735b88583ad70304",
+      "compile_receipt_sha256": "9f62d4fe1bd100e8701af53a3a17e227c7e57500ff06d139f313076ab0f5e3e5",
+      "source_path": "outputs/ANGULAR_LEAN/v3/AngularMellinConvergence.lean",
+      "imports": [
+        "AngularThetaMellin"
+      ],
+      "lines": 136
+    },
+    {
+      "module": "AngularMellinShift",
+      "source_sha256": "90b536225f5051c7efcbac109046fecb781f92656014bb164ba974d983381241",
+      "olean_sha256": "b3b673f88a2cedb187ef4c8e1801322ea7d834867cbaf12fbeb516282aa0372d",
+      "compile_receipt_sha256": "b6a670c7dd837e3c6ee1c91cb6fd5539c823e7c1057c56b1b965971a44e97662",
+      "source_path": "outputs/ANGULAR_LEAN/v3/AngularMellinShift.lean",
+      "imports": [
+        "AngularPolynomial",
+        "Mathlib.NumberTheory.LSeries.MellinEqDirichlet"
+      ],
+      "lines": 65
+    },
+    {
+      "module": "AngularPolynomial",
+      "source_sha256": "fa7482629c90d550f304d064e8436bf5ac617ce41468581d8723b1093de65240",
+      "olean_sha256": "fddcbc59939459aedfcdc9a06fca84ac104f075489764cc93e4d922b1709a270",
+      "compile_receipt_sha256": "4c6265007d3aba26517548ad086acf43302e15ea51916055d4caada5664975f1",
+      "source_path": "outputs/ANGULAR_LEAN/v3/AngularPolynomial.lean",
+      "imports": [
+        "AngularCharacter",
+        "OAI.NumberTheory.DirichletL.GaussianTheta"
+      ],
+      "lines": 126
+    },
+    {
+      "module": "AngularPrimitiveContinuation",
+      "source_sha256": "63bf24bd6dac5c30ca11528c955b4f48688624df435a45bf2d7281e48287e4d4",
+      "olean_sha256": "2ac6e019ccd76c14aded4751f6d708703f23036596fe84c39f6b991e206fa88e",
+      "compile_receipt_sha256": "c07459f975bfda69df979a9ebcf12bc3da0f0d67daf3e7cd67fd3bb0a62b88a2",
+      "source_path": "outputs/ANGULAR_LEAN/v3/AngularPrimitiveContinuation.lean",
+      "imports": [
+        "AngularThetaFEPair",
+        "AngularMellinConvergence",
+        "Mathlib.Analysis.SpecialFunctions.Gamma.Beta"
+      ],
+      "lines": 145
+    },
+    {
+      "module": "AngularPrimitiveReduction",
+      "source_sha256": "a8ed02195d4c59f8ceedebc9e22cdd758a276e619bd1226ab4a0fb859d160833",
+      "olean_sha256": "e4b3507597bf639f3bcbc6e304db2b549f2420fc72bfb353301f695c2db47d44",
+      "compile_receipt_sha256": "b4df4901f2df5045c530faab8e7e40b9a9c82b39e95642f8bad9229d867a9700",
+      "source_path": "outputs/ANGULAR_LEAN/v3/AngularPrimitiveReduction.lean",
+      "imports": [
+        "AngularSeries",
+        "OAI.NumberTheory.DirichletL.TraceConductor",
+        "OAI.NumberTheory.DirichletL.EulerFactors"
+      ],
+      "lines": 112
+    },
+    {
+      "module": "AngularThetaBasic",
+      "source_sha256": "7815eac31a8747a0d0031dc8ed46fe63b0e211857ec311c415ed579c19ad0799",
+      "olean_sha256": "d3f7b64efc37fd667d6607d00d1765152386860ee460a2b1f307852e4f1f69fe",
+      "compile_receipt_sha256": "0fa0582dbc13addcbe7805353a6ffb7bd6557bc6232a0ce3e2af09a45fdb6917",
+      "source_path": "outputs/ANGULAR_LEAN/v3/AngularThetaBasic.lean",
+      "imports": [
+        "AngularPolynomial",
+        "AngularGaussianWeighted"
+      ],
+      "lines": 59
+    },
+    {
+      "module": "AngularThetaDecay",
+      "source_sha256": "29a9179d02893bf469138059e0be2703481ae30762b0b817b03cf289a12f9900",
+      "olean_sha256": "41fcaff8d8a6d535e8fdeeab7ec5e91ac66ede06d9ff05badb1bfff290f08787",
+      "compile_receipt_sha256": "8e8d126f2c943f6b4c087ef156ed09e6cf63db133b8e84ee333b6c37bd214e90",
+      "source_path": "outputs/ANGULAR_LEAN/v3/AngularThetaDecay.lean",
+      "imports": [
+        "AngularThetaMellin"
+      ],
+      "lines": 113
+    },
+    {
+      "module": "AngularThetaFEPair",
+      "source_sha256": "d5ba11bd0c908ad7ea344be61aa7c54bb9a3b16ec349399a0156787482d06f6c",
+      "olean_sha256": "f8eca05851c671d60f5289adcf1753b4f96a7fa030f7ece44e500a3afc652d28",
+      "compile_receipt_sha256": "e3d1f82caed2bf35742d672fd4ff11cc1648982dec1c6ed4baad481c39fad2f3",
+      "source_path": "outputs/ANGULAR_LEAN/v3/AngularThetaFEPair.lean",
+      "imports": [
+        "AngularThetaDecay",
+        "AngularThetaTransform",
+        "Mathlib.NumberTheory.LSeries.AbstractFuncEq"
+      ],
+      "lines": 106
+    },
+    {
+      "module": "AngularThetaMellin",
+      "source_sha256": "5e981e155dbe488b8004cac5a2b6dd5267479566c38a7b399889c698d9aba316",
+      "olean_sha256": "974299caf9ad04d0b9a3361e72f19383d528672cceb7e0b7ada57dcf62a8d465",
+      "compile_receipt_sha256": "fc97cf581db828965c7807864bb8d7d17dfbc439531219e132f6b96e01c89ad7",
+      "source_path": "outputs/ANGULAR_LEAN/v3/AngularThetaMellin.lean",
+      "imports": [
+        "AngularThetaBasic",
+        "AngularMellinShift",
+        "AngularElementSeries"
+      ],
+      "lines": 101
+    },
+    {
+      "module": "AngularThetaTransform",
+      "source_sha256": "6cda745347c7d5e94fcf90a875f6e6840bcabfaf4e24c12e2d19453b702b23e0",
+      "olean_sha256": "13c0e550dbce5daf07f313a23a1e1fd6ec6f443d34f0b748df6ed9234806f74a",
+      "compile_receipt_sha256": "05815515ee9effa738d28d6bbf774f870e406a2f0907f79497acba6d31b04671",
+      "source_path": "outputs/ANGULAR_LEAN/v3/AngularThetaTransform.lean",
+      "imports": [
+        "AngularThetaBasic",
+        "AngularGaussianPaper"
+      ],
+      "lines": 185
+    },
+    {
+      "module": "AngularFullFamilySeed",
+      "source_sha256": "5ccfd581a53fb3efbc7859c7ab033fecf506caa31f3dc8bdc3e9de32d3c0c104",
+      "olean_sha256": "37ff1a36d207b4dbc73f24d49ac9d18df14809e13fd852f66744e766525f3c3a",
+      "compile_receipt_sha256": "e5d360e1c1fe83519432372cee2c118d54153f5453abd4ffa9090ff4b6712040",
+      "source_path": "outputs/ANGULAR_LEAN/v30/AngularFullFamilySeed.lean",
+      "imports": [
+        "AngularTypeZeroEntire",
+        "AngularNormTwistContinuation"
+      ],
+      "lines": 64
+    },
+    {
+      "module": "AngularTypeZeroEntire",
+      "source_sha256": "fb4fe02abf1454a21faf6fbb2f560f1ada783e6c5ed9a1a046826c920d544a5a",
+      "olean_sha256": "4a5ff7b087012b790a6def143b824e79d1dcc8c794868299dee0783331b5d07f",
+      "compile_receipt_sha256": "e4b50841d810a7d8611daafddd07211e5b0411d2a34dda38fd76266f9805d396",
+      "source_path": "outputs/ANGULAR_LEAN/v30/AngularTypeZeroEntire.lean",
+      "imports": [
+        "AngularFiniteIdentification",
+        "OAI.NumberTheory.DirichletL.Hecke.FiniteDeletion",
+        "OAI.NumberTheory.DirichletL.Hecke.BoundaryIntegration"
+      ],
+      "lines": 88
+    },
+    {
+      "module": "AngularBesselHorizontalRegularity",
+      "source_sha256": "ec3e80df0aa0652883593ea01b3b11b48d268f2ccb5f681c6481c54ef0cfe83b",
+      "olean_sha256": "fd201294d43ed7201ca57825c55c30d23d02bf476ed3864b66b491c271d281af",
+      "compile_receipt_sha256": "1a27a663090771ea37e08cd159fea323f75c15b98cf9f9de2cbe5288d8626a65",
+      "source_path": "outputs/ANGULAR_LEAN/v4/AngularBesselHorizontalRegularity.lean",
+      "imports": [
+        "AngularBesselDerivatives",
+        "OAI.NumberTheory.DirichletL.Eisenstein.ConjugateCuspProfiles"
+      ],
+      "lines": 140
+    },
+    {
+      "module": "AngularCuspChainRule",
+      "source_sha256": "1e452a14d440ccd31137c2ed6ba9249aee9b5c4caae15a645d2e6d06f729a0c4",
+      "olean_sha256": "4c31611b721c9b0275bf3065efe27b9f862059fad32b89282f2a40f6b2c98159",
+      "compile_receipt_sha256": "e200ed2bd5dfcfba0151223ba5a0672981e6502190b3f2244cbd2afbb13d2055",
+      "source_path": "outputs/ANGULAR_LEAN/v4/AngularCuspChainRule.lean",
+      "imports": [
+        "AngularCuspJets"
+      ],
+      "lines": 124
+    },
+    {
+      "module": "AngularCuspDerivativeCoefficients",
+      "source_sha256": "b7fb0ab085e50ec02627c565a047a32b4cf285be22750134393f84aa48fb93c9",
+      "olean_sha256": "279a5ae1863de8eac188c70cb242046b5dc7a52f0a1b1be8c5d8a7c329ffe49b",
+      "compile_receipt_sha256": "100ba3f516c52904494c582acbaee8204506d01a00a627131b7262343c0a20ec",
+      "source_path": "outputs/ANGULAR_LEAN/v4/AngularCuspDerivativeCoefficients.lean",
+      "imports": [
+        "AngularCuspJets"
+      ],
+      "lines": 89
+    },
+    {
+      "module": "AngularCuspJets",
+      "source_sha256": "57c4f4bf1911b05b475a558a525743b82bf7e168ad8aa7088fc3f48b94ab4b80",
+      "olean_sha256": "c8fda8d83366d6153ff6b911d981da71d790771ac68b216bae24ec3c72a3f8b3",
+      "compile_receipt_sha256": "06008f949f1d96d3fe45e9ebc354c504de8c8fd4080534c3d8eaf882c338b90f",
+      "source_path": "outputs/ANGULAR_LEAN/v4/AngularCuspJets.lean",
+      "imports": [
+        "AngularBesselDerivatives"
+      ],
+      "lines": 220
+    },
+    {
+      "module": "AngularCuspLineCalculus",
+      "source_sha256": "5b50df9bfcf7d4d3ed01045e0528125a8c572adb04b8d770ce588719b510d92c",
+      "olean_sha256": "f8e0769f63a25cb33af7da3ed9fdbb76c8aa4e431089839bbebb5cbcd375e35a",
+      "compile_receipt_sha256": "01c5810ba6e1c99db12269ae1805f12bf83a0d294b66609a46a7e8f201230372",
+      "source_path": "outputs/ANGULAR_LEAN/v4/AngularCuspLineCalculus.lean",
+      "imports": [
+        "AngularCuspProductAtZero"
+      ],
+      "lines": 66
+    },
+    {
+      "module": "AngularCuspProductAtZero",
+      "source_sha256": "0a7edbae4b69302194c079e1d848a5ccdebdd5bac996466752b2827490b42b40",
+      "olean_sha256": "fc8056c1d2c4c18dc5f99083da5922bc82a9bc36aa559d889994663cf02f2a4f",
+      "compile_receipt_sha256": "5b07f27066dfa80e71f6682a43fd49867c6d4603636b9499da0f69ccfe6b4ca6",
+      "source_path": "outputs/ANGULAR_LEAN/v4/AngularCuspProductAtZero.lean",
+      "imports": [
+        "AngularBesselDerivatives",
+        "Mathlib.Analysis.Calculus.Deriv.Slope"
+      ],
+      "lines": 52
+    },
+    {
+      "module": "AngularCuspSecondOrder",
+      "source_sha256": "5f35d98f09b250e432935ef91efb29c4afacd6f7368ccb97444fe33a475aee98",
+      "olean_sha256": "253c7ef6d102358a28fda7dbea9323d6cf6668184cd6b6d415ecf01694c1a11c",
+      "compile_receipt_sha256": "5b1d0984865479f125ea00f80990e5692a8b3c3222a09b91292ff5b8c27fdebd",
+      "source_path": "outputs/ANGULAR_LEAN/v4/AngularCuspSecondOrder.lean",
+      "imports": [
+        "AngularCuspChainRule",
+        "AngularCuspLineCalculus",
+        "AngularCuspDerivativeCoefficients",
+        "AngularBesselHorizontalRegularity"
+      ],
+      "lines": 89
+    },
+    {
+      "module": "AngularCuspSecondReflection",
+      "source_sha256": "01edc43ee687531b23888c60755c89636ae6335a0285aab78e3dbde031b2c64b",
+      "olean_sha256": "60c04711f428a2fdd02b33dc3e5eebd26e75f52831a6235a5d76dc874a48190e",
+      "compile_receipt_sha256": "1cd3da478c107bbe909d3c18bb50140cfa9df780deb72c303995a34e4650573e",
+      "source_path": "outputs/ANGULAR_LEAN/v4/AngularCuspSecondReflection.lean",
+      "imports": [
+        "AngularCuspSecondOrder"
+      ],
+      "lines": 205
+    },
+    {
+      "module": "AngularFiniteCuspSecondReflection",
+      "source_sha256": "55d67632dea79a80278f8cf6e6837fc66da21eb76dce8b1e9e64770797d70d28",
+      "olean_sha256": "405d2b634125151f5f06b1531f665952a22a56d6123e53aba3f0e9a90f510bab",
+      "compile_receipt_sha256": "12bc396376a4ca44ba80ae45b24bd8882a49a7951959fcbc7898d6c5e2d579f9",
+      "source_path": "outputs/ANGULAR_LEAN/v4/AngularFiniteCuspSecondReflection.lean",
+      "imports": [
+        "AngularScaledBesselRegularity",
+        "OAI.NumberTheory.DirichletL.Eisenstein.SourceCuspKernels"
+      ],
+      "lines": 126
+    },
+    {
+      "module": "AngularHigherMellin",
+      "source_sha256": "41901caa25c0748be006bbd993ad9ad9c516bb187170ec0ca7d4711f8f78bcd7",
+      "olean_sha256": "8c04690d027af88977d26bdc3af43cd17d49f632846453f20663e9ab69a61248",
+      "compile_receipt_sha256": "3bf61d2053ea72283323c7f3f584f329d9b53a0b43f8ec0f4ff4ab4553c71cfb",
+      "source_path": "outputs/ANGULAR_LEAN/v4/AngularHigherMellin.lean",
+      "imports": [
+        "AngularAnalyticFoundation",
+        "OAI.NumberTheory.DirichletL.Eisenstein.ReflectedCuspMellin"
+      ],
+      "lines": 110
+    },
+    {
+      "module": "AngularHigherProfiles",
+      "source_sha256": "fd109a42067f9474796a6cec0b79494b415c29af39fa52f1fd0805115d67a440",
+      "olean_sha256": "1468ddfee6858002a602359263c0e8af901321b0fbd0ea53c8d9ca860dff1e0b",
+      "compile_receipt_sha256": "c6d38e4175d87c5ce4a15614da4563e0716f0bf6856586b5c94d462744602b68",
+      "source_path": "outputs/ANGULAR_LEAN/v4/AngularHigherProfiles.lean",
+      "imports": [
+        "AngularBesselHorizontalRegularity",
+        "OAI.NumberTheory.DirichletL.Eisenstein.CubeResidueStrata"
+      ],
+      "lines": 153
+    },
+    {
+      "module": "AngularScaledBesselRegularity",
+      "source_sha256": "460331a3e64f6a8d2ea4e0266e669890286a882e3551af8b7296851dad119c45",
+      "olean_sha256": "2289661d19718023ca97b1cf721262df78bd28724176a8546e5fb40034f6dbd4",
+      "compile_receipt_sha256": "a8253acf459fd0970867be9cb5c8d3bceeeeec93966cac1313d3c5c4e17e7ac2",
+      "source_path": "outputs/ANGULAR_LEAN/v4/AngularScaledBesselRegularity.lean",
+      "imports": [
+        "AngularCuspSecondReflection"
+      ],
+      "lines": 102
+    },
+    {
+      "module": "AngularSourceSecondMellin",
+      "source_sha256": "11465c72258ffc2e2651f4113780bbeab118207c6f4d37035094a17312b345a2",
+      "olean_sha256": "47579f36a66b6555b278bd00b9779da3b2d9e690c71a76c52e4e6eaeccdf524c",
+      "compile_receipt_sha256": "dc671531432baa11af8771c77c4080acb389aea52f229a0ae8cd5cf23333f5ce",
+      "source_path": "outputs/ANGULAR_LEAN/v4/AngularSourceSecondMellin.lean",
+      "imports": [
+        "AngularCuspSecondReflection",
+        "AngularHigherProfiles",
+        "AngularHigherMellin"
+      ],
+      "lines": 142
+    },
+    {
+      "module": "AngularFamilyConjugation",
+      "source_sha256": "7e2991fa9126ac86b726ede400b636d308b0b44dc397a5036cc45f8fba6d7cb1",
+      "olean_sha256": "14844db1cccb3ae3fcc361594ceec42d13cebe69260094666c721e1f5b9e68a5",
+      "compile_receipt_sha256": "773320412dae95bf26cb09abee010aa161e1aa216d4d0484fce0e725406d3886",
+      "source_path": "outputs/ANGULAR_LEAN/v5/AngularFamilyConjugation.lean",
+      "imports": [
+        "AngularFamilyContinuation",
+        "AngularOrientedCharacter",
+        "Mathlib.Analysis.Analytic.Uniqueness",
+        "Mathlib.Analysis.Complex.CauchyIntegral",
+        "Mathlib.Analysis.Calculus.Deriv.Star"
+      ],
+      "lines": 81
+    },
+    {
+      "module": "AngularFamilyInflation",
+      "source_sha256": "5ab0c91c4097ba8849a1ee7c696343459219f4a8279d58666faed25f6642a440",
+      "olean_sha256": "0b9ec264d88428adcbdf86cc61f2ab2fa6a16d540c145c53ca498496992702fc",
+      "compile_receipt_sha256": "c012a839aa172053c9e5790062b3e56d651ea616461f68e17a1b43dd29dd96d9",
+      "source_path": "outputs/ANGULAR_LEAN/v5/AngularFamilyInflation.lean",
+      "imports": [
+        "AngularFamilyConjugation"
+      ],
+      "lines": 73
+    },
+    {
+      "module": "AngularFiniteCuspDualMellin",
+      "source_sha256": "b92901cb5de9842970b13451c76c6bc2083b5e7990a190694d5108329ef2d67b",
+      "olean_sha256": "0de5816b795b38542853721a8ece903eb818328333e6c7eb037fdc5f6f7d0e86",
+      "compile_receipt_sha256": "4809cca5ca7302f6fcd1f9eb4eee5c3514aa606acde93e60421d79c4b7062ccb",
+      "source_path": "outputs/ANGULAR_LEAN/v5/AngularFiniteCuspDualMellin.lean",
+      "imports": [
+        "AngularFiniteCuspSecondMellin"
+      ],
+      "lines": 77
+    },
+    {
+      "module": "AngularFiniteCuspSecondMellin",
+      "source_sha256": "b6f458708586f4ade1b1716d912cce39448a3b67f5b6a260b3b557dffded507a",
+      "olean_sha256": "d601be4d1565f5172c019113b52d43215dcd6d895d4ec6a5d8682b370d368e2d",
+      "compile_receipt_sha256": "b2e3a61b6b7e32cf20db8645e2ff4e0aa7d255ef4ed04053f42a795917cb75f6",
+      "source_path": "outputs/ANGULAR_LEAN/v5/AngularFiniteCuspSecondMellin.lean",
+      "imports": [
+        "AngularProfileScaling",
+        "AngularSourceSecondMellin"
+      ],
+      "lines": 172
+    },
+    {
+      "module": "AngularProfileScaling",
+      "source_sha256": "5ef158e6185114c30ce7d2a330f7e46220fb90427bbc2e0713eb9375aed73aea",
+      "olean_sha256": "33f172610475c2cde59c3950324f068585e36332f543cf6da4e43c69ac6e5bb6",
+      "compile_receipt_sha256": "6240456b8660c678bbd5b6f70a625ca6847f0760584f201e45159d6665426b87",
+      "source_path": "outputs/ANGULAR_LEAN/v5/AngularProfileScaling.lean",
+      "imports": [
+        "AngularFiniteCuspSecondReflection",
+        "AngularHigherProfiles",
+        "Mathlib.Analysis.Calculus.Deriv.CompMul"
+      ],
+      "lines": 100
+    },
+    {
+      "module": "AngularAllOrderCusp",
+      "source_sha256": "e8515c705f817c9f2c19909f881d2848068dfc6ca7e2fb58fab65b69c97f98f7",
+      "olean_sha256": "e9098a2ee670505739b7667beb483fbca49243c24f1e395aae5ca8a6da3dc84b",
+      "compile_receipt_sha256": "a2bada7cbe370605ab360f95459b641c9f71a0b42c88697c30fe8440bc5342ac",
+      "source_path": "outputs/ANGULAR_LEAN/v6/AngularAllOrderCusp.lean",
+      "imports": [
+        "AngularWirtingerJets",
+        "AngularCuspDerivativeCoefficients"
+      ],
+      "lines": 176
+    },
+    {
+      "module": "AngularAllTypeTransport",
+      "source_sha256": "c450f10f994459c57fedbbf18b3d4781b901dc2f8b1c4223c2bfe46fa5db1a93",
+      "olean_sha256": "f84c05a87b1649a2c0e02cf75361f0cbc39f6e86cc0ea662b191ac0a3a816ef9",
+      "compile_receipt_sha256": "f545d3ddc3cdf71692f00630818f317b7b90918634bafbaf0a9c737350ae0f75",
+      "source_path": "outputs/ANGULAR_LEAN/v6/AngularAllTypeTransport.lean",
+      "imports": [
+        "AngularFiniteIdentification"
+      ],
+      "lines": 74
+    },
+    {
+      "module": "AngularBesselHigherDensity",
+      "source_sha256": "6c487bc9005d44618ecb2b4460d4a36550bca558dda9f8ac71c4208c50dd8cd6",
+      "olean_sha256": "d15e893e13b5f829d1a758182e00756ce791e055e35da0aadc041704a69928bc",
+      "compile_receipt_sha256": "74c41b556b7099869e6de8921b961eb8421d00f7ffc788301fb761a80c2a8015",
+      "source_path": "outputs/ANGULAR_LEAN/v6/AngularBesselHigherDensity.lean",
+      "imports": [
+        "OAI.NumberTheory.DirichletL.Eisenstein.ConjugateCuspProfiles"
+      ],
+      "lines": 187
+    },
+    {
+      "module": "AngularBesselHigherIntegral",
+      "source_sha256": "51660779612a30e290d4965aa8ebdcf9a541dfe9cc84577ec72c7ba6797aa1fb",
+      "olean_sha256": "8978cabc11ad71c0499911aec6d11c0038069a6bc6449cb6a96f5b7a45eded82",
+      "compile_receipt_sha256": "9e63f4f811d5dd2e09308728f085eab7f7d8d2a854198e709b15bb7542ee8f5a",
+      "source_path": "outputs/ANGULAR_LEAN/v6/AngularBesselHigherIntegral.lean",
+      "imports": [
+        "AngularBesselHigherDensity",
+        "Mathlib.Analysis.Calculus.IteratedDeriv.Defs"
+      ],
+      "lines": 132
+    },
+    {
+      "module": "AngularBesselHigherKernel",
+      "source_sha256": "fa2b1c7275961901133610aec73a5155eb061d977a84671890ddc8ed44cb20c1",
+      "olean_sha256": "360c6b213d75b807d00ec4ec29e77cd57fac6d760216fe4e1799f0a2d8e7cfe8",
+      "compile_receipt_sha256": "2969d0c8c37675362564977a32d9fe5bb7d4df00abd5c524c8f7a737f23f31da",
+      "source_path": "outputs/ANGULAR_LEAN/v6/AngularBesselHigherKernel.lean",
+      "imports": [
+        "AngularBesselHigherIntegral"
+      ],
+      "lines": 160
+    },
+    {
+      "module": "AngularBesselKernelDifferentiation",
+      "source_sha256": "8eab45cb8426145ce9b41fd46d62cc0b103121ecd688be17150466c63d8af01a",
+      "olean_sha256": "eea41487bc11cc7adc68fddfb538d37cdc5524d6dd822ae1a2f9b412d8e5c154",
+      "compile_receipt_sha256": "582feaf8ee4fa01816aaef3e7a1b951934ac28f9c9f85a4b28b23d3c7640dd2a",
+      "source_path": "outputs/ANGULAR_LEAN/v6/AngularBesselKernelDifferentiation.lean",
+      "imports": [
+        "AngularBesselKernelSeries"
+      ],
+      "lines": 180
+    },
+    {
+      "module": "AngularBesselKernelSeries",
+      "source_sha256": "cef228085002eb6715e3f10525ab1022e6a87586a0bf15a8697970be0bb299ec",
+      "olean_sha256": "ae65a6787331c655fd6853cf3634aae7986fdf7e5df4123336dc8d4b8cc1a91a",
+      "compile_receipt_sha256": "eb49f66934297b98a01d4da332d92f5b72796df8a2fb09c2bca2104f139b2b5e",
+      "source_path": "outputs/ANGULAR_LEAN/v6/AngularBesselKernelSeries.lean",
+      "imports": [
+        "AngularBesselHigherKernel",
+        "AngularBesselClosure"
+      ],
+      "lines": 144
+    },
+    {
+      "module": "AngularBesselSpatialSmoothness",
+      "source_sha256": "e10af5718bbb803de1a658a6b226e5e2f1a80cad51fbd21cc9c8c940c8c5b1d6",
+      "olean_sha256": "969d2a87e54b5322a53667807732ceda908395d18158695175ef4ea553c68276",
+      "compile_receipt_sha256": "7b6e9b74d2972e60c70d755df3492896f37e5ce237c46762d9cca0588098903e",
+      "source_path": "outputs/ANGULAR_LEAN/v6/AngularBesselSpatialSmoothness.lean",
+      "imports": [
+        "AngularBesselKernelDifferentiation"
+      ],
+      "lines": 93
+    },
+    {
+      "module": "AngularFiniteAllOrderMellin",
+      "source_sha256": "37b3079039ee1b481d9a4ca1516910a617eb01fe9e1bd7f371707a4eac2402d5",
+      "olean_sha256": "ecf579872128c2ac9df48b69706f8f5c0317d9e6354f5b8ef1e2fa706f473ca7",
+      "compile_receipt_sha256": "c65cd90a7e481505c4113b60cb32fbfdb501c3625fa33ae1b569b62f22575b36",
+      "source_path": "outputs/ANGULAR_LEAN/v6/AngularFiniteAllOrderMellin.lean",
+      "imports": [
+        "AngularFiniteAllOrderReflection",
+        "AngularMellinOrderAlgebra"
+      ],
+      "lines": 141
+    },
+    {
+      "module": "AngularFiniteAllOrderReflection",
+      "source_sha256": "030163b72e68eaa906a738b7a17f66a0e2cfd64143ae92c889f8b80e7a06e013",
+      "olean_sha256": "6086adcf19191d1b4605869b053ade683fcdbf5a3ea280087fe59871f9688052",
+      "compile_receipt_sha256": "fcabad69c243e787c1aab7e13b55a53db95615fda0c27bb455a26a2298f5ed28",
+      "source_path": "outputs/ANGULAR_LEAN/v6/AngularFiniteAllOrderReflection.lean",
+      "imports": [
+        "AngularSourceAllOrderReflection",
+        "AngularFiniteCuspSecondReflection"
+      ],
+      "lines": 77
+    },
+    {
+      "module": "AngularFiniteIdentification",
+      "source_sha256": "62d9916b470ad1d5233a02ce549b0efdaf7189f33ff958a16c2748e78b9157e6",
+      "olean_sha256": "3628df7844d1988c9cc236cf322dd6b8a8389aa19fe58b137cdc5e9403632a22",
+      "compile_receipt_sha256": "9b49bc22ef77554bf84238d5144099c52ade530c70c4e786b46a694fbc1e5625",
+      "source_path": "outputs/ANGULAR_LEAN/v6/AngularFiniteIdentification.lean",
+      "imports": [
+        "AngularNonpoleContinuation"
+      ],
+      "lines": 48
+    },
+    {
+      "module": "AngularMellinOrderAlgebra",
+      "source_sha256": "51bd3eb40927f57987d716d39b032ca887e46dda3683cff880998892a15fa559",
+      "olean_sha256": "437a0d0389980f2d2a629d79db6fd19527b3ea19a7cc3f0ba8555b76ebba5a4d",
+      "compile_receipt_sha256": "36ab5922c55844845786a481d281ec49de29131c3c600bbe74bff4afca39c302",
+      "source_path": "outputs/ANGULAR_LEAN/v6/AngularMellinOrderAlgebra.lean",
+      "imports": [
+        "AngularFiniteCuspDualMellin"
+      ],
+      "lines": 41
+    },
+    {
+      "module": "AngularNonpoleContinuation",
+      "source_sha256": "e0df426688683014b7a2542be4b40bc3f1a50cc14599389763ef33f1ef40400e",
+      "olean_sha256": "93af4cda32dd7d5ac814523896da547169ef6268d5b781d4c5016040e34f2323",
+      "compile_receipt_sha256": "b3d00c0c8e03c0841109737d8d947b0efeb4bbc8668120fa19d5c9b0d5bb2b3c",
+      "source_path": "outputs/ANGULAR_LEAN/v6/AngularNonpoleContinuation.lean",
+      "imports": [
+        "AngularFamilyInflation",
+        "Mathlib.Analysis.Normed.Module.Connected"
+      ],
+      "lines": 67
+    },
+    {
+      "module": "AngularPhysicalAllOrderCusp",
+      "source_sha256": "3347791eb3b5c98df2dd45e0d31b9e5f6f324f305c5cbd8c18ae6409934f4c45",
+      "olean_sha256": "7b20b3e1876c5e38d714d416173292984097b9339d0af4d17f65dde23bcac984",
+      "compile_receipt_sha256": "f4f86efc5ed518e44079ea47e05db9253ae5c00e6d38a9a2aeaa0cc5ed385807",
+      "source_path": "outputs/ANGULAR_LEAN/v6/AngularPhysicalAllOrderCusp.lean",
+      "imports": [
+        "AngularBesselSpatialSmoothness",
+        "AngularAllOrderCusp",
+        "AngularBesselHorizontalRegularity"
+      ],
+      "lines": 34
+    },
+    {
+      "module": "AngularSourceAllOrderReflection",
+      "source_sha256": "9973f5aa1a51246950cea9999c49fa07b7678adf1d0f567dc3970c10ae577846",
+      "olean_sha256": "0a369c733d4b3daf926ce8f0a81318432af3bc58e04c5c086db3c729167b59e5",
+      "compile_receipt_sha256": "b7c61c7a9f627e6fef9116579ba4218fffee82351b3486ce135188823f7107ea",
+      "source_path": "outputs/ANGULAR_LEAN/v6/AngularSourceAllOrderReflection.lean",
+      "imports": [
+        "AngularPhysicalAllOrderCusp",
+        "AngularCuspSecondReflection"
+      ],
+      "lines": 128
+    },
+    {
+      "module": "AngularWirtingerJets",
+      "source_sha256": "3af62b389b0dc9d498797ee0192d530ac0465ff5e625216b04be5ae9bf09b737",
+      "olean_sha256": "332b70671747e21237a03582124364980cac87289e98de6d3057c76c13b367b7",
+      "compile_receipt_sha256": "e2e59b3cbe461b9efd852c1e8a95530f98caf99d42c7e94af5db5cced19f3fd7",
+      "source_path": "outputs/ANGULAR_LEAN/v6/AngularWirtingerJets.lean",
+      "imports": [
+        "AngularCuspChainRule",
+        "AngularCuspLineCalculus",
+        "Mathlib.Analysis.Calculus.ContDiff.Comp"
+      ],
+      "lines": 91
+    },
+    {
+      "module": "AngularCompletedCoefficient",
+      "source_sha256": "c8c5044f69efef4bc53fc10b95e9b7b28cf6e8d53d0818ed3f90d8a030ff8af1",
+      "olean_sha256": "b50f7fe2c6ed251de6ce45435714f74f1dff3e9734d0b5ef31ce4f9a434279ea",
+      "compile_receipt_sha256": "9bc52c4878e9b2d0fc5815c7f3e5016ee46f78f7a17d38d1f50e7c1af4cffc4b",
+      "source_path": "outputs/ANGULAR_LEAN/v7/AngularCompletedCoefficient.lean",
+      "imports": [
+        "AngularCharacter",
+        "OAI.NumberTheory.DirichletL.Eisenstein.RamifiedTransform"
+      ],
+      "lines": 192
+    },
+    {
+      "module": "AngularProfileDirichlet",
+      "source_sha256": "85a38135eb55d1741449ed1a1071a6e96f0f93124b5c2487c4aae9c6ab8d3124",
+      "olean_sha256": "70cc10e6b18e7f92c76a40aae5e38a2f4036ce6f5bece8cd1f3b8508abae74bb",
+      "compile_receipt_sha256": "38c951602a15e2bce10f6d2d942634d5874e3d94c4f1e7767eb9b3b672e7c7cb",
+      "source_path": "outputs/ANGULAR_LEAN/v7/AngularProfileDirichlet.lean",
+      "imports": [
+        "AngularHigherProfiles",
+        "OAI.NumberTheory.DirichletL.Eisenstein.FullFrequencyExpansion"
+      ],
+      "lines": 232
+    },
+    {
+      "module": "AngularFiniteProjector",
+      "source_sha256": "8ee0d8e918675be4b75af8ed35065b224a872b6b5fe20c1315cfb62e7c87553f",
+      "olean_sha256": "c3857e36a0bc71d652d7cf11fc474997a256ba6c4baa0a1f2aa24896d7ee39bd",
+      "compile_receipt_sha256": "6a3157474da66d6fd78e3a0aa3d4d275434d6df5d72e9cb2943cfa7e098f5034",
+      "source_path": "outputs/ANGULAR_LEAN/v8/AngularFiniteProjector.lean",
+      "imports": [
+        "AngularCompletedCoefficient",
+        "AngularProfileDirichlet"
+      ],
+      "lines": 203
+    },
+    {
+      "module": "AngularProjectedMellin",
+      "source_sha256": "1053c7ad1c735bcbe908d1642f399ff461f5da00ce4a884c4e8f7480d5350f5d",
+      "olean_sha256": "0eb99bd6c4a21d356587fa1c5614c3938ffc28080382a01c28fae72db6845275",
+      "compile_receipt_sha256": "6f438cf353183e84f1a537356764b2697101fcaf9485380c17ae8360757d1da1",
+      "source_path": "outputs/ANGULAR_LEAN/v8/AngularProjectedMellin.lean",
+      "imports": [
+        "AngularFiniteProjector"
+      ],
+      "lines": 227
+    },
+    {
+      "module": "AngularDualRadialCoefficients",
+      "source_sha256": "4fa67ea01e0fc214e855f6b5d529918aa269cb433fc7f5e78ccd6bff9da9494d",
+      "olean_sha256": "11d859e78aeeaa278e52648b828350c76b21752e0a64b2d136e36c308b9992a1",
+      "compile_receipt_sha256": "d8ae9ad6b149666dc7f7ff0c371f21d84384421e7d3151b0ec8885cf1ddf3a12",
+      "source_path": "outputs/ANGULAR_LEAN/v9/AngularDualRadialCoefficients.lean",
+      "imports": [
+        "AngularProjectedReflection"
+      ],
+      "lines": 184
+    },
+    {
+      "module": "AngularGammaMultiplier",
+      "source_sha256": "bafa3f8959a6f0fc03d3ff0edd20c0a04b1b8c1a274b4cecd309f8c049811ecb",
+      "olean_sha256": "53a4b31b6fd4e5f1228163e0075809c2537837d59f791a78b84e8bf1afaa2dd7",
+      "compile_receipt_sha256": "c4b018fd622b14c2030a55a6bf302ccf16fde1abec6f96b524de52607fcfc660",
+      "source_path": "outputs/ANGULAR_LEAN/v9/AngularGammaMultiplier.lean",
+      "imports": [
+        "OAI.NumberTheory.DirichletL.QuadraticSieve.MainTermDifference",
+        "OAI.NumberTheory.DirichletL.Mellin.ReflectedKernel"
+      ],
+      "lines": 154
+    },
+    {
+      "module": "AngularKernelContour",
+      "source_sha256": "d93ae91ead909eda8708e1349882808493b3fb1fc504fcaed0abf7ee71490119",
+      "olean_sha256": "89f88b1780b94fb9bef10efbdd73f45db78ff92215e3d5eea6b250aa7b085e19",
+      "compile_receipt_sha256": "eaa08aec8e296ff029df15158e9d94e013c2f9f2aee3135b7fa8d0d942622592",
+      "source_path": "outputs/ANGULAR_LEAN/v9/AngularKernelContour.lean",
+      "imports": [
+        "AngularReflectedKernel",
+        "OAI.NumberTheory.DirichletL.Mellin.UniformKernelBounds"
+      ],
+      "lines": 521
+    },
+    {
+      "module": "AngularPhysicalSmoothedReflection",
+      "source_sha256": "720c3e72f7befd73ff8beb17216f90068e49787b93b3347dd7737ea198abd827",
+      "olean_sha256": "acc56acd2d30cc9ae564c6770c4c535dec31ebb22844973e3e6f5a6a76cbc4f2",
+      "compile_receipt_sha256": "dde73f9ee5c5f4a850b50ea0b0f7933c2a0a9600fe58e6cb37773df798770154",
+      "source_path": "outputs/ANGULAR_LEAN/v9/AngularPhysicalSmoothedReflection.lean",
+      "imports": [
+        "AngularDualRadialCoefficients",
+        "AngularSmoothedReflection",
+        "AngularSmoothingContour"
+      ],
+      "lines": 237
+    },
+    {
+      "module": "AngularProjectedReflection",
+      "source_sha256": "4ecb005eb2f7adcee8bed0bea0324dc069e19278256622e96de4424346642719",
+      "olean_sha256": "dfaedfece5e3cf5a9886e8fcd9356b2545ffd6e068469a6d65b02387678edd15",
+      "compile_receipt_sha256": "ef10c5fd1d4709f0031b7a586a149f70d8a62990ef44fa9ba2cbee39f52506b3",
+      "source_path": "outputs/ANGULAR_LEAN/v9/AngularProjectedReflection.lean",
+      "imports": [
+        "AngularProjectedMellin",
+        "AngularFiniteAllOrderMellin",
+        "OAI.NumberTheory.DirichletL.Eisenstein.EntireMellinProfile"
+      ],
+      "lines": 190
+    },
+    {
+      "module": "AngularReflectedKernel",
+      "source_sha256": "8389e1046c0658b471fc03dc3c7c4949b12dd20e6ca5da8f9b0ad73913df0252",
+      "olean_sha256": "299a4c7a54362abd017528284ea5082d07813ae5247aabbf10a89a50e9ade533",
+      "compile_receipt_sha256": "9e49205eba6d5e3a74added9624d43ec7905fded5f199b0b340136c424e1a121",
+      "source_path": "outputs/ANGULAR_LEAN/v9/AngularReflectedKernel.lean",
+      "imports": [
+        "AngularGammaMultiplier",
+        "OAI.NumberTheory.DirichletL.Mellin.ReflectedKernel"
+      ],
+      "lines": 274
+    },
+    {
+      "module": "AngularShiftedBesselReflection",
+      "source_sha256": "17da6277f774151b92c434b45aa3fb8a664c1af17a8f481273e5edf3098f4a77",
+      "olean_sha256": "a07df35ae53c622e1232b9dbf8fe691f1261d58bd271370c013edd9e7ac0d696",
+      "compile_receipt_sha256": "e67b1c25edb25f727101adc49c1893f7aa4c877b38978be11e93ae6a0f456c2d",
+      "source_path": "outputs/ANGULAR_LEAN/v9/AngularShiftedBesselReflection.lean",
+      "imports": [
+        "AngularGammaMultiplier",
+        "AngularProjectedMellin",
+        "AngularAnalyticFoundation",
+        "OAI.NumberTheory.DirichletL.Eisenstein.SourceCuspKernels"
+      ],
+      "lines": 252
+    },
+    {
+      "module": "AngularSmoothedReflection",
+      "source_sha256": "7d114d5d58ec070b3795620bbffb1164173e959b7fe86e498358f952bb6134c6",
+      "olean_sha256": "8fc797adeafdd46a89fb54afd2fe8d46dd320a65e98374820e4c83ae1dc60a73",
+      "compile_receipt_sha256": "7c3b3f01e2a967f225caa1e0d330d7a6dfa22153f453134e2506c378db13f6a1",
+      "source_path": "outputs/ANGULAR_LEAN/v9/AngularSmoothedReflection.lean",
+      "imports": [
+        "AngularKernelContour",
+        "AngularShiftedBesselReflection"
+      ],
+      "lines": 248
+    },
+    {
+      "module": "AngularSmoothingContour",
+      "source_sha256": "3017e468c810de1599e1125b5f1b475e35ccc81f5458231e7e1006b0f6506612",
+      "olean_sha256": "015a7aab72600e7ffc8f1464a07655699e2b4af8ea8f29603c0a3d3e10e82c9c",
+      "compile_receipt_sha256": "9ab76c9b4b69d6af829b796e525cf540fe3b784909ef9b86919c45c5aed01375",
+      "source_path": "outputs/ANGULAR_LEAN/v9/AngularSmoothingContour.lean",
+      "imports": [
+        "AngularShiftedBesselReflection",
+        "AngularProjectedReflection"
+      ],
+      "lines": 179
+    }
+  ],
+  "external_direct_imports": [
+    "Mathlib.Analysis.Analytic.Uniqueness",
+    "Mathlib.Analysis.Calculus.ContDiff.Comp",
+    "Mathlib.Analysis.Calculus.Deriv.CompMul",
+    "Mathlib.Analysis.Calculus.Deriv.Slope",
+    "Mathlib.Analysis.Calculus.Deriv.Star",
+    "Mathlib.Analysis.Calculus.IteratedDeriv.Defs",
+    "Mathlib.Analysis.Complex.CauchyIntegral",
+    "Mathlib.Analysis.Normed.Module.Connected",
+    "Mathlib.Analysis.SpecialFunctions.Gamma.Beta",
+    "Mathlib.NumberTheory.LSeries.AbstractFuncEq",
+    "Mathlib.NumberTheory.LSeries.MellinEqDirichlet",
+    "Mathlib.Tactic.Linarith",
+    "Mathlib.Tactic.NormNum",
+    "OAI.NumberTheory.DirichletL.Arithmetic.IdealMobius",
+    "OAI.NumberTheory.DirichletL.CubicSieve.RankMargins",
+    "OAI.NumberTheory.DirichletL.CubicSieve.ResidualSectors",
+    "OAI.NumberTheory.DirichletL.Eisenstein.ConjugateCuspProfiles",
+    "OAI.NumberTheory.DirichletL.Eisenstein.CubeResidueStrata",
+    "OAI.NumberTheory.DirichletL.Eisenstein.DirichletForm",
+    "OAI.NumberTheory.DirichletL.Eisenstein.EntireMellinProfile",
+    "OAI.NumberTheory.DirichletL.Eisenstein.FixedFrequencyExpansion",
+    "OAI.NumberTheory.DirichletL.Eisenstein.FullFrequencyExpansion",
+    "OAI.NumberTheory.DirichletL.Eisenstein.InverseCuspCoordinates",
+    "OAI.NumberTheory.DirichletL.Eisenstein.RamifiedTransform",
+    "OAI.NumberTheory.DirichletL.Eisenstein.ReflectedCuspMellin",
+    "OAI.NumberTheory.DirichletL.Eisenstein.ReflectionFibers",
+    "OAI.NumberTheory.DirichletL.Eisenstein.SourceCuspKernels",
+    "OAI.NumberTheory.DirichletL.EulerFactors",
+    "OAI.NumberTheory.DirichletL.GaussSum.ActiveReindexing",
+    "OAI.NumberTheory.DirichletL.GaussSum.CompletedDyadicRows",
+    "OAI.NumberTheory.DirichletL.GaussSum.DualKernelSummability",
+    "OAI.NumberTheory.DirichletL.GaussSum.ResidualEquivalence",
+    "OAI.NumberTheory.DirichletL.GaussSum.SexticRadialPoisson",
+    "OAI.NumberTheory.DirichletL.GaussianTheta",
+    "OAI.NumberTheory.DirichletL.Hecke.BoundaryIntegration",
+    "OAI.NumberTheory.DirichletL.Hecke.Euler",
+    "OAI.NumberTheory.DirichletL.Hecke.Family",
+    "OAI.NumberTheory.DirichletL.Hecke.FiniteDeletion",
+    "OAI.NumberTheory.DirichletL.Hecke.MobiusEulerCorrection",
+    "OAI.NumberTheory.DirichletL.Hecke.RowClosure",
+    "OAI.NumberTheory.DirichletL.IdealCharacter",
+    "OAI.NumberTheory.DirichletL.MeanSquare.PoissonSource",
+    "OAI.NumberTheory.DirichletL.MeanSquare.ReflectedDyadicSeries",
+    "OAI.NumberTheory.DirichletL.MeanSquare.ThetaDensity",
+    "OAI.NumberTheory.DirichletL.Mellin.CompactScale",
+    "OAI.NumberTheory.DirichletL.Mellin.ReflectedKernel",
+    "OAI.NumberTheory.DirichletL.Mellin.SixthPowerAverage",
+    "OAI.NumberTheory.DirichletL.Mellin.UniformKernelBounds",
+    "OAI.NumberTheory.DirichletL.Moments.FixedRay",
+    "OAI.NumberTheory.DirichletL.QuadraticSieve.MainTermDifference",
+    "OAI.NumberTheory.DirichletL.RowCompletion.BranchDecoding",
+    "OAI.NumberTheory.DirichletL.RowCompletion.ControlledPrimeStrata",
+    "OAI.NumberTheory.DirichletL.RowCompletion.FixedCuspBranches",
+    "OAI.NumberTheory.DirichletL.RowCompletion.InitialDensity",
+    "OAI.NumberTheory.DirichletL.RowCompletion.PolynomialHeight",
+    "OAI.NumberTheory.DirichletL.RowCompletion.ReflectedFibers",
+    "OAI.NumberTheory.DirichletL.RowCompletion.RowAmplitudes",
+    "OAI.NumberTheory.DirichletL.TraceConductor"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "module": "AngularKernelEnergy",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T21:26:23.915967+00:00",
+  "seconds": 19.2049241065979,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v10\\AngularKernelEnergy.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v10\\AngularKernelEnergy.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v10\\AngularKernelEnergy.olean"
+  ],
+  "source_sha256": "3144124f6ab182f94b3e2b1d907cdf2fd3075572043cab77d27def0c32701f38",
+  "setup_sha256": "94487a20693d05031586fdedd97a138bb016d37ee7c886f545fda319cf66abcb",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularKernelContour",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularKernelContour.olean",
+      "olean_sha256": "89f88b1780b94fb9bef10efbdd73f45db78ff92215e3d5eea6b250aa7b085e19",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularKernelContour.setup.json",
+      "setup_sha256": "c040cf823fdc8e8bc31bb568a5ddbfe9b0e74bd9ec76c5912cba3b1a34259816"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Eisenstein.DirichletForm",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Eisenstein\\DirichletForm.olean",
+      "olean_sha256": "3fd1f70ec2de233301a98bd4fcae7f625aa0ca09fd71f04467587c93ae88e869",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Eisenstein\\DirichletForm.setup.json",
+      "setup_sha256": "a2ead34d0c69163a071a2cbe7f282315e594223c21f445c165f89c987289251a"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "8056754406f5934bc635a472334579c2b7ec65507232e07edd038e40ac38d0f8"
+}

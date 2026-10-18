@@ -1,0 +1,42 @@
+{
+  "module": "AngularControlledStratum",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T21:48:57.407090+00:00",
+  "seconds": 18.12824773788452,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v12\\AngularControlledStratum.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v12\\AngularControlledStratum.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v12\\AngularControlledStratum.olean"
+  ],
+  "source_sha256": "c022f0b194675c8e3071c8bab171c80340ae78b4d84b193633738db0fc29b26a",
+  "setup_sha256": "3357d9556ce681fb7f4a4aa131d499177c8ccf53b3a446bc88d0475aafedf83a",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularFixedStratum",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v11\\AngularFixedStratum.olean",
+      "olean_sha256": "ecfcced048860830637db310083627a5eb4d152167ae16611d913dbd7e90ae1e",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v11\\AngularFixedStratum.setup.json",
+      "setup_sha256": "e2e72678ee3e9a4b45326a2c4ca76079347cdbac8d040cfa9610cefe8c349c02"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Eisenstein.FixedFrequencyExpansion",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Eisenstein\\FixedFrequencyExpansion.olean",
+      "olean_sha256": "d906aea834fe396c89aebe322189a4670212ba0b09316069fc7a7629a126ffa3",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Eisenstein\\FixedFrequencyExpansion.setup.json",
+      "setup_sha256": "28418cf06f95bddfa44fdac7e48d86245e3d813def3c4155977fe93c15a9f0cd"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "9657534e64dc4afc25cd2ebd512ef1a6c396580342f35e0443a5e3c3c61f204a"
+}

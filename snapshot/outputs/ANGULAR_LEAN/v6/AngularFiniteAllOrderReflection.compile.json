@@ -1,0 +1,42 @@
+{
+  "module": "AngularFiniteAllOrderReflection",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:34:20.560087+00:00",
+  "seconds": 16.366647720336914,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularFiniteAllOrderReflection.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularFiniteAllOrderReflection.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularFiniteAllOrderReflection.olean"
+  ],
+  "source_sha256": "030163b72e68eaa906a738b7a17f66a0e2cfd64143ae92c889f8b80e7a06e013",
+  "setup_sha256": "2204678444822d5e9479d6cc8ab97e4fa1e564a4b6240ea14513e1b797b44275",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularSourceAllOrderReflection",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularSourceAllOrderReflection.olean",
+      "olean_sha256": "0a369c733d4b3daf926ce8f0a81318432af3bc58e04c5c086db3c729167b59e5",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularSourceAllOrderReflection.setup.json",
+      "setup_sha256": "bda81622bf3fc1f75c14a9f76d31c548e97eedd06b24af33aae443fb180b7130"
+    },
+    {
+      "module": "AngularFiniteCuspSecondReflection",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularFiniteCuspSecondReflection.olean",
+      "olean_sha256": "405d2b634125151f5f06b1531f665952a22a56d6123e53aba3f0e9a90f510bab",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularFiniteCuspSecondReflection.setup.json",
+      "setup_sha256": "9c9060e0bdb5a689d589f895584ef612d42c5ac89432972f1549487495534d57"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "6086adcf19191d1b4605869b053ade683fcdbf5a3ea280087fe59871f9688052"
+}

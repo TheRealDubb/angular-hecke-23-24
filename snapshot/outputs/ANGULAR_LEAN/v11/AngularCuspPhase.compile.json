@@ -1,0 +1,42 @@
+{
+  "module": "AngularCuspPhase",
+  "attempt": 3,
+  "exit_code": 0,
+  "utc": "2026-10-16T21:47:01.422886+00:00",
+  "seconds": 18.54731845855713,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v11\\AngularCuspPhase.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v11\\AngularCuspPhase.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v11\\AngularCuspPhase.olean"
+  ],
+  "source_sha256": "4c2163547747300c74a4cdf8e36651947234d6e0a6f420854e4faa7e382b3cf6",
+  "setup_sha256": "53e1d913cf94f982bed2141387d267ee79e3845433b31a1843c6347941ce41a4",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularPhysicalSmoothedReflection",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularPhysicalSmoothedReflection.olean",
+      "olean_sha256": "acc56acd2d30cc9ae564c6770c4c535dec31ebb22844973e3e6f5a6a76cbc4f2",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v9\\AngularPhysicalSmoothedReflection.setup.json",
+      "setup_sha256": "8acfef961ff4263bb01218bbb3eb681778cb3b19fbcd077be746159e6feccec4"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.RowCompletion.FixedCuspBranches",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\RowCompletion\\FixedCuspBranches.olean",
+      "olean_sha256": "58bcbc29a6c1578af69ca7092af053f03aa942e45ac7da996e0c0b13ce0204a0",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\RowCompletion\\FixedCuspBranches.setup.json",
+      "setup_sha256": "5497610a49fda2a63bc63d677bc0a3faf368030c930f93facd7f471c8d651cbf"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "54e28a68c3f8a7ec72bdcbfc670477964d232f367e3f6a7c30f1aff1445aa383"
+}

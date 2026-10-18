@@ -1,0 +1,42 @@
+{
+  "module": "AngularRawKernel",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T21:28:29.347337+00:00",
+  "seconds": 17.68800163269043,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v10\\AngularRawKernel.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v10\\AngularRawKernel.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v10\\AngularRawKernel.olean"
+  ],
+  "source_sha256": "c853365be2b2f1c184101cd080c39ba2a79bed92f64af99701b79447155dfd4c",
+  "setup_sha256": "1493e1340a211a228c3f478ddfcbec2fc785466c0c567c74a67d7ea517c456cb",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularDyadicEnergy",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v10\\AngularDyadicEnergy.olean",
+      "olean_sha256": "13767552ca72ed780a93354ae826f5c88ecd588fb86960b643709de2ba05e2df",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v10\\AngularDyadicEnergy.setup.json",
+      "setup_sha256": "f394c509b41fc8cd6fd6ddb3c371d3fd477631d11001c1c20620a2a9594a03da"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.GaussSum.DualKernelSummability",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\GaussSum\\DualKernelSummability.olean",
+      "olean_sha256": "381380fd1b0ae25b90b3f58b9df1c0b8a61c05f0dc33240a3a6772a154f1a9d9",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\GaussSum\\DualKernelSummability.setup.json",
+      "setup_sha256": "72435c7fe92cd742f24872b84b108a3c12d1e0d17df72db5656b162bcf267479"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "880274e47179f1eac7fe820d5ea13e90c8ad4a42b50b94029d47111636e49278"
+}

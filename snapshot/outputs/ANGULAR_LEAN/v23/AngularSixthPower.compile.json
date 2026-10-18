@@ -1,0 +1,42 @@
+{
+  "module": "AngularSixthPower",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-17T00:05:50.835731+00:00",
+  "seconds": 127.38316535949707,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v23\\AngularSixthPower.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v23\\AngularSixthPower.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v23\\AngularSixthPower.olean"
+  ],
+  "source_sha256": "526f2474d059946a0f6125f7476c5809116809cab76f8f947355a35bd5f3e05c",
+  "setup_sha256": "13d8b784753efe71a713badbf7149af530263ad8262c5f7d18c4989a0a7c44e1",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularPoissonMoment",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v22\\AngularPoissonMoment.olean",
+      "olean_sha256": "2f61619782fe1c89d2c8f64bd5c9453d7568f95270f686985008977d0909997a",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v22\\AngularPoissonMoment.setup.json",
+      "setup_sha256": "7564f397142ed27bd7f4219f57cc1e72869dd270c4f512c2c101d8b349fb02d0"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Mellin.SixthPowerAverage",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Mellin\\SixthPowerAverage.olean",
+      "olean_sha256": "3566c8fd52c3bd7e5da2e768cfc7a2cfa145a1cc2207e8a3e2d5a69453ad58ef",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Mellin\\SixthPowerAverage.setup.json",
+      "setup_sha256": "f18f0583a4f58f52a9f43fb5a681a1350cac72da7587b3f25c66a0336ab257d4"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "7ea11a1dab2c0b1b1ac5892047c90d6aea3f64a6cb060aa1f683f3c7ba891687"
+}

@@ -1,0 +1,26 @@
+{
+  "original_oai003": {
+    "url": "https://github.com/openai/math",
+    "revision": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+    "tracked_checkout_clean": true
+  },
+  "lean": {
+    "version": "4.34.1",
+    "revision": "5045d0056413266e57c625dcd7c365b10e377c52",
+    "windows_executable_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b"
+  },
+  "mathlib": {
+    "revision": "d13f23b723b8a846827a245b89c10fc7d3f11612",
+    "all_lake_dependencies": "dependencies/oai003/lake-manifest.json"
+  },
+  "comparator": {
+    "url": "https://github.com/leanprover/comparator",
+    "upstream_revision": "d03acab154d269c06e60e4de7e4cc85deebff94b",
+    "local_adaptation": "evidence/checker-source/OfflineReplay.lean and exact local lakefile.toml included",
+    "executable_sha256": "2b88802c3d35c852573e2bd61b4c8b6d49e658b43be72a889bba8498cdefabc2"
+  },
+  "exporter": {
+    "revision": "076e8e57707e813375e8f9da8bf989799ace9680",
+    "executable_sha256": "a1b7df7bda1ad687e0181d0886045bfe4d3eaa79f490cb9650028a95f3685262"
+  }
+}

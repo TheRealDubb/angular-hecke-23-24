@@ -1,0 +1,42 @@
+{
+  "module": "AngularDyadicModels",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T23:16:47.630187+00:00",
+  "seconds": 19.228440046310425,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v19\\AngularDyadicModels.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v19\\AngularDyadicModels.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v19\\AngularDyadicModels.olean"
+  ],
+  "source_sha256": "6ad7d1910d85d100073c2b9ac5845a7a0d1c30d6dc60e2c688f3b2ebdc393ddb",
+  "setup_sha256": "51143edcff3797998315ca4e95606c41cd373f5609dff8901623573fea4b2b1c",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularPhysicalRowEnergy",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v18\\AngularPhysicalRowEnergy.olean",
+      "olean_sha256": "643be57083ffd30774a1486fac9c0c22a26a3212e67208480b7e1d8f591a2839",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v18\\AngularPhysicalRowEnergy.setup.json",
+      "setup_sha256": "f110fe229d5396da54d73b4be34c92fe663b2432af9b3a2f4b8a8a9cf57e33b7"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.GaussSum.CompletedDyadicRows",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\GaussSum\\CompletedDyadicRows.olean",
+      "olean_sha256": "ff67e9fd83d632c0a0dd45c1b2285546b13afa64f3500ca83599174217ee2beb",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\GaussSum\\CompletedDyadicRows.setup.json",
+      "setup_sha256": "7582e5e9ca3fcf415e130f87fea3689ce5aba2999fdc762da84fd0da353fb53b"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "130909269242b276a3b2366fb49c0ebeff55d017b2a536600bee4d32a69715c4"
+}

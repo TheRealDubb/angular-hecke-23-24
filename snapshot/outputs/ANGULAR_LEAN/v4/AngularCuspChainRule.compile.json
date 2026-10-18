@@ -1,0 +1,35 @@
+{
+  "module": "AngularCuspChainRule",
+  "attempt": 3,
+  "exit_code": 0,
+  "utc": "2026-10-16T19:53:55.388561+00:00",
+  "seconds": 16.469162702560425,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspChainRule.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspChainRule.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspChainRule.olean"
+  ],
+  "source_sha256": "1e452a14d440ccd31137c2ed6ba9249aee9b5c4caae15a645d2e6d06f729a0c4",
+  "setup_sha256": "af9977f9f998cbd5671c08eae8e7e3a7590737042663dbbf0d20a15326da6b28",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularCuspJets",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspJets.olean",
+      "olean_sha256": "c8fda8d83366d6153ff6b911d981da71d790771ac68b216bae24ec3c72a3f8b3",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspJets.setup.json",
+      "setup_sha256": "366e7c7e6bdec2d88af38f5dff232125037c97e56ef1da7a53f6a5c6553c997f"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "4c31611b721c9b0275bf3065efe27b9f862059fad32b89282f2a40f6b2c98159"
+}

@@ -1,0 +1,49 @@
+{
+  "module": "AngularNormTwistContinuation",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-17T00:47:15.222046+00:00",
+  "seconds": 19.89348077774048,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v29\\AngularNormTwistContinuation.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v29\\AngularNormTwistContinuation.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v29\\AngularNormTwistContinuation.olean"
+  ],
+  "source_sha256": "ab86ba389065cf358f1a4dd02e845daeafd1545b1369a3e8d79e085bdc01893c",
+  "setup_sha256": "6208c65dce7a1b2f58264c47e7048aae02ed1bc01970a81de0c6d242542e3168",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularNormTwist",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v29\\AngularNormTwist.olean",
+      "olean_sha256": "61ff752bffabf16f9b854bdef91f8f3f82040f37d14cfa1e3ee92924f3e05378",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v29\\AngularNormTwist.setup.json",
+      "setup_sha256": "ce16e76c70d38c4854b4af04a2dae522a0b93c5ad03239a06aa27e02f5be6368"
+    },
+    {
+      "module": "AngularFamilyContinuation",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularFamilyContinuation.olean",
+      "olean_sha256": "3d17e77f289e8b524b02a722939745a7e9d676b4e85a99c8f705b349c0994dfe",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularFamilyContinuation.setup.json",
+      "setup_sha256": "bfe1d86375e93bf0ace2a23d7fe9ef63d730f91496f2ea1616402f2f7abbdcf1"
+    },
+    {
+      "module": "AngularSeedNonvanishing",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v25\\AngularSeedNonvanishing.olean",
+      "olean_sha256": "2b8c5fb29f34f5c0ba40b1096bd655a99836d640f04c102411e7578030b2329a",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v25\\AngularSeedNonvanishing.setup.json",
+      "setup_sha256": "e72dafc6b7b290ae66c365f3e9fb211cfcb7a196a08023f885173a6ae477d799"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "a02868a603169150fe765e8b21f531c193c05b7a963d9f1aaca8655ae6caf496"
+}

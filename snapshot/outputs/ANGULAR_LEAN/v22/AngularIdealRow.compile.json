@@ -1,0 +1,42 @@
+{
+  "module": "AngularIdealRow",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T23:54:57.458966+00:00",
+  "seconds": 20.982471704483032,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v22\\AngularIdealRow.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v22\\AngularIdealRow.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v22\\AngularIdealRow.olean"
+  ],
+  "source_sha256": "03bd91ac6cfaac090cd1b42c7967514297b87b5158cf5e5450ba5e17811f75be",
+  "setup_sha256": "a796af6e89eafc530d6cc1507da804d23f27d2e9c33e501880e7bc5d8ed2f565",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularPhysicalSieveEnergy",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularPhysicalSieveEnergy.olean",
+      "olean_sha256": "cb220fc5a7828af578c2d6ff708d60c0fc6775a0b268a61872962aab9f677f18",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularPhysicalSieveEnergy.setup.json",
+      "setup_sha256": "681fb2b50c67b309af9464734eb5a5efc1914d66ca5eb7bfbec4dd60691f376a"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.MeanSquare.PoissonSource",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\MeanSquare\\PoissonSource.olean",
+      "olean_sha256": "d7a44d6544be84dcdfcc2d39edd816e038933b0aff6bad253c4f94371c107ecd",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\MeanSquare\\PoissonSource.setup.json",
+      "setup_sha256": "3cf80cd951815d03346a01f54e3e7a6f1a94f32b503f9278bbd5bafa385e9304"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "97de27a0afa032737ce68fd8c5a7792cee6c9490f55b09185d513b6d71cd47ef"
+}

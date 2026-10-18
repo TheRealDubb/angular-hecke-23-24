@@ -1,0 +1,46 @@
+{
+  "module": "AngularThetaFEPair",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T19:38:25.135194+00:00",
+  "seconds": 30.90351176261902,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaFEPair.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaFEPair.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaFEPair.olean"
+  ],
+  "source_sha256": "d5ba11bd0c908ad7ea344be61aa7c54bb9a3b16ec349399a0156787482d06f6c",
+  "setup_sha256": "0f5f22f30ca45029164b00213604073ecb2877b805f9e29d8a8189b2de71fdb6",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularThetaDecay",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaDecay.olean",
+      "olean_sha256": "41fcaff8d8a6d535e8fdeeab7ec5e91ac66ede06d9ff05badb1bfff290f08787",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaDecay.setup.json",
+      "setup_sha256": "663c90dc7d0f2a7266a8e88772020e425e5694311840855724a156c1deb6dd24"
+    },
+    {
+      "module": "AngularThetaTransform",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaTransform.olean",
+      "olean_sha256": "13c0e550dbce5daf07f313a23a1e1fd6ec6f443d34f0b748df6ed9234806f74a",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularThetaTransform.setup.json",
+      "setup_sha256": "ecaf736216fefc46ec622a8fbf78698289eec654012f2a71853eebd0d60dee01"
+    },
+    {
+      "module": "Mathlib.NumberTheory.LSeries.AbstractFuncEq",
+      "resolution": "pinned seed map"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "f8eca05851c671d60f5289adcf1753b4f96a7fa030f7ece44e500a3afc652d28"
+}

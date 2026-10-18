@@ -1,0 +1,42 @@
+{
+  "module": "AngularFiberDecoding",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T23:13:34.433077+00:00",
+  "seconds": 16.038191556930542,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v18\\AngularFiberDecoding.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v18\\AngularFiberDecoding.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v18\\AngularFiberDecoding.olean"
+  ],
+  "source_sha256": "0cf3634c53eab02e413073f50b91c455ff4dd339138a99377506e9a272cecb99",
+  "setup_sha256": "fbfdc582c6a0e43203aff5bc9fdef26d96f7d10af28554b5e163571139346032",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularCompressedSource",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v18\\AngularCompressedSource.olean",
+      "olean_sha256": "e1565b9b791120759018ead2f4559e7e90cec1f96197c6063c95bf694c0e4c6c",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v18\\AngularCompressedSource.setup.json",
+      "setup_sha256": "908774293b3197a222e19ab3ec7a8d14f03cc121fbf54592ab5f5259542829a8"
+    },
+    {
+      "module": "AngularPhysicalFiberBranch",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v17\\AngularPhysicalFiberBranch.olean",
+      "olean_sha256": "7bffae6148f20aaf166d37d0ce06246a2dccb3fb5023855a36f351f39b78836f",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v17\\AngularPhysicalFiberBranch.setup.json",
+      "setup_sha256": "fd5c8bb827f520ec73c1aa519304cb847c9cda476ab8b91b1e5d24edd3ec0f24"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "46d07e9bf03a92fb08506a698ef856241488fb8cf237c76976518605872a4919"
+}

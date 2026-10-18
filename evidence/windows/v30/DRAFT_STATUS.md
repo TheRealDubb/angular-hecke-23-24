@@ -1,0 +1,1 @@
+Both solution modules compile on native Windows and their strict bundle replay passed. See PRINCIPAL_EXCEPTION_SCOPE.md, AngularPrincipalExceptionBundle.replay.json and AngularPrincipalExceptionBundle.VERIFIED_MANIFEST.json. The target 0.8748389 theorem remains open; this stage verifies the exact pole exception for the weaker 23/24 seed.

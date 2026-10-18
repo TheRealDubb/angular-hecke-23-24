@@ -1,0 +1,39 @@
+{
+  "module": "AngularMellinShift",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T19:26:32.328723+00:00",
+  "seconds": 14.987219095230103,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularMellinShift.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularMellinShift.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularMellinShift.olean"
+  ],
+  "source_sha256": "90b536225f5051c7efcbac109046fecb781f92656014bb164ba974d983381241",
+  "setup_sha256": "6d3539d128a60d520f6154a6bc40615181e1f7db32b5b160481bd3d52400c2af",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularPolynomial",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularPolynomial.olean",
+      "olean_sha256": "fddcbc59939459aedfcdc9a06fca84ac104f075489764cc93e4d922b1709a270",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularPolynomial.setup.json",
+      "setup_sha256": "4e1f945666a7f60ceb8ea7b80d07bef3c6be465809d5ec3d70fcb7dab10b67d4"
+    },
+    {
+      "module": "Mathlib.NumberTheory.LSeries.MellinEqDirichlet",
+      "resolution": "pinned seed map"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "b3b673f88a2cedb187ef4c8e1801322ea7d834867cbaf12fbeb516282aa0372d"
+}

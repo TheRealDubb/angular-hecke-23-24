@@ -1,0 +1,35 @@
+{
+  "module": "AngularSieveDensity",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T23:44:51.683329+00:00",
+  "seconds": 20.744457960128784,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularSieveDensity.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularSieveDensity.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularSieveDensity.olean"
+  ],
+  "source_sha256": "7c8f6e681c4ecd94f209e4c45f4ad40961f77bf04506066dfccc37e5403cd678",
+  "setup_sha256": "67c5d87a024b86b48aba0395a7a93ac004c556d3c8e634d4fd9a152567cb8378",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularShortEnergy",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularShortEnergy.olean",
+      "olean_sha256": "66c76be400274ab379e227993d18458e82909e8d94897eefaa01fad1e89ac3f7",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularShortEnergy.setup.json",
+      "setup_sha256": "6c124ee5a0d98923773d203b532687fcf5fa317cedc44c9136d2128582f94667"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "c9fe0d45c05b9a706dac1969dd1259dfdeaa444074dcbd04ce7dff059655494f"
+}

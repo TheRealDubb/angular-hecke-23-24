@@ -1,0 +1,35 @@
+{
+  "module": "AngularBesselClosure",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T18:37:22.505129+00:00",
+  "seconds": 48.91283202171326,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularBesselClosure.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularBesselClosure.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularBesselClosure.olean"
+  ],
+  "source_sha256": "423035b55cffcedbffe35e19aa81a1f7419c2fc5f85162f0fa418e9004650dd9",
+  "setup_sha256": "dd4ac73c042c4f62babc06d42f2d0ae0b9eb34d1438102a63e31ecb5e39a348a",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Eisenstein.ReflectedCuspMellin",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Eisenstein\\ReflectedCuspMellin.olean",
+      "olean_sha256": "0c178a7e678ede957fa257af33a66c45d80611bb00a6c70f52869176cf060b8b",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Eisenstein\\ReflectedCuspMellin.setup.json",
+      "setup_sha256": "1fdd9272c53f5ec88890e4c7f2cfe0937ab9bcedb33201e7c98ddd2810657589"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "6ae9f42d5e159db5f6a36afba3e96a7bec5a8a22064c78016be96f61a821f990"
+}

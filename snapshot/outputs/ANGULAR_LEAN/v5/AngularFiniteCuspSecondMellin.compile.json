@@ -1,0 +1,42 @@
+{
+  "module": "AngularFiniteCuspSecondMellin",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:10:48.105922+00:00",
+  "seconds": 24.368895292282104,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFiniteCuspSecondMellin.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFiniteCuspSecondMellin.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularFiniteCuspSecondMellin.olean"
+  ],
+  "source_sha256": "b6f458708586f4ade1b1716d912cce39448a3b67f5b6a260b3b557dffded507a",
+  "setup_sha256": "ff350d099773e8b418cef8dad31a1630f72af7d5c4a574d1f86a44622069d047",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularProfileScaling",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularProfileScaling.olean",
+      "olean_sha256": "33f172610475c2cde59c3950324f068585e36332f543cf6da4e43c69ac6e5bb6",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v5\\AngularProfileScaling.setup.json",
+      "setup_sha256": "66842bf651f194e7d879f65df5572fdfdca795d8017dec7948bba87013d34b52"
+    },
+    {
+      "module": "AngularSourceSecondMellin",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularSourceSecondMellin.olean",
+      "olean_sha256": "47579f36a66b6555b278bd00b9779da3b2d9e690c71a76c52e4e6eaeccdf524c",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularSourceSecondMellin.setup.json",
+      "setup_sha256": "7c951ae0ae633a4394cf52d01731df3fb54ab31bbbd7bb71c09a861134228da8"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "d601be4d1565f5172c019113b52d43215dcd6d895d4ec6a5d8682b370d368e2d"
+}

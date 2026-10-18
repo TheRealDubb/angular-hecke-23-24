@@ -1,0 +1,35 @@
+{
+  "module": "AngularTotientSeed",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-17T00:06:11.640664+00:00",
+  "seconds": 20.720229148864746,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v23\\AngularTotientSeed.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v23\\AngularTotientSeed.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v23\\AngularTotientSeed.olean"
+  ],
+  "source_sha256": "ce0cfa149b9b30cf666cd131e2009eeb236730a91e6be6a5eb5c5ec474fa0a1c",
+  "setup_sha256": "b981f86931fc83e4f9f5634ed093c9109401aa75cec317279d44d1c84816956b",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularSixthPower",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v23\\AngularSixthPower.olean",
+      "olean_sha256": "7ea11a1dab2c0b1b1ac5892047c90d6aea3f64a6cb060aa1f683f3c7ba891687",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v23\\AngularSixthPower.setup.json",
+      "setup_sha256": "13d8b784753efe71a713badbf7149af530263ad8262c5f7d18c4989a0a7c44e1"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "85f0b22020b3a0641504be1240371c54f12bd3cf9706b9e2fb284563cc9a16d5"
+}

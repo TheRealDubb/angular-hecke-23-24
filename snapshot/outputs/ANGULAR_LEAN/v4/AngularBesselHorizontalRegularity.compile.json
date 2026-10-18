@@ -1,0 +1,42 @@
+{
+  "module": "AngularBesselHorizontalRegularity",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T19:51:58.762096+00:00",
+  "seconds": 19.452394247055054,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularBesselHorizontalRegularity.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularBesselHorizontalRegularity.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularBesselHorizontalRegularity.olean"
+  ],
+  "source_sha256": "ec3e80df0aa0652883593ea01b3b11b48d268f2ccb5f681c6481c54ef0cfe83b",
+  "setup_sha256": "7fa0bcaef7be08aed1faebdc6809921ae0b2a06eb98b3eb9bb2eebbfcc6da240",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularBesselDerivatives",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularBesselDerivatives.olean",
+      "olean_sha256": "457101b8ad2fd73c09ecddeb6eabfb1fae5a477a2c0f3351f627228ec5fe8dfb",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularBesselDerivatives.setup.json",
+      "setup_sha256": "ee6c7f2627d97fc9c3ee3fa75bc4f4ad0a85cd4e0244e7e16096f1c75d794594"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.Eisenstein.ConjugateCuspProfiles",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\Eisenstein\\ConjugateCuspProfiles.olean",
+      "olean_sha256": "ccbe75e2e9353d625e9670541d374101a2efe69502d8b50a1d26f0054f084b07",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Eisenstein\\ConjugateCuspProfiles.setup.json",
+      "setup_sha256": "1cb2d1892ff234c172391b7b346eb6c0e79ebeb7f9bab4b3847f77674fbd1a80"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "fd201294d43ed7201ca57825c55c30d23d02bf476ed3864b66b491c271d281af"
+}

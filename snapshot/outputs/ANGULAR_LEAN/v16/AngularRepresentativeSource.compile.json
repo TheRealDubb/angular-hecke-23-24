@@ -1,0 +1,42 @@
+{
+  "module": "AngularRepresentativeSource",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T22:47:28.810228+00:00",
+  "seconds": 34.806740522384644,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v16\\AngularRepresentativeSource.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v16\\AngularRepresentativeSource.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v16\\AngularRepresentativeSource.olean"
+  ],
+  "source_sha256": "af0dc2a75ad815e1a343c651e7abdbfd9b1def264816e9d76ca37c3e553c68cd",
+  "setup_sha256": "2fb212681416f88295b59213ceffa95f677f06ef3b1ecb15e5b2d306b868792b",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularRowSource",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v14\\AngularRowSource.olean",
+      "olean_sha256": "687b2205056d6a01dfea4a379f70db9d778dea9f8d780fa325d34b57e227ab57",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v14\\AngularRowSource.setup.json",
+      "setup_sha256": "0cae3db1a85e6ffc63a1e102fefa99e58ef61225f1baa1d26b2fca1196d8dc50"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.RowCompletion.ReflectedFibers",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\RowCompletion\\ReflectedFibers.olean",
+      "olean_sha256": "d646b705ac95a5664c3b7a8c4e0a85d08629ee8ebd731fe60bf3f2f531d7b9a7",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\RowCompletion\\ReflectedFibers.setup.json",
+      "setup_sha256": "77b27e4f0ecbbd36530a0b034fb9fda67e7765e71cf90d108b1fbe8167bf9792"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "14bd05031d5c229be88a5ed8c5f2d37c64b61b8e0c040cc6daf468b3cc57f03a"
+}

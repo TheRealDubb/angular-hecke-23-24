@@ -1,0 +1,42 @@
+{
+  "module": "AngularBesselKernelSeries",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:26:58.865850+00:00",
+  "seconds": 18.825040340423584,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselKernelSeries.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselKernelSeries.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselKernelSeries.olean"
+  ],
+  "source_sha256": "cef228085002eb6715e3f10525ab1022e6a87586a0bf15a8697970be0bb299ec",
+  "setup_sha256": "51c1102f1405098ba253f7a96c851c1ff1a49251a043cc06ad304a085bd39803",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularBesselHigherKernel",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselHigherKernel.olean",
+      "olean_sha256": "360c6b213d75b807d00ec4ec29e77cd57fac6d760216fe4e1799f0a2d8e7cfe8",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularBesselHigherKernel.setup.json",
+      "setup_sha256": "263698987dbbf8f04c8d02f26378eb852ccc7b5936936a3c77881630b5d102d9"
+    },
+    {
+      "module": "AngularBesselClosure",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularBesselClosure.olean",
+      "olean_sha256": "6ae9f42d5e159db5f6a36afba3e96a7bec5a8a22064c78016be96f61a821f990",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularBesselClosure.setup.json",
+      "setup_sha256": "dd4ac73c042c4f62babc06d42f2d0ae0b9eb34d1438102a63e31ecb5e39a348a"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "ae65a6787331c655fd6853cf3634aae7986fdf7e5df4123336dc8d4b8cc1a91a"
+}

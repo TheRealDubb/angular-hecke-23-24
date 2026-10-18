@@ -1,0 +1,49 @@
+{
+  "module": "AngularPrimitiveReduction",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T19:37:26.025771+00:00",
+  "seconds": 18.267530918121338,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularPrimitiveReduction.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularPrimitiveReduction.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v3\\AngularPrimitiveReduction.olean"
+  ],
+  "source_sha256": "a8ed02195d4c59f8ceedebc9e22cdd758a276e619bd1226ab4a0fb859d160833",
+  "setup_sha256": "154bfb93ab8dc65ca3143bb6d0d4858c7e291b2325fe7c1563752ff494dde090",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularSeries",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularSeries.olean",
+      "olean_sha256": "08d0ef9fbc53af273e4914f10936fdd0cafe19c71c49c3d58b6e1bd063fb599d",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v1\\AngularSeries.setup.json",
+      "setup_sha256": "2d0280e5fc8ef903e5b95e3dd515ed800ccb308c348920f4352f7ee9dc5d65bd"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.TraceConductor",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\TraceConductor.olean",
+      "olean_sha256": "536cc3627921f5ae1f0f7e1bb60034a33424e848fcf1f510c14ee1333addfd6f",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\TraceConductor.setup.json",
+      "setup_sha256": "671f1b3d8d749c951539cbb5fda2f7894667d86a75cfcaa7f03fb25735efffbf"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.EulerFactors",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\EulerFactors.olean",
+      "olean_sha256": "27be3ef8b274d454e32f84fc504e8ce7bb808b08a12d38328952c6a6a134bfd1",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\EulerFactors.setup.json",
+      "setup_sha256": "b70161a05b17c06ec81fe4df8b1fdbfd9b2976c5cbb419bf4f4d0e4408a1cae4"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "e4b3507597bf639f3bcbc6e304db2b549f2420fc72bfb353301f695c2db47d44"
+}

@@ -1,0 +1,15 @@
+C:\Users\epsst\Documents\Codex\2026-10-07\g\outputs\ANGULAR_LEAN\v7\AngularProfileDirichlet.lean:85:34: warning: This simp argument is unused:
+  mul_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [frequencyPow_value, conjugateBarCoefficient, star_mul, star_pow, hD, breveE_star, Complex.star_def,
+    Complex.conj_ofReal, neg_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+C:\Users\epsst\Documents\Codex\2026-10-07\g\outputs\ANGULAR_LEAN\v7\AngularProfileDirichlet.lean:144:15: warning: This simp argument is unused:
+  Complex.add_re
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Complex.div_ofNat_re, Complex.sub_re, Complex.natCast_re, Complex.one_re, hs]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

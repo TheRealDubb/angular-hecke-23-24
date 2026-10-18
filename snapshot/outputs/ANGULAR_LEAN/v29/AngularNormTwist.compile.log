@@ -1,0 +1,6 @@
+C:\Users\epsst\Documents\Codex\2026-10-07\g\outputs\ANGULAR_LEAN\v29\AngularNormTwist.lean:20:15: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+C:\Users\epsst\Documents\Codex\2026-10-07\g\outputs\ANGULAR_LEAN\v29\AngularNormTwist.lean:20:25: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+C:\Users\epsst\Documents\Codex\2026-10-07\g\outputs\ANGULAR_LEAN\v29\AngularNormTwist.lean:20:35: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+C:\Users\epsst\Documents\Codex\2026-10-07\g\outputs\ANGULAR_LEAN\v29\AngularNormTwist.lean:34:13: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+C:\Users\epsst\Documents\Codex\2026-10-07\g\outputs\ANGULAR_LEAN\v29\AngularNormTwist.lean:69:22: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+C:\Users\epsst\Documents\Codex\2026-10-07\g\outputs\ANGULAR_LEAN\v29\AngularNormTwist.lean:70:45: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead

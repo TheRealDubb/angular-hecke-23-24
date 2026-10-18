@@ -1,0 +1,7 @@
+C:\Users\epsst\Documents\Codex\2026-10-07\g\outputs\ANGULAR_LEAN\v6\AngularMellinOrderAlgebra.lean:21:13: warning: This simp argument is unused:
+  div_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_pow, pow_mul, div_eq_mul_inv, mul_inv_rev, inv_pow]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

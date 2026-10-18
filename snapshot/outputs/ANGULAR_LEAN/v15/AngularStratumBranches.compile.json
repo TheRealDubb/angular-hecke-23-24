@@ -1,0 +1,49 @@
+{
+  "module": "AngularStratumBranches",
+  "attempt": 2,
+  "exit_code": 0,
+  "utc": "2026-10-16T22:19:10.236270+00:00",
+  "seconds": 22.3716983795166,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v15\\AngularStratumBranches.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v15\\AngularStratumBranches.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v15\\AngularStratumBranches.olean"
+  ],
+  "source_sha256": "5c6756ca57eea9460a1304d4041c92b0015f4e62ab6464886ff4c207c78c5de4",
+  "setup_sha256": "e8e9a090e2305df43a288f404e9a702f2a05d0048f533ae38fc4efb180ce208e",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularIdealIndex",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v14\\AngularIdealIndex.olean",
+      "olean_sha256": "4dc92ba8063fb1edb17cded5d9e32e98c0963bbfb96cb8d17e7fbdf051c40bf2",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v14\\AngularIdealIndex.setup.json",
+      "setup_sha256": "10f5a9affdde47783b2dd3045f1d5bd1d1527925a6bcc90ed58de266eb34b09e"
+    },
+    {
+      "module": "AngularRawKernel",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v10\\AngularRawKernel.olean",
+      "olean_sha256": "880274e47179f1eac7fe820d5ea13e90c8ad4a42b50b94029d47111636e49278",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v10\\AngularRawKernel.setup.json",
+      "setup_sha256": "1493e1340a211a228c3f478ddfcbec2fc785466c0c567c74a67d7ea517c456cb"
+    },
+    {
+      "module": "OAI.NumberTheory.DirichletL.RowCompletion.ControlledPrimeStrata",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\lib\\lean\\OAI\\NumberTheory\\DirichletL\\RowCompletion\\ControlledPrimeStrata.olean",
+      "olean_sha256": "f8a581ef4a7f8c17a14d0e78bdfed7ee4f41d0f6ea5516517994b10575e85e2d",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\RowCompletion\\ControlledPrimeStrata.setup.json",
+      "setup_sha256": "d5579c00534b2ff5cdc90ce022d41f95080c9cde64fc1da6e123ff0121321587"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "5cc53fafb426606a3315005a332b164be796590796912771e027bb8bf02126ed"
+}

@@ -1,0 +1,65 @@
+{
+  "module": "AngularSeedNonvanishingBundle",
+  "modules": [
+    {
+      "module": "AngularSeedRegularization",
+      "source_sha256": "82378ce8b17046987b34ecd41ff4be4e229ca194cade1691509180ba816783c5",
+      "olean_sha256": "c82c7e2f5040c3413298311d4ac424d4adc2697670bade75dda6bb7627521e67",
+      "compile_receipt_sha256": "486e08cb7fc9efe077a53b021af463d236a8ed543daacb2fb22e89591c0902e8",
+      "theorem_names": [
+        "OAI.CubicEisenstein.AngularSeedRegularization.regularizedL_analytic",
+        "OAI.CubicEisenstein.AngularSeedRegularization.regularizedL_eq"
+      ],
+      "definitions_exported": [
+        "OAI.CubicEisenstein.AngularSeedRegularization.regularizedL"
+      ],
+      "shadow_module": "AngularSeedRegularizationExpected",
+      "shadow_source_sha256": "1929b740bcd3a1c13e50539e492d75b8fc7ccc4042b2a256d31a633bb514bb10",
+      "shadow_olean_sha256": "06c1e536f79d53e92cd8c6bd06e94eee17c44b73d9115af176df8e85db3c0f0a",
+      "shadow_compile_receipt_sha256": "d5a40ce9f672db3adb240a368c03dbadf17288c6de2699743f7f5cc803d3321f"
+    },
+    {
+      "module": "AngularSeedNonvanishing",
+      "source_sha256": "eae94006c4a6391d3dd80ce16b5004b39ca9907398c7633f8db253c420dedaa3",
+      "olean_sha256": "2b8c5fb29f34f5c0ba40b1096bd655a99836d640f04c102411e7578030b2329a",
+      "compile_receipt_sha256": "303c9b83de58801f0f6e1dde78ff99473a893f9048644ad73bd77e8370e7f794",
+      "theorem_names": [
+        "OAI.CubicEisenstein.AngularSeedNonvanishing.nonvanishing_of_initial_density",
+        "OAI.CubicEisenstein.AngularSeedNonvanishing.physical_seed_nonnegative",
+        "OAI.CubicEisenstein.AngularSeedNonvanishing.physical_seed_all_types"
+      ],
+      "definitions_exported": [],
+      "shadow_module": "AngularSeedNonvanishingExpected",
+      "shadow_source_sha256": "100930e8e47cae673743626b378ab606ce23621f527f12605668f104b83d8ad6",
+      "shadow_olean_sha256": "405f9055cb785762439d443c03cb7f0edb3a5320c1b438239543a5eb28936f69",
+      "shadow_compile_receipt_sha256": "c42d225c6672273a76a2abe6124f40d80c7a88396754729293f7c7c50748c122"
+    }
+  ],
+  "theorem_names": [
+    "OAI.CubicEisenstein.AngularSeedRegularization.regularizedL_analytic",
+    "OAI.CubicEisenstein.AngularSeedRegularization.regularizedL_eq",
+    "OAI.CubicEisenstein.AngularSeedNonvanishing.nonvanishing_of_initial_density",
+    "OAI.CubicEisenstein.AngularSeedNonvanishing.physical_seed_nonnegative",
+    "OAI.CubicEisenstein.AngularSeedNonvanishing.physical_seed_all_types"
+  ],
+  "definition_names": [],
+  "definitions_exported": [
+    "OAI.CubicEisenstein.AngularSeedRegularization.regularizedL"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "external_imports": [
+    "AngularAllTypeTransport",
+    "OAI.NumberTheory.DirichletL.Hecke.FiniteDeletion",
+    "AngularFiniteRestoration",
+    "AngularFamilyConjugation",
+    "OAI.NumberTheory.DirichletL.Mellin.CompactScale"
+  ],
+  "spec_path": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\angular_lean\\v25\\seed_nonvanishing_bundle.json",
+  "spec_sha256": "5ff285edc393b06388466e94582441a018ab31168e429a93751a24a0fa21ad1c",
+  "fixture_layout": "One shadow per original module; exact external imports.",
+  "scope": "Actual angular regularization and physical seed nonvanishing for every fixed angular type on Re(s)>23/24. Only type zero excludes s=1; all nonzero types include that point. Physical source premises are discharged and negative types use the proved entire conjugation identity. This is weaker than 8748389/10000000; the type-zero value at s=1 and unitary norm twists remain outside this seed theorem."
+}

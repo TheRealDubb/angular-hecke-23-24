@@ -1,0 +1,22 @@
+[
+  {
+    "module": "AngularPrincipalExceptionBundleExpected",
+    "raw_sha256": "40250def92c10a94be15048a950bb7921bbd3c032b34ab0b2f26d8a06a39b8eb",
+    "raw_bytes": 692521369,
+    "gzip": {
+      "path": "outputs\\ANGULAR_LEAN\\v30\\AngularPrincipalExceptionBundleExpected.ndjson.gz",
+      "sha256": "7b37b00b7e31fe27da57c91ffcb91286ee6a55ec751d68e03a44d36e8202e1b6",
+      "bytes": 140550449
+    }
+  },
+  {
+    "module": "AngularPrincipalExceptionBundle",
+    "raw_sha256": "6d6e1221b4c497ccbe274b687efa729cf26dccf3cbb1a637c337fc29061b05cb",
+    "raw_bytes": 1112692260,
+    "gzip": {
+      "path": "outputs\\ANGULAR_LEAN\\v30\\AngularPrincipalExceptionBundle.ndjson.gz",
+      "sha256": "aec26ff6496a99c6378c3d7c8bca50bab09f4bb08014799da530b0373ff6461c",
+      "bytes": 222025401
+    }
+  }
+]

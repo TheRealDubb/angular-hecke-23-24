@@ -1,0 +1,35 @@
+{
+  "module": "AngularShortAverage",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T23:43:55.559264+00:00",
+  "seconds": 53.62112760543823,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularShortAverage.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularShortAverage.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v21\\AngularShortAverage.olean"
+  ],
+  "source_sha256": "d714422f297ee1d64dc4f827a5b842148e1874eddb089e41ea15d538b70cfa21",
+  "setup_sha256": "369a87258b864540419918ec6c6c970e4a101c41e5e5d1edc1344e8b653decc2",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularUniformFiberEnergy",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v20\\AngularUniformFiberEnergy.olean",
+      "olean_sha256": "2c05545ca09a1fffe57e86984bf241e53eeaa0a8a426bf9d07a994395c733360",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v20\\AngularUniformFiberEnergy.setup.json",
+      "setup_sha256": "37728a60d17a98c6d42b367d2f0f684f7a6f555756806c883b13a1afbdd879ad"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "e4fb2e69c0d74d99e5ab5db3b362d22234306e42ac5122c5e4c13b0e3a9ee5df"
+}

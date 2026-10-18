@@ -1,0 +1,46 @@
+{
+  "module": "AngularWirtingerJets",
+  "attempt": 1,
+  "exit_code": 0,
+  "utc": "2026-10-16T20:24:26.298071+00:00",
+  "seconds": 51.80661392211914,
+  "command": [
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\runtime\\lean-4.34.1-windows\\bin\\lean.exe",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularWirtingerJets.lean",
+    "--setup",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularWirtingerJets.setup.json",
+    "-o",
+    "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v6\\AngularWirtingerJets.olean"
+  ],
+  "source_sha256": "3af62b389b0dc9d498797ee0192d530ac0465ff5e625216b04be5ae9bf09b737",
+  "setup_sha256": "afee8ac32a78e8d44b1c1054c9e0b5c4c0915ecc6b64c7cf74eb260662b17826",
+  "setup_kind": "composed pinned cached artifact maps",
+  "imports": [
+    {
+      "module": "seed (dependency resolution only)",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\work\\formal\\original\\lean\\.lake\\build\\ir\\OAI\\NumberTheory\\DirichletL\\Endpoint.setup.json",
+      "sha256": "bcf18f238d007eb808d45530bed749bc7a3dd37a528f0dd97b5d090daea196df"
+    },
+    {
+      "module": "AngularCuspChainRule",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspChainRule.olean",
+      "olean_sha256": "4c31611b721c9b0275bf3065efe27b9f862059fad32b89282f2a40f6b2c98159",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspChainRule.setup.json",
+      "setup_sha256": "af9977f9f998cbd5671c08eae8e7e3a7590737042663dbbf0d20a15326da6b28"
+    },
+    {
+      "module": "AngularCuspLineCalculus",
+      "olean": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspLineCalculus.olean",
+      "olean_sha256": "f8e0769f63a25cb33af7da3ed9fdbb76c8aa4e431089839bbebb5cbcd375e35a",
+      "setup": "C:\\Users\\epsst\\Documents\\Codex\\2026-10-07\\g\\outputs\\ANGULAR_LEAN\\v4\\AngularCuspLineCalculus.setup.json",
+      "setup_sha256": "3e3d774f94010ad96bf4d38d8cae58dd186a390e6bdec8debd4cb17b8c226b26"
+    },
+    {
+      "module": "Mathlib.Analysis.Calculus.ContDiff.Comp",
+      "resolution": "pinned seed map"
+    }
+  ],
+  "lean_binary_sha256": "fcc4a10077d5fdd575592cea5f2981c91cbd77c490c80bc74407908e57e8b87b",
+  "scope": "Native Windows compilation only; read module statement for scope. No full angular zero-free theorem claimed.",
+  "olean_sha256": "332b70671747e21237a03582124364980cac87289e98de6d3057c76c13b367b7"
+}
